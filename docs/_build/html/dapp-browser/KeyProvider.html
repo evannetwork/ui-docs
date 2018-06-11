@@ -1,0 +1,349 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Key Provider &mdash; evan.network frontend  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="getCoreOptions" href="functions.html" />
+    <link rel="prev" title="Account Store" href="AccountStore.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> evan.network frontend
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started.html">Getting Started</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Reference:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">dapp-browser</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#classes">classes</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="AccountStore.html">Account Store</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Key Provider</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#constructor">constructor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#setkeys">setKeys</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#db-key-provider-setkeysforaccount">setKeys</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#getkey">getKey</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#functions">functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#instances">instances</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../angular-core/index.html">angular-core</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">evan.network frontend</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">dapp-browser</a> &raquo;</li>
+        
+      <li>Key Provider</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/dapp-browser/KeyProvider.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="key-provider">
+<h1>Key Provider<a class="headerlink" href="#key-provider" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="colwidths-auto docutils">
+<tbody valign="top">
+<tr class="row-odd"><th class="stub">Class Name</th>
+<td>KeyProvider</td>
+</tr>
+<tr class="row-even"><th class="stub">Implements</th>
+<td><a class="reference external" href="https://github.com/evannetwork/dbcp/tree/master/src/encryption/key-provider-interface.ts">KeyProviderInterface</a></td>
+</tr>
+<tr class="row-odd"><th class="stub">Extends</th>
+<td><a class="reference external" href="/common/logger.html">Logger</a></td>
+</tr>
+<tr class="row-even"><th class="stub">Source</th>
+<td><a class="reference external" href="https://github.com/evannetwork/dapp-browser/blob/master/src/app/bcc/KeyProvider.ts">key-provider.ts</a></td>
+</tr>
+</tbody>
+</table>
+<p>This <a class="reference external" href="https://github.com/evannetwork/dapp-browser/blob/master/src/app/bcc/KeyProvider.ts">KeyProvider</a> is a adaption of the original <a class="reference external" href="https://github.com/evannetwork/dbcp/blob/develop/src/encryption/key-provider.ts">KeyProvider</a> returns given decryption/encryption keys for a given CryptoInfo. They use a given evan.network profile to retrieve the needed keys to encrypt/decrypt the envelope</p>
+<hr class="docutils" />
+<div class="section" id="constructor">
+<span id="db-key-provider-constructor"></span><h2>constructor<a class="headerlink" href="#constructor" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="k">new</span> <span class="nx">KeyProvider</span><span class="p">(</span><span class="nx">keys</span><span class="p">,</span> <span class="nx">accountId</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Creates a new KeyProvider instance.</p>
+<div class="section" id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">keys</span></code> - <code class="docutils literal notranslate"><span class="pre">any</span></code>: object with key mappings of accounts (can be empty, will be filled dynamically).</li>
+<li><code class="docutils literal notranslate"><span class="pre">accountId</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: create KeyProvider for specific accountId, default the current logged in accountId will be used.</li>
+</ol>
+</div>
+<div class="section" id="returns">
+<h3>Returns<a class="headerlink" href="#returns" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">KeyProvider</span></code> instance</p>
+</div>
+<div class="section" id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="kr">const</span> <span class="nx">keyProvider</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">KeyProvider</span><span class="p">({</span> <span class="p">});</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="setkeys">
+<span id="db-key-provider-setkeys"></span><h2>setKeys<a class="headerlink" href="#setkeys" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">keyProvider</span><span class="p">.</span><span class="nx">setKeys</span><span class="p">();</span>
+</pre></div>
+</div>
+<p>set the keys for the within the constructor provided or global accountId</p>
+<div class="section" id="id2">
+<h3>Example<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">runtime</span><span class="p">.</span><span class="nx">keyProvider</span><span class="p">.</span><span class="nx">setKeys</span><span class="p">();</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="db-key-provider-setkeysforaccount">
+<span id="id3"></span><h2>setKeys<a class="headerlink" href="#db-key-provider-setkeysforaccount" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">keyProvider</span><span class="p">.</span><span class="nx">setKeys</span><span class="p">();</span>
+</pre></div>
+</div>
+<p>Uses an account id and an encryptionKey to set account specific encryption keys.</p>
+<div class="section" id="id4">
+<h3>Example<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">keyProvider</span><span class="p">.</span><span class="nx">setKeysForAccount</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">origin</span><span class="p">.</span><span class="nx">currentAccountHash</span><span class="p">,</span> <span class="nx">encryptionKey</span><span class="p">);</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="getkey">
+<span id="db-key-provider-getkey"></span><h2>getKey<a class="headerlink" href="#getkey" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">keyProvider</span><span class="p">.</span><span class="nx">getKey</span><span class="p">(</span><span class="nx">info</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>get a encryption/decryption key for a specific CryptoInfo from the associated AccountStore or the loaded evan.network profile</p>
+<div class="section" id="id5">
+<h3>Parameters<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">cryptoAlgo</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: crypto algorithm</li>
+</ol>
+</div>
+<div class="section" id="id6">
+<h3>Returns<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>Promise resolves to <code class="docutils literal notranslate"><span class="pre">string</span></code>: the found key for the cryptoinfo.</p>
+</div>
+<div class="section" id="id7">
+<h3>Example<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kr">const</span> <span class="nx">cryptoInfo</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s2">&quot;public&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;envelope example&quot;</span>
+  <span class="p">},</span>
+  <span class="s2">&quot;private&quot;</span><span class="o">:</span> <span class="s2">&quot;...&quot;</span><span class="p">,</span>
+  <span class="s2">&quot;cryptoInfo&quot;</span><span class="o">:</span> <span class="p">{</span>
+    <span class="s2">&quot;algorithm&quot;</span><span class="o">:</span> <span class="s2">&quot;unencrypted&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;keyLength&quot;</span><span class="o">:</span> <span class="mi">256</span><span class="p">,</span>
+    <span class="s2">&quot;originator&quot;</span><span class="o">:</span> <span class="s2">&quot;0x0000000000000000000000000000000000000001,0x0000000000000000000000000000000000000002&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;block&quot;</span><span class="o">:</span> <span class="mi">123</span>
+  <span class="p">}</span>
+<span class="p">};</span>
+<span class="kr">const</span> <span class="nx">key</span> <span class="o">=</span> <span class="nx">runtime</span><span class="p">.</span><span class="nx">keyProvider</span><span class="p">.</span><span class="nx">getKey</span><span class="p">(</span><span class="nx">info</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="functions.html" class="btn btn-neutral float-right" title="getCoreOptions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="AccountStore.html" class="btn btn-neutral" title="Account Store" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, evan.network GmbH.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,319 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Account Store &mdash; evan.network frontend  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Key Provider" href="KeyProvider.html" />
+    <link rel="prev" title="dapp-browser" href="index.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> evan.network frontend
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting-started.html">Getting Started</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API Reference:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">dapp-browser</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#classes">classes</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Account Store</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#constructor">constructor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#getprivatekey">getPrivateKey</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="KeyProvider.html">Key Provider</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#functions">functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#instances">instances</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../angular-core/index.html">angular-core</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">evan.network frontend</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">dapp-browser</a> &raquo;</li>
+        
+      <li>Account Store</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/dapp-browser/AccountStore.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="account-store">
+<h1>Account Store<a class="headerlink" href="#account-store" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="colwidths-auto docutils">
+<tbody valign="top">
+<tr class="row-odd"><th class="stub">Class Name</th>
+<td>AccountStore</td>
+</tr>
+<tr class="row-even"><th class="stub">Implements</th>
+<td><a class="reference external" href="https://github.com/evannetwork/dbcp/tree/master/src/account-store.ts">KeyStoreInterface</a></td>
+</tr>
+<tr class="row-odd"><th class="stub">Extends</th>
+<td><a class="reference external" href="/common/logger.html">Logger</a></td>
+</tr>
+<tr class="row-even"><th class="stub">Source</th>
+<td><a class="reference external" href="https://github.com/evannetwork/dbcp/tree/master/src/account-store.ts">account-store.ts</a></td>
+</tr>
+</tbody>
+</table>
+<p>This <a class="reference external" href="https://github.com/evannetwork/dapp-browser/blob/master/src/app/bcc/AccountStore.ts">AccountStore</a> is a adaption to the original <a class="reference external" href="https://github.com/evannetwork/dbcp/tree/master/src/account-store.ts">blockchain-core AccountStore</a> and overwrites the Keystore function, to handle private keys loaded from the lightwallet browser instance. Initially no keys are provided into the KeyProvider. When privateKeys are requested, the user must insert his password to unlock its lightwallet account to handle the privateKeys for signing.</p>
+<p>The original <a class="reference external" href="https://github.com/evannetwork/dapp-browser/blob/master/src/app/bcc/AccountStore.ts">AccountStore</a> implements the <a class="reference external" href="https://github.com/evannetwork/dbcp/tree/master/src/account-store.ts">KeyStoreInterface</a> and is a wrapper for a storage, where evan.network account ids are stored. The default <a class="reference external" href="https://github.com/evannetwork/dbcp/tree/master/src/account-store.ts">AccountStore</a> takes an account –&gt; private key mapping as a pojo as its arguments and uses this to perform lookups, when the <span class="xref std std-ref">getPrivateKey</span> function is called. This lookup needs to be done, when transactions are signed by the <a class="reference external" href="https://github.com/evannetwork/dbcp/tree/master/src/contracts/signer-internal.ts">InternalSigner</a> (see <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/signer.rst">Signer</a>).</p>
+<p>Note that the return value of the <span class="xref std std-ref">getPrivateKey</span> function is a promise. This may not be required in the default <a class="reference external" href="https://github.com/evannetwork/dbcp/tree/master/src/account-store.ts">AccountStore</a>, but this allows you to implement own implementations of the <a class="reference external" href="https://github.com/evannetwork/dbcp/tree/master/src/account-store.ts">KeyStoreInterface</a>, which may enforce a more strict security behavior or are able to access other sources for private keys.</p>
+<hr class="docutils" />
+<div class="section" id="constructor">
+<span id="db-accountstore-constructor"></span><h2>constructor<a class="headerlink" href="#constructor" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="k">new</span> <span class="nx">AccountStore</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Creates a new AccountStore instance.</p>
+<div class="section" id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><dl class="first docutils">
+<dt><code class="docutils literal notranslate"><span class="pre">options</span></code> - <code class="docutils literal notranslate"><span class="pre">AccountStoreOptions</span></code>: options for AccountStore constructor.</dt>
+<dd><ul class="first last">
+<li><code class="docutils literal notranslate"><span class="pre">accounts</span></code> - <code class="docutils literal notranslate"><span class="pre">any</span></code>: object with accountid/privatekey mapping</li>
+<li><code class="docutils literal notranslate"><span class="pre">log</span></code> - <code class="docutils literal notranslate"><span class="pre">Function</span></code> (optional): function to use for logging: <code class="docutils literal notranslate"><span class="pre">(message,</span> <span class="pre">level)</span> <span class="pre">=&gt;</span> <span class="pre">{...}</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">logLevel</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.html#loglevel"><code class="docutils literal notranslate"><span class="pre">LogLevel</span></code></a> (optional): messages with this level will be logged with <code class="docutils literal notranslate"><span class="pre">log</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">logLog</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.html#logloginterface"><code class="docutils literal notranslate"><span class="pre">LogLogInterface</span></code></a> (optional): container for collecting log messages</li>
+<li><code class="docutils literal notranslate"><span class="pre">logLogLevel</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.html#loglevel"><code class="docutils literal notranslate"><span class="pre">LogLevel</span></code></a> (optional): messages with this level will be pushed to <code class="docutils literal notranslate"><span class="pre">logLog</span></code></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+<div class="section" id="returns">
+<h3>Returns<a class="headerlink" href="#returns" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">AccountStore</span></code> instance</p>
+</div>
+<div class="section" id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="kr">const</span> <span class="nx">accountStore</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">AccountStore</span><span class="p">();</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="getprivatekey">
+<span id="db-accountstore-getprivatekey"></span><h2>getPrivateKey<a class="headerlink" href="#getprivatekey" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">accountStore</span><span class="p">.</span><span class="nx">getPrivateKey</span><span class="p">(</span><span class="nx">accountId</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>get private key for given account</p>
+<div class="section" id="id5">
+<h3>Parameters<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">accountId</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: eth accountId</li>
+</ol>
+</div>
+<div class="section" id="id6">
+<h3>Returns<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>Promise resolves to <code class="docutils literal notranslate"><span class="pre">string</span></code>: private key for this account</p>
+</div>
+<div class="section" id="id7">
+<h3>Example<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kr">const</span> <span class="nx">privateKey</span> <span class="o">=</span> <span class="nx">await</span> <span class="nx">runtime</span><span class="p">.</span><span class="nx">accountStore</span><span class="p">.</span><span class="nx">getPrivateKey</span><span class="p">(</span><span class="s1">&#39;0x0000000000000000000000000000000000000002&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="KeyProvider.html" class="btn btn-neutral float-right" title="Key Provider" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="dapp-browser" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, evan.network GmbH.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
