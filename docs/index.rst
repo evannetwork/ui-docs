@@ -18,6 +18,7 @@ Welcome to evan.network frontend's documentation!
   :caption: API Reference:
 
   dapp-browser/index
+  bcc/bcc-bundle
   angular-core/index
 
 Indices and tables

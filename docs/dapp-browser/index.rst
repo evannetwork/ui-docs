@@ -62,6 +62,7 @@ instances
   definition
   evanGlobals
   ipfs
+  ipfs-cache
   lightwallet
   loading
   nameResolver
@@ -70,6 +71,6 @@ instances
   solc
   System
   utils
-  web3Helper
   web3
+  web3Helper
 

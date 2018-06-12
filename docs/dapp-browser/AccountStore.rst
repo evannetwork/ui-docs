@@ -63,8 +63,8 @@ Example
 
 .. _db_accountstore_getPrivateKey:
 
-getPrivateKey
-===================
+getPrivateKey 
+=============
 
 .. code-block:: javascript
 

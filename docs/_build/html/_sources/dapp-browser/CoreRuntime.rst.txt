@@ -2,7 +2,7 @@
 CoreRuntime
 ===========
 
-The CoreRuntime is exported from the `bcc bundle </bcc/bcc-bundle>`_ instance. Is available after `initializeEvanNetworkStructure </dapp-browser/functions.html#initializeevannetworkstructure>`_ is executed.
+The CoreRuntime is exported from the `bcc bundle </bcc/bcc-bundle.html>`_ instance. Is available after `initializeEvanNetworkStructure </dapp-browser/functions.html#initializeevannetworkstructure>`_ is executed.
 
 --------------------------------------------------------------------------------
 
@@ -24,5 +24,5 @@ Example
 .. required for building markup
 
 .. |source CoreInstance| replace:: ``CoreInstance``
-.. _source CoreInstance: /bcc/bcc-bundle
+.. _source CoreInstance: /bcc/bcc-bundle.html
 

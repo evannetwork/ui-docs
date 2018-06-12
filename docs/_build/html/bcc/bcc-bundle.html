@@ -28,7 +28,9 @@
     <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="angular-core" href="../angular-core/index.html" />
+    <link rel="prev" title="web3Helper" href="../dapp-browser/web3Helper.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -82,8 +84,95 @@
 <li class="toctree-l1"><a class="reference internal" href="../getting-started.html">Getting Started</a></li>
 </ul>
 <p class="caption"><span class="caption-text">API Reference:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../dapp-browser/index.html">dapp-browser</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">blockchain-core frontend bundle</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#interface-solcinterface">Interface: SolcInterface</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#parameters">Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#interface-corebundle">Interface: CoreBundle</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#interface-corebundleoptions">Interface: CoreBundleOptions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#interface-coreinstance">Interface: CoreInstance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#interface-profilebundle">Interface: ProfileBundle</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#interface-profilebundleoptions">Interface: ProfileBundleOptions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#interface-profileinstance">Interface: ProfileInstance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#interface-bcbundleoptions">Interface: BCBundleOptions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#interface-bcinstance">Interface: BCInstance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#createcore">createCore</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#returns">Returns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#createandsetcore">createAndSetCore</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">Returns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id13">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#setcore">setCore</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id14">Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id15">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#create">create</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id16">Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id17">Returns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id18">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#createandset">createAndSet</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id19">Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id20">Returns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id21">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#createbc">createBC</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id22">Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id23">Returns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id24">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#createandsetbc">createAndSetBC</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id25">Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id26">Returns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id27">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#isaccountonboarded">isAccountOnboarded</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id28">Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id29">Returns</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id30">Example</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../angular-core/index.html">angular-core</a></li>
 </ul>
 
@@ -151,21 +240,386 @@
             
   <div class="section" id="blockchain-core-frontend-bundle">
 <h1>blockchain-core frontend bundle<a class="headerlink" href="#blockchain-core-frontend-bundle" title="Permalink to this headline">¶</a></h1>
-<p>The blockchain-core frontend bundle is similar to the blockchain-core runtime and its build to handle several UI steps including blockchain-core instance without account interactions, blockchain-core instance including account id for profile interactions and blockchain-core instance to interact with business centers. It exposes the following Runtime parameters:</p>
+<p>The <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/src/bundles/bcc/bcc.ts"><code class="docutils literal notranslate"><span class="pre">blockchain-core</span> <span class="pre">frontend</span> <span class="pre">bundle</span></code></a> is similar to the blockchain-core runtime and its build to handle several UI steps including blockchain-core instance without account interactions, blockchain-core instance including account id for profile interactions and blockchain-core instance to interact with business centers. It exposes the following Runtime parameters and several functions to create, handle and overwrite them:</p>
 <ul class="simple">
-<li>CoreRuntime</li>
-<li>ProfileRuntime</li>
-<li>BCRuntime</li>
+<li>CoreRuntime: <a class="reference external" href="/bcc/bcc-bundle.html#coreinstance"><code class="docutils literal notranslate"><span class="pre">CoreInstance</span></code></a></li>
+<li>ProfileRuntime: <a class="reference external" href="/bcc/bcc-bundle.html#profileinstance"><code class="docutils literal notranslate"><span class="pre">ProfileInstance</span></code></a></li>
+<li>BCRuntime: <a class="reference external" href="/bcc/bcc-bundle.html#bcinstance"><code class="docutils literal notranslate"><span class="pre">BCInstance</span></code></a></li>
 </ul>
 <hr class="docutils" />
-<div class="section" id="returns">
-<h2>Returns<a class="headerlink" href="#returns" title="Permalink to this headline">¶</a></h2>
-<p><a href="#id3"><span class="problematic" id="id4">|CoreInstance|_</span></a> : new CoreInstance</p>
+<div class="section" id="interface-solcinterface">
+<h2>Interface: SolcInterface<a class="headerlink" href="#interface-solcinterface" title="Permalink to this headline">¶</a></h2>
+<p id="db-bcc-solcinterface">Used to describe smart contract resolve for bundles, …</p>
+<div class="section" id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">getContracts</span></code> - <code class="docutils literal notranslate"><span class="pre">any</span></code>: Returns compiled contracts object.</li>
+</ol>
 </div>
 <div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="c1">// ...</span>
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">solc</span><span class="p">.</span><span class="nx">getContracts</span><span class="p">();</span>
+<span class="c1">// {</span>
+<span class="c1">//   &quot;AbstractDescribed&quot;: {</span>
+<span class="c1">//     &quot;interface&quot;: &quot;[...]&quot;</span>
+<span class="c1">//   },</span>
+<span class="c1">//   &quot;AbstractENS&quot;: {</span>
+<span class="c1">//     &quot;interface&quot;: &quot;[...]&quot;</span>
+<span class="c1">//   },</span>
+<span class="c1">//   ...</span>
+<span class="c1">// }</span>
 </pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="interface-corebundle">
+<h2>Interface: CoreBundle<a class="headerlink" href="#interface-corebundle" title="Permalink to this headline">¶</a></h2>
+<p id="db-bcc-corebundle">Core bundle specification (the full result of the <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/src/bundles/bcc/bcc.ts"><code class="docutils literal notranslate"><span class="pre">blockchain-core</span> <span class="pre">frontend</span> <span class="pre">bundle</span></code></a> file).</p>
+<div class="section" id="id1">
+<h3>Parameters<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><a class="reference external" href="/bcc/bcc-bundle.html#createcore"><code class="docutils literal notranslate"><span class="pre">createCore</span></code></a> - <code class="docutils literal notranslate"><span class="pre">Function</span></code>;</li>
+<li><a class="reference external" href="/bcc/bcc-bundle.html#createandsetcore"><code class="docutils literal notranslate"><span class="pre">createAndSetCore</span></code></a> - <code class="docutils literal notranslate"><span class="pre">Function</span></code>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">ContractLoader</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/contract-loader.rst"><code class="docutils literal notranslate"><span class="pre">ContractLoader</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">CryptoProvider</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/crypto-provider.rst"><code class="docutils literal notranslate"><span class="pre">CryptoProvider</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Description</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/description.rst"><code class="docutils literal notranslate"><span class="pre">Description</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">DfsInterface</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/dfs-interface.rst"><code class="docutils literal notranslate"><span class="pre">DfsInterface</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">EventHub</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/event-hub.rst"><code class="docutils literal notranslate"><span class="pre">EventHub</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Executor</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/executor.rst"><code class="docutils literal notranslate"><span class="pre">Executor</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Ipfs</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/ipfs.rst"><code class="docutils literal notranslate"><span class="pre">Ipfs</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">NameResolver</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/name-resolver.rst"><code class="docutils literal notranslate"><span class="pre">NameResolver</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Unencrypted</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/cryptor-unencrypted.rst"><code class="docutils literal notranslate"><span class="pre">Unencrypted</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">CoreRuntime</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#coreinstance"><code class="docutils literal notranslate"><span class="pre">CoreInstance</span></code></a>;</li>
+<li><a class="reference external" href="/bcc/bcc-bundle.html#isaccountonboarded"><code class="docutils literal notranslate"><span class="pre">isAccountOnboarded</span></code></a> - <code class="docutils literal notranslate"><span class="pre">Function</span></code>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">IpfsRemoteConstructor</span></code> - <a class="reference external" href="https://github.com/ipfs/js-ipfs-api"><code class="docutils literal notranslate"><span class="pre">IpfsRemoteConstructor</span></code></a>: require(‘ipfs-api’);</li>
+<li><code class="docutils literal notranslate"><span class="pre">keystore</span></code> - <a class="reference external" href="https://github.com/ConsenSys/eth-lightwallet/blob/master/lib/keystore.js"><code class="docutils literal notranslate"><span class="pre">KeyStore</span></code></a>: require(‘eth-lightwallet/lib/keystore’);</li>
+<li><code class="docutils literal notranslate"><span class="pre">Mnemonic</span></code> - <a class="reference external" href="https://github.com/bitpay/bitcore-mnemonic"><code class="docutils literal notranslate"><span class="pre">Mnemonic</span></code></a>: require(‘bitcore-mnemonic’);</li>
+<li><code class="docutils literal notranslate"><span class="pre">KeyProviderInterface</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst"><code class="docutils literal notranslate"><span class="pre">KeyProviderInterface</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">KeyProvider</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst"><code class="docutils literal notranslate"><span class="pre">KeyProvider</span></code></a>;</li>
+</ol>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="interface-corebundleoptions">
+<h2>Interface: CoreBundleOptions<a class="headerlink" href="#interface-corebundleoptions" title="Permalink to this headline">¶</a></h2>
+<p id="db-bcc-corebundleoptions">Used to create a new CoreInstance.</p>
+<div class="section" id="id2">
+<h3>Parameters<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">web3</span></code> - <a class="reference external" href="https://github.com/ethereum/web3.js"><code class="docutils literal notranslate"><span class="pre">Web3</span></code></a>: web3 instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">solc</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#solcionterface"><code class="docutils literal notranslate"><span class="pre">SolcInterface</span></code></a>: solc to get contracts;</li>
+<li><code class="docutils literal notranslate"><span class="pre">config</span></code> - <a class="reference external" href="/dapp-browser/config.html"><code class="docutils literal notranslate"><span class="pre">config</span></code></a>: blockchain-core configuration;</li>
+<li><code class="docutils literal notranslate"><span class="pre">executor</span></code> -  <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/executor.rst"><code class="docutils literal notranslate"><span class="pre">Executor</span></code></a> (optional): blockchain-core executor instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">contractLoader</span></code> -  <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/contract-loader.rst"><code class="docutils literal notranslate"><span class="pre">ContractLoader</span></code></a> (optional): blockchain-core contract loader instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">description</span></code> -  <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/description.rst"><code class="docutils literal notranslate"><span class="pre">Description</span></code></a> (optional): blockchain-core description instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">dfs</span></code> -  <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/dfs-interface.rst"><code class="docutils literal notranslate"><span class="pre">DfsInterface</span></code></a> (optional): blockchain-core dfs interface instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">dfsRemoteNode</span></code> - <a class="reference external" href="https://github.com/ipfs/js-ipfs-api"><code class="docutils literal notranslate"><span class="pre">IpfsRemoteConstructor</span></code></a> (optional): require(‘ipfs-api’)</li>
+<li><code class="docutils literal notranslate"><span class="pre">nameResolver</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/name-resolver.rst"><code class="docutils literal notranslate"><span class="pre">NameResolver</span></code></a> (optional): blockchain-core name resolver instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">ipfsCache</span></code> - <a class="reference external" href="/dapp-browser/ipfs-cache.html"><code class="docutils literal notranslate"><span class="pre">IpfsCache</span></code></a> (optional): ipfs cache specification;</li>
+</ol>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="interface-coreinstance">
+<h2>Interface: CoreInstance<a class="headerlink" href="#interface-coreinstance" title="Permalink to this headline">¶</a></h2>
+<p id="db-bcc-coreinstance">Initialized core bundle for blockchain interaction without account specification.</p>
+<div class="section" id="id3">
+<h3>Parameters<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">web3</span></code> - <a class="reference external" href="https://github.com/ethereum/web3.js"><code class="docutils literal notranslate"><span class="pre">Web3</span></code></a>: web3 instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">description</span></code> -  <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/description.rst"><code class="docutils literal notranslate"><span class="pre">Description</span></code></a> (optional): blockchain-core description instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">nameResolver</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/name-resolver.rst"><code class="docutils literal notranslate"><span class="pre">NameResolver</span></code></a> (optional): blockchain-core name resolver instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">dfs</span></code> -  <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/dfs-interface.rst"><code class="docutils literal notranslate"><span class="pre">DfsInterface</span></code></a> (optional): blockchain-core dfs interface instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">contractLoader</span></code> -  <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/contract-loader.rst"><code class="docutils literal notranslate"><span class="pre">ContractLoader</span></code></a> (optional): blockchain-core contract loader instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">executor</span></code> -  <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/executor.rst"><code class="docutils literal notranslate"><span class="pre">Executor</span></code></a> (optional): blockchain-core executor instance;</li>
+<li><code class="docutils literal notranslate"><span class="pre">solc</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#solcionterface"><code class="docutils literal notranslate"><span class="pre">SolcInterface</span></code></a>: solc to get contracts;</li>
+<li><code class="docutils literal notranslate"><span class="pre">contracts</span></code> - <a class="reference external" href="https://github.com/evannetwork/smart-contracts"><code class="docutils literal notranslate"><span class="pre">SmartContracts</span></code></a>: precompiled smart-contracts specification;</li>
+<li><code class="docutils literal notranslate"><span class="pre">config</span></code> - <a class="reference external" href="/dapp-browser/config.html"><code class="docutils literal notranslate"><span class="pre">config</span></code></a>: blockchain-core configuration;</li>
+</ol>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="interface-profilebundle">
+<h2>Interface: ProfileBundle<a class="headerlink" href="#interface-profilebundle" title="Permalink to this headline">¶</a></h2>
+<p id="db-bcc-profilebundle">Options to initialize a new <a class="reference external" href="/bcc/bcc-bundle.html#profileinstance"><code class="docutils literal notranslate"><span class="pre">ProfileInstance</span></code></a>.</p>
+<div class="section" id="id4">
+<h3>Parameters<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><a class="reference external" href="/bcc/bcc-bundle.html#create"><code class="docutils literal notranslate"><span class="pre">create</span></code></a> - <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">Function</span></code>;</li>
+<li><a class="reference external" href="/bcc/bcc-bundle.html#createandset"><code class="docutils literal notranslate"><span class="pre">createAndSet</span></code></a> - <code class="docutils literal notranslate"><span class="pre">Function</span></code>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">ProfileRuntime</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#profileinstance"><code class="docutils literal notranslate"><span class="pre">ProfileInstance</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Aes</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/cryptor-aes.rst"><code class="docutils literal notranslate"><span class="pre">Aes</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Ipld</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/ipld.rst"><code class="docutils literal notranslate"><span class="pre">Ipld</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">KeyExchange</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/key-exchange.rst"><code class="docutils literal notranslate"><span class="pre">KeyExchange</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Logger</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.html"><code class="docutils literal notranslate"><span class="pre">Logger</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Mailbox</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/mailbox.rst"><code class="docutils literal notranslate"><span class="pre">Mailbox</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Onboarding</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/onboarding.rst"><code class="docutils literal notranslate"><span class="pre">Onboarding</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Profile</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/profile.rst"><code class="docutils literal notranslate"><span class="pre">Profile</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">RightsAndRoles</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/rights-and-roles.rst"><code class="docutils literal notranslate"><span class="pre">RightsAndRoles</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">Sharing</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/sharing.rst"><code class="docutils literal notranslate"><span class="pre">Sharing</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">SignerExternal</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/signer.rst"><code class="docutils literal notranslate"><span class="pre">SignerExternal</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">SignerInternal</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/signer.rst"><code class="docutils literal notranslate"><span class="pre">SignerInternal</span></code></a>;</li>
+</ol>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="interface-profilebundleoptions">
+<h2>Interface: ProfileBundleOptions<a class="headerlink" href="#interface-profilebundleoptions" title="Permalink to this headline">¶</a></h2>
+<p id="db-bcc-profilebundleoptions">Options to initialize a new <a class="reference external" href="/bcc/bcc-bundle.html#profileinstance"><code class="docutils literal notranslate"><span class="pre">ProfileInstance</span></code></a>.</p>
+<div class="section" id="id5">
+<h3>Parameters<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">CoreBundle</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#corebundle"><code class="docutils literal notranslate"><span class="pre">CoreBundle</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">coreOptions</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#corebundleoptions"><code class="docutils literal notranslate"><span class="pre">CoreBundleOptions</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">accountId</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: account id to initialize the profile instance for;</li>
+<li><code class="docutils literal notranslate"><span class="pre">signer</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/signer.rst"><code class="docutils literal notranslate"><span class="pre">SignerInternal</span></code></a> or <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/signer.rst"><code class="docutils literal notranslate"><span class="pre">SignerExternal</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">keyProvider</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst"><code class="docutils literal notranslate"><span class="pre">KeyProvider</span></code></a>;</li>
+</ol>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="interface-profileinstance">
+<h2>Interface: ProfileInstance<a class="headerlink" href="#interface-profileinstance" title="Permalink to this headline">¶</a></h2>
+<p id="db-bcc-profileinstance">Bundled runtime for blockchain-core interaction for a specific account.</p>
+<div class="section" id="id6">
+<h3>Parameters<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">ipldInstance</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/ipld.rst"><code class="docutils literal notranslate"><span class="pre">Ipld</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">keyExchange</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/key-exchange.rst"><code class="docutils literal notranslate"><span class="pre">KeyExchange</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">mailbox</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/mailbox.rst"><code class="docutils literal notranslate"><span class="pre">Mailbox</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">profile</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/profile.rst"><code class="docutils literal notranslate"><span class="pre">Profile</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">sharing</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/sharing.rst"><code class="docutils literal notranslate"><span class="pre">Sharing</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">dataContract</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/data-contract.rst"><code class="docutils literal notranslate"><span class="pre">DataContract</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">keyProvider</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst"><code class="docutils literal notranslate"><span class="pre">KeyProvider</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">coreInstance</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#coreinstance"><code class="docutils literal notranslate"><span class="pre">CoreInstance</span></code></a>;</li>
+</ol>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="interface-bcbundleoptions">
+<h2>Interface: BCBundleOptions<a class="headerlink" href="#interface-bcbundleoptions" title="Permalink to this headline">¶</a></h2>
+<p id="db-bcc-bcbundleoptions">Bundle Options for the BCInstance.</p>
+<div class="section" id="id7">
+<h3>Parameters<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">ensDomain</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: ens domain for the business center that should be initialized;</li>
+<li><code class="docutils literal notranslate"><span class="pre">ProfileBundle</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#profilebundle"><code class="docutils literal notranslate"><span class="pre">ProfileBundle</span></code></a>;</li>
+</ol>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="interface-bcinstance">
+<h2>Interface: BCInstance<a class="headerlink" href="#interface-bcinstance" title="Permalink to this headline">¶</a></h2>
+<p id="db-bcc-bcinstance">Bundled runtime for blockchain-core interaction for a specific account and business center.</p>
+<div class="section" id="id8">
+<h3>Parameters<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">ensDomain</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: ens domain for the business center that should be initialized;</li>
+<li><code class="docutils literal notranslate"><span class="pre">bcAddress</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: contract addess of the business center;</li>
+<li><code class="docutils literal notranslate"><span class="pre">businessCenter</span></code> - <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">any</span></code>: business center contract instance (CoreRuntime.contractLoader.loadContract(‘BusinessCenter’, bcAddress));</li>
+<li><code class="docutils literal notranslate"><span class="pre">bcRoles</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/rights-and-roles.rst"><code class="docutils literal notranslate"><span class="pre">RightsAndRoles</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">ipld</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/ipld.rst"><code class="docutils literal notranslate"><span class="pre">Ipld</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">bcProfiles</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/business-center-profile.rst"><code class="docutils literal notranslate"><span class="pre">BusinessCenterProfile</span></code></a>;</li>
+<li><code class="docutils literal notranslate"><span class="pre">description</span></code> - <code class="docutils literal notranslate"><span class="pre">any</span></code>: loaded description from the ens address of the bc;</li>
+<li><code class="docutils literal notranslate"><span class="pre">dataContract</span></code> - <a class="reference external" href="https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/data-contract.rst"><code class="docutils literal notranslate"><span class="pre">DataContract</span></code></a>;</li>
+</ol>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="createcore">
+<span id="db-bcc-createcore"></span><h2>createCore<a class="headerlink" href="#createcore" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">createCore</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Creates a new CoreInstance</p>
+<div class="section" id="id9">
+<h3>Parameters<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">options</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#corebundleoptions"><code class="docutils literal notranslate"><span class="pre">CoreBundleOptions</span></code></a>: The core options</li>
+</ol>
+</div>
+<div class="section" id="returns">
+<h3>Returns<a class="headerlink" href="#returns" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">CoreInstance</span></code>: new CoreInstance instance</p>
+</div>
+<div class="section" id="id10">
+<h3>Example<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">createCore</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="createandsetcore">
+<span id="db-bcc-createandsetcore"></span><h2>createAndSetCore<a class="headerlink" href="#createandsetcore" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">createAndSetCore</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Creates a new CoreInstance and update the CoreInstance export.</p>
+<div class="section" id="id11">
+<h3>Parameters<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">options</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#corebundleoptions"><code class="docutils literal notranslate"><span class="pre">CoreBundleOptions</span></code></a>: The core options</li>
+</ol>
+</div>
+<div class="section" id="id12">
+<h3>Returns<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">CoreInstance</span></code>: new CoreInstance instance</p>
+</div>
+<div class="section" id="id13">
+<h3>Example<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">createCore</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Usage Example: <a class="reference external" href="https://github.com/evannetwork/dapp-browser/blob/develop/src/app/bcc/bcc.ts">https://github.com/evannetwork/dapp-browser/blob/develop/src/app/bcc/bcc.ts</a></p>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="setcore">
+<span id="db-bcc-setcore"></span><h2>setCore<a class="headerlink" href="#setcore" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">setCore</span><span class="p">(</span><span class="nx">coreInstance</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Overwrite the current CoreInstance</p>
+<div class="section" id="id14">
+<h3>Parameters<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">coreInstance</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#coreinstance"><code class="docutils literal notranslate"><span class="pre">CoreInstance</span></code></a>: core instance to overwrite</li>
+</ol>
+</div>
+<div class="section" id="id15">
+<h3>Example<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">setCore</span><span class="p">(</span><span class="nx">CoreInstance</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Usage Example: <a class="reference external" href="https://github.com/evannetwork/dapp-browser/blob/develop/src/app/bcc/bcc.ts">https://github.com/evannetwork/dapp-browser/blob/develop/src/app/bcc/bcc.ts</a></p>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="create">
+<span id="db-bcc-create"></span><h2>create<a class="headerlink" href="#create" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Creates a new ProfileInstance</p>
+<div class="section" id="id16">
+<h3>Parameters<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">options</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#profilebundleoptions"><code class="docutils literal notranslate"><span class="pre">ProfileBundleOptions</span></code></a>: profile bundle options</li>
+</ol>
+</div>
+<div class="section" id="id17">
+<h3>Returns<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="/bcc/bcc-bundle.html#profileinstance"><code class="docutils literal notranslate"><span class="pre">ProfileInstance</span></code></a> : the new profile instance</p>
+</div>
+<div class="section" id="id18">
+<h3>Example<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Usage Example: <a class="reference external" href="https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bcc.ts">https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bcc.ts</a></p>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="createandset">
+<span id="db-bcc-createandset"></span><h2>createAndSet<a class="headerlink" href="#createandset" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">createAndSet</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Create a new ProfileInstance and update the ProfileInstance export.</p>
+<div class="section" id="id19">
+<h3>Parameters<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">options</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#profilebundleoptions"><code class="docutils literal notranslate"><span class="pre">ProfileBundleOptions</span></code></a>: profile bundle options</li>
+</ol>
+</div>
+<div class="section" id="id20">
+<h3>Returns<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="/bcc/bcc-bundle.html#profileinstance"><code class="docutils literal notranslate"><span class="pre">ProfileInstance</span></code></a> : the new profile instance</p>
+</div>
+<div class="section" id="id21">
+<h3>Example<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Usage Example: <a class="reference external" href="https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bcc.ts">https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bcc.ts</a></p>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="createbc">
+<span id="db-bcc-createbc"></span><h2>createBC<a class="headerlink" href="#createbc" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">createBC</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Create a new BCInstance.</p>
+<div class="section" id="id22">
+<h3>Parameters<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">options</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#bcbundleoptions"><code class="docutils literal notranslate"><span class="pre">BCBundleOptions</span></code></a>: options for the business center</li>
+</ol>
+</div>
+<div class="section" id="id23">
+<h3>Returns<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">BCInstance</span></code> : the new bc instance</p>
+</div>
+<div class="section" id="id24">
+<h3>Example<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">createBC</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Usage Example: <a class="reference external" href="https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bc.ts">https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bc.ts</a></p>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="createandsetbc">
+<span id="db-bcc-createandsetbc"></span><h2>createAndSetBC<a class="headerlink" href="#createandsetbc" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">createAndSetBC</span><span class="p">(</span><span class="nx">options</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Creates and set BCInstance.</p>
+<div class="section" id="id25">
+<h3>Parameters<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">options</span></code> - <a class="reference external" href="/bcc/bcc-bundle.html#bcbundleoptions"><code class="docutils literal notranslate"><span class="pre">BCBundleOptions</span></code></a>: options for the business center</li>
+</ol>
+</div>
+<div class="section" id="id26">
+<h3>Returns<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">BCInstance</span></code> : the new bc instance</p>
+</div>
+<div class="section" id="id27">
+<h3>Example<a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">createBC</span><span class="p">(</span><span class="nx">options</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Usage Example: <a class="reference external" href="https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bc.ts">https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bc.ts</a></p>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="isaccountonboarded">
+<span id="db-bcc-isaccountonboarded"></span><h2>isAccountOnboarded<a class="headerlink" href="#isaccountonboarded" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">isAccountOnboarded</span><span class="p">(</span><span class="nx">accountId</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Function description</p>
+<div class="section" id="id28">
+<h3>Parameters<a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">accountId</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: account id to test</li>
+</ol>
+</div>
+<div class="section" id="id29">
+<h3>Returns<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">Promise</span></code> returns <code class="docutils literal notranslate"><span class="pre">boolean</span></code>: True if account onboarded, False otherwise</p>
+</div>
+<div class="section" id="id30">
+<h3>Example<a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">isAccountOnboarded</span><span class="p">(</span><span class="s1">&#39;0x000...&#39;</span><span class="p">);</span>
+<span class="c1">// returns true / false</span>
+</pre></div>
+</div>
+<hr class="docutils" />
 </div>
 </div>
 </div>
@@ -175,6 +629,15 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../angular-core/index.html" class="btn btn-neutral float-right" title="angular-core" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../dapp-browser/web3Helper.html" class="btn btn-neutral" title="web3Helper" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

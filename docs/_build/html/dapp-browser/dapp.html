@@ -92,10 +92,20 @@
 <li class="toctree-l3"><a class="reference internal" href="config.html">config</a></li>
 <li class="toctree-l3"><a class="reference internal" href="core.html">core</a></li>
 <li class="toctree-l3"><a class="reference internal" href="CoreRuntime.html">CoreRuntime</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">dapp</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">dapp</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#getsplittedversion">getSplittedVersion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#getversiondbcphashfromdappversion">getVersionDBCPHashFromDAppVersion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#getdappdependencies">getDAppDependencies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#loaddappdependencies">loadDAppDependencies</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#loaddapp">loadDApp</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#startdapp">startDApp</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#getdomainname">getDomainName</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="definition.html">definition</a></li>
 <li class="toctree-l3"><a class="reference internal" href="evanGlobals.html">evanGlobals</a></li>
 <li class="toctree-l3"><a class="reference internal" href="ipfs.html">ipfs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="ipfs-cache.html">Ipfs-Cache</a></li>
 <li class="toctree-l3"><a class="reference internal" href="lightwallet.html">lightwallet</a></li>
 <li class="toctree-l3"><a class="reference internal" href="loading.html">loading</a></li>
 <li class="toctree-l3"><a class="reference internal" href="nameResolver.html">nameResolver</a></li>
@@ -104,12 +114,13 @@
 <li class="toctree-l3"><a class="reference internal" href="solc.html">solc</a></li>
 <li class="toctree-l3"><a class="reference internal" href="System.html">System</a></li>
 <li class="toctree-l3"><a class="reference internal" href="utils.html">utils</a></li>
-<li class="toctree-l3"><a class="reference internal" href="web3Helper.html">web3Helper</a></li>
 <li class="toctree-l3"><a class="reference internal" href="web3.html">web3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="web3Helper.html">web3Helper</a></li>
 </ul>
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../bcc/bcc-bundle.html">blockchain-core frontend bundle</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../angular-core/index.html">angular-core</a></li>
 </ul>
 
@@ -179,6 +190,232 @@
             
   <div class="section" id="dapp">
 <h1>dapp<a class="headerlink" href="#dapp" title="Permalink to this headline">¶</a></h1>
+<p>The <a class="reference external" href="https://github.com/evannetwork/dapp-browser/blob/develop/src/app/dapp.ts">DApp library</a> is a collection of several functions to handle DApp loading, starting and depdency resolvle.</p>
+<hr class="docutils" />
+<div class="section" id="getsplittedversion">
+<span id="db-dapp-getsplittedversion"></span><h2>getSplittedVersion<a class="headerlink" href="#getsplittedversion" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">dapp</span><span class="p">.</span><span class="nx">getSplittedVersion</span><span class="p">(</span><span class="nx">versionString</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Splits an version, removes non number characters, reduce length to 3 and adds missing numbers.</p>
+<div class="section" id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">versionString</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code> (optional): Version that should be splitted (eg. “0.1.0”)</li>
+</ol>
+</div>
+<div class="section" id="returns">
+<h3>Returns<a class="headerlink" href="#returns" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">Array&lt;number|string&gt;</span></code> : The splitted version.</p>
+</div>
+<div class="section" id="example">
+<h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">getSplittedVersion</span><span class="p">(</span><span class="s2">&quot;0.1.0&quot;</span><span class="p">)</span>
+<span class="c1">// [0, 1, 0]</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="getversiondbcphashfromdappversion">
+<span id="db-dapp-getversiondbcphashfromdappversion"></span><h2>getVersionDBCPHashFromDAppVersion<a class="headerlink" href="#getversiondbcphashfromdappversion" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">dapp</span><span class="p">.</span><span class="nx">getVersionDBCPHashFromDAppVersion</span><span class="p">(</span><span class="nx">requiredVersion</span><span class="p">,</span> <span class="nx">childENS</span><span class="p">,</span> <span class="nx">childDefinition</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Returns the ipfs hash to the dbcp of the child with the correct version.</p>
+<div class="section" id="id1">
+<h3>Parameters<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">requiredVersion</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: version that should be loaded from the child</li>
+<li><code class="docutils literal notranslate"><span class="pre">childENS</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: ens address of the child (the current deployed version is not listed in the versions object, the function sets the ens address within the versions object with the current version)</li>
+<li><code class="docutils literal notranslate"><span class="pre">childDefinition</span></code> - <code class="docutils literal notranslate"><span class="pre">any</span></code>: The version dbcp hash from the specific DApp version.</li>
+</ol>
+</div>
+<div class="section" id="id2">
+<h3>Returns<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">string</span></code> : The version dbcp hash from the specific DApp version.</p>
+</div>
+<div class="section" id="id3">
+<h3>Example<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">getVersionDBCPHashFromDAppVersion</span><span class="p">(</span>
+  <span class="nx">dependencies</span><span class="p">[</span><span class="nx">dependency</span><span class="p">],</span>
+  <span class="nx">dependency</span><span class="p">,</span>
+  <span class="nx">subDefinition</span>
+<span class="p">)</span>
+<span class="c1">// returns : Qmb...</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="getdappdependencies">
+<span id="db-dapp-getdappdependencies"></span><h2>getDAppDependencies<a class="headerlink" href="#getdappdependencies" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">dapp</span><span class="p">.</span><span class="nx">getDAppDependencies</span><span class="p">(</span><span class="nx">originName</span><span class="p">,</span> <span class="nx">ensDefinition</span><span class="p">,</span> <span class="nx">depTree</span><span class="p">,</span> <span class="nx">deep</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Loads all (sub) dependencies dbcp’s of the provided dapp and set systemjs maps to the correct dbcp hashes.</p>
+<div class="section" id="id4">
+<h3>Parameters<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">originName</span></code> - <code class="docutils literal notranslate"><span class="pre">string</span></code>: name of the module that should be traversed;</li>
+<li><code class="docutils literal notranslate"><span class="pre">ensDefinition</span></code> - <code class="docutils literal notranslate"><span class="pre">any</span></code>: ens definition of the module that should be traversed (iterate through dependencies);</li>
+<li><code class="docutils literal notranslate"><span class="pre">depTree</span></code> - <code class="docutils literal notranslate"><span class="pre">Array&lt;Array&lt;n&gt;&gt;</span></code> (default = [ ]): dependency tree of a DApp;</li>
+<li><code class="docutils literal notranslate"><span class="pre">deep</span></code> - <code class="docutils literal notranslate"><span class="pre">number</span></code> (default = 0): recursion count to prevent recursive dependency;</li>
+</ol>
+</div>
+<div class="section" id="id5">
+<h3>Returns<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">Promise</span></code> returns <code class="docutils literal notranslate"><span class="pre">Array&lt;Array&lt;n&gt;&gt;</span></code>: dependency tree of a DApp</p>
+</div>
+<div class="section" id="id6">
+<h3>Example<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">await</span> <span class="nx">getDAppDependencies</span><span class="p">(</span><span class="nx">dappEns</span><span class="p">,</span> <span class="nx">ensDefinition</span><span class="p">);</span>
+<span class="c1">// returns: [</span>
+<span class="c1">//   [],</span>
+<span class="c1">//   [</span>
+<span class="c1">//     {</span>
+<span class="c1">//       &quot;name&quot;: &quot;angular-libs&quot;,</span>
+<span class="c1">//       &quot;definition&quot;: {</span>
+<span class="c1">//         ...</span>
+<span class="c1">//       },</span>
+<span class="c1">//       &quot;location&quot;: &quot;angularlibs.evan!dapp-content&quot;</span>
+<span class="c1">//     }</span>
+<span class="c1">//   ],</span>
+<span class="c1">//   [</span>
+<span class="c1">//     {</span>
+<span class="c1">//       &quot;name&quot;: &quot;angular-core&quot;,</span>
+<span class="c1">//       &quot;definition&quot;: {</span>
+<span class="c1">//         ...</span>
+<span class="c1">//       },</span>
+<span class="c1">//       &quot;location&quot;: &quot;angularcore.evan!dapp-content&quot;</span>
+<span class="c1">//     }</span>
+<span class="c1">//   ]</span>
+<span class="c1">// ]</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="loaddappdependencies">
+<span id="db-bcc-loaddappdependencies"></span><h2>loadDAppDependencies<a class="headerlink" href="#loaddappdependencies" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">bcc</span><span class="p">.</span><span class="nx">loadDAppDependencies</span><span class="p">(</span><span class="nx">dappEns</span><span class="p">,</span> <span class="nx">useDefaultDomain</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Load all dependencies of the dapp using SystemJS and register its ens names, so each DApp can load the dependency using it within import statements.</p>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="kr">import</span> <span class="p">{</span>
+  <span class="p">...</span>
+<span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;angular-core&#39;</span><span class="p">;</span>
+</pre></div>
+</div>
+<div class="section" id="id7">
+<h3>Parameters<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">dappEns</span></code> - <code class="docutils literal notranslate"><span class="pre">object</span></code>: ens of the dapp</li>
+<li><code class="docutils literal notranslate"><span class="pre">useDefaultDomain</span></code> - <code class="docutils literal notranslate"><span class="pre">boolean</span></code> (optional): decide if the default domain should be used</li>
+</ol>
+</div>
+<div class="section" id="id8">
+<h3>Returns<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">Promise</span></code> returns <code class="docutils literal notranslate"><span class="pre">any</span></code>: ens definition from the DApp</p>
+</div>
+<div class="section" id="id9">
+<h3>Example<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">dapp</span><span class="p">.</span><span class="nx">loadDAppDependencies</span><span class="p">(</span><span class="nx">dappEns</span><span class="p">,</span> <span class="nx">useDefaultDomain</span><span class="p">);</span>
+
+<span class="c1">// returns ens definition</span>
+<span class="c1">// {</span>
+<span class="c1">//   &quot;name&quot;: &quot;angular-libs&quot;,</span>
+<span class="c1">//   &quot;definition&quot;: {</span>
+<span class="c1">//     ...</span>
+<span class="c1">//   },</span>
+<span class="c1">//   &quot;location&quot;: &quot;angularlibs.evan!dapp-content&quot;</span>
+<span class="c1">// }</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="loaddapp">
+<span id="db-dapp-loaddapp"></span><h2>loadDApp<a class="headerlink" href="#loaddapp" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">dapp</span><span class="p">.</span><span class="nx">loadDApp</span><span class="p">(</span><span class="nx">dappEns</span><span class="p">,</span> <span class="nx">useDefaultDomain</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>loads a DApp description and register it’s dependencies. Returns the js exported module and the loaded ens definition.</p>
+<div class="section" id="id10">
+<h3>Parameters<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">dappEns</span></code> - <code class="docutils literal notranslate"><span class="pre">object</span></code>: ens of the dapp</li>
+<li><code class="docutils literal notranslate"><span class="pre">useDefaultDomain</span></code> - <code class="docutils literal notranslate"><span class="pre">boolean</span></code> (optional): decide if the default domain should be used</li>
+</ol>
+</div>
+<div class="section" id="id11">
+<h3>Returns<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">Promise</span></code> returns <code class="docutils literal notranslate"><span class="pre">any</span></code>: returns { module: { … }, ensDefinition: {…}}</p>
+</div>
+<div class="section" id="id12">
+<h3>Example<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">loadDApp</span><span class="p">(</span><span class="s1">&#39;dashboard&#39;</span><span class="p">,</span> <span class="kc">true</span><span class="p">);</span>
+
+<span class="c1">// returns:</span>
+<span class="c1">//  {</span>
+<span class="c1">//    module: loadedModule,</span>
+<span class="c1">//    ensDefinition: ensDefinition</span>
+<span class="c1">//  }</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="startdapp">
+<span id="db-dapp-startdapp"></span><h2>startDApp<a class="headerlink" href="#startdapp" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">dapp</span><span class="p">.</span><span class="nx">startDApp</span><span class="p">(</span><span class="nx">dappEns</span><span class="p">,</span> <span class="nx">container</span><span class="p">,</span> <span class="nx">useDefaultDomain</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Loads an DApp from ENS, resolves it’s dependencies and runs the startDApp function or, in case of an html entrypoint, adds an iframe and loads the url.</p>
+<div class="section" id="id13">
+<h3>Parameters<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">dappEns</span></code> - <code class="docutils literal notranslate"><span class="pre">object</span></code>: ens address to load the dapp from</li>
+<li><code class="docutils literal notranslate"><span class="pre">container</span></code> - <code class="docutils literal notranslate"><span class="pre">Element</span></code> (default = document.body): element where DApp was started</li>
+<li><code class="docutils literal notranslate"><span class="pre">useDefaultDomain</span></code> - <code class="docutils literal notranslate"><span class="pre">boolean</span></code> (optional): decide if the default domain should be used</li>
+</ol>
+</div>
+<div class="section" id="id14">
+<h3>Returns<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">Promise</span></code> returns <code class="docutils literal notranslate"><span class="pre">void</span></code>: resolved when DApp started</p>
+</div>
+<div class="section" id="id15">
+<h3>Example<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">await</span> <span class="nx">dapp</span><span class="p">.</span><span class="nx">startDApp</span><span class="p">(</span><span class="s1">&#39;dashboard.evan&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="getdomainname">
+<span id="db-dapp-getdomainname"></span><h2>getDomainName<a class="headerlink" href="#getdomainname" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">dapp</span><span class="p">.</span><span class="nx">getDomainName</span><span class="p">(...</span><span class="nx">subLabels</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>builds a full domain name for the current bcc config</p>
+<div class="section" id="id16">
+<h3>Parameters<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">Array&lt;string&gt;</span></code> - <code class="docutils literal notranslate"><span class="pre">subLabels</span></code>: used to enhance nameResolver config</li>
+</ol>
+</div>
+<div class="section" id="id17">
+<h3>Returns<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">The</span> <span class="pre">domain</span> <span class="pre">name</span></code> : The domain name.</p>
+</div>
+<div class="section" id="id18">
+<h3>Example<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-typescript notranslate"><div class="highlight"><pre><span></span><span class="nx">ensDomain</span> <span class="o">=</span> <span class="sb">`bcc.</span><span class="si">${</span> <span class="nx">getDomainName</span><span class="p">()</span> <span class="si">}</span><span class="sb">!dapp-content`</span>
+<span class="c1">// returns: bcc.evan!dapp-content</span>
+</pre></div>
+</div>
+</div>
+</div>
 </div>
 
 
