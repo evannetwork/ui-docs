@@ -2,7 +2,7 @@
 dapp-browser
 ============
 
-The dapp-browser is used to start applications over it. Within this applications, several classes, functions and runtime instances can be used. General DApps will be opened like the following "https://.../index.html#/my-dapp-ens.evan". Where the index.html file is the entry point of the dapp-browser. Within the DApp the dapp-browser can used like the following example:
+The dapp-browser is used to start applications over it. Within this applications, several classes, functions and runtime instances can be used. General DApps will be opened like the following "https://.../index.html#/my-dapp-ens.evan". Where the index.html file is the entry point of the dapp-browser. Within the DApp the dapp-browser can be used like the following example:
 
 - typescript file:
 
@@ -39,7 +39,8 @@ classes
 
   AccountStore
   KeyProvider
-
+  ipfs-cache
+  idb-store
 
 functions
 =========
@@ -59,10 +60,9 @@ instances
   core
   CoreRuntime
   dapp
-  definition
   evanGlobals
   ipfs
-  ipfs-cache
+  restipfs
   lightwallet
   loading
   nameResolver
