@@ -2,9 +2,7 @@
 ipfs
 ====
 
-The ipfs library handles the ipfs.evan.network connection settings and provides functions to handle restIpfs calls.
-
-
+The `ipfs library <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/ipfs.ts>`_ handles the ipfs.evan.network connection settings and provides functions to handle restIpfs calls.
 
 
 --------------------------------------------------------------------------------

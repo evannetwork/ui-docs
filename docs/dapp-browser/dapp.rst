@@ -4,9 +4,6 @@ dapp
 
 The `DApp library <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/dapp.ts>`_ is a collection of several functions to handle DApp loading, starting and depdency resolve.
 
-
-
-
 --------------------------------------------------------------------------------
 
 .. _db_dapp_getSplittedVersion:

@@ -4,7 +4,6 @@ evanGlobals
 
 The `evan globals <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/main.ts>`_ are a runtime object that handles global references for internal functions within the dapp-browser. This is nessecary to remove any dapp-browser dependency from the window object. Maybe this collection will help you.
 
---------------------------------------------------------------------------------
 ----------
 Parameters
 ----------
@@ -12,7 +11,7 @@ Parameters
 #. ``CoreBundle`` - |source CoreBundle|_: bcc exported CoreBundle;
 #. ``CoreRuntime`` - |source CoreInstance|_: bcc active CoreInstance;
 #. ``SmartContracts`` - |source smart_contracts|_: Initialized build Object of the SmartContracts;
-#. ``System`` - |source System|_: global DApp browser SystemJS for direct use (normally you will use import { } from '***', because a using DBCP and |source loadDApp|_ functions, SystemJS imports will be registered);
+#. ``System`` - |source SystemJS|_: global DApp browser SystemJS for direct use (normally you will use import { } from 'module-name', because a using DBCP and |source loadDApp|_ functions, SystemJS imports will be registered);
 #. ``devMode`` - |source devMode|_: array of dev mode available applications;
 #. ``ipfsCatPromise`` - |source ipfsCatPromise|_: promisified ipfs cat function;
 #. ``restIpfs`` - |source restIpfs|_: restIpfs export;
@@ -25,8 +24,11 @@ Parameters
 .. |source CoreInstance| replace:: ``CoreInstance``
 .. _source CoreInstance: /bcc/bcc-bundle.html#coreinstance
 
+.. |source SystemJS| replace:: ``SystemJS``
+.. _source SystemJS: https://github.com/systemjs/systemjs
+
 .. |source System| replace:: ``System``
-.. _source System: https://github.com/systemjs/systemjs
+.. _source System: /dapp-browser/System
 
 .. |source smart_contracts| replace:: ``SmartContracts``
 .. _source smart_contracts: https://github.com/evannetwork/smart-contracts
