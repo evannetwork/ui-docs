@@ -20,6 +20,8 @@ Welcome to evan.network frontend's documentation!
   dapp-browser/index
   bcc/bcc-bundle
   angular-core/index
+  angular-libs/index
+  angular-sass/index
 
 Indices and tables
 ==================

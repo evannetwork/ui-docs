@@ -6,7 +6,7 @@ Smart `contracts solc <https://github.com/evannetwork/dapp-browser/blob/develop/
 
 --------------------------------------------------------------------------------
 
-.. _module_name_constructor:
+.. _db_solc_constructor:
 
 constructor
 ================================================================================

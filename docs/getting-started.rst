@@ -19,12 +19,6 @@ The DApp browser provides several functionallities to access:
 - DApp routing
 - global utillity functions like log
 - informations of the current logged in user
-
-  - account id
-  - lightwallet vault
-  - provider (internal, external)
-  - global synchronisation data queue
-
 - blockchain connections configuration
 - blockchain-core AccountStore and KeyProvider
 - DApp time tracing options
@@ -36,140 +30,45 @@ The DApp browser provides several functionallities to access:
 - SystemJS plugins for ENS loading, ENS and file loading, IPFS loading, JSON loading, CSS loading
 - web3 handlers
 
+blockchain-core frontend bundle
+===============================
+The |source bcc_bundlejs|_ is similar to the blockchain-core runtime and its build to handle several UI steps including blockchain-core instance without account interactions, blockchain-core instance including account id for profile interactions and blockchain-core instance to interact with business centers. It exposes the following Runtime parameters and several functions to create, handle and overwrite them:
+
+- CoreRuntime: |source CoreInstance|_
+- ProfileRuntime: |source ProfileInstance|_
+- BCRuntime: |source BCInstance|_
+
 angular-core
 ============
-The angular-core operates as an global and central library for the evan.network Angular 5 frontend development. Using this project you will be able to to the following things:
+The `angular-core </angular-core/index.html>`_ operates as an global and central library for the evan.network Angular 5 frontend development. Using this project you will be able to to the following things:
 
 - easy import AngularCoreModule for including all services and components
 - featured Angular DApp starting mechanisms
-
-  - **IMPORTANT: use this functions for starting and stopping your nested Angular DApps to prevent memory leaks.**
-
 - dynamic routes builder for nested Angular DApps
 - comfortable UI services
-
-  - Ionic alert service wrapper (smaller function calls + i18n)
-  - file handling and upload  (HTML 5 + Ionic IOS + Ionic Android)
-  - modal ui handler
-  - picture capturing (HTML 5 + Ionic IOS + Ionic Android)
-  - qr-code scanning (HTML 5 + Ionic IOS + Ionic Android)
-  - Angular routing wrapper
-  - Ionic slides wrapper and helpers 
-  - Ionic toast service wrapper (smaller function calls + i18n)
-  - translate (ngx-translate wrapper)
-
 - comfortable BCC wrapper services
-  - address-book
-  - bcc
-  - bc
-  - bookmark
-  - core
-  - description
-  - mailbox
-  - onboarding
-
 - queue handling
-  - value pushing & dispatcher loading
-  - queue-utilities (QueueId, ...)
-
 - generalized Angular components
-
-  - blockie
-
-    - display blockie for an account id
-
-  - bootstrap-component
-
-    - global available Ionic bootstrap component
-
-  - contract-members
-
-    - generalized contract member managment
-
-  - dapp-loader
-
-    - load DApps within DApps using Angular components
-
-  - dapp-wrapper top-bar for DApps that enables
-
-    - back navigation
-    - url routing has as title (dynamic)
-    - mailbox alerts
-    - queue status
-
-  - dashboard-top-buttons
-
-    - dynamic buttons that will be embedded to the dapp-wrapper on large screens or to the bottom right on small screen
-
-  - dynamic-component
-
-    - creates an dynamic component with a specific template during runtime
-
-  - empty-dapp-display
-
-    - shows an generalized "Theirs no data." screen using DApp DBCP descriptions
-
-  - evan-loading
-
-    - evan-network loading icon
-
-  - *file-select (under construction)*
-
-    - file selector for HTML 5 &IOS & Anroid
-
-  - global-password
-
-    - global password component that is used within each Angular DApp
-    - will be registered in the root.ts in each evan.network featured DApp
-    - unlocks the current users profile
-
-  - big-picture
-
-    - shows an picture within a modal
-
-  - mail-dialog
-
-    - dialog that will be openend, before a mail is sent
-
-  - not-implemented
-
-    - not implemented notice
-
-  - qr-code-scanner
-
-    - scan qr-codes on HTML 5 & IOS & Anroid
-
-  - reload-route
-
-    - reloads the current route (only available using dapp-wrapper)
-
-  - split-pane
-
-    - create easy Dashboards
-    - generates an left panel using Ionic
-    - powerfull in combination with DApps that using dapp-wrapper
-
-  - take-snapshot
-
-    - takes an img using camera on HTML 5 & IOS & Android
-
-  - trust-dialog
-
-    - asks for permissions (used before inviting an agent)
-
 - Angular animation helpers
-
-  - ngIf height growing
-  - ngIf opacity showing
-  - router transition management (easy to use) (eg.: route1 => route2 : swipe to the left / right / top / bottom)
-  - tab swiping animation
-  
 - Angular 5 Onetime binding directive
 - I18N handling using ngx-translate
 
+angular-libs
+============
+This `angular-libs </angular-libs/index.html>`_ contains a collection of Angular core libraries. This project is deployed to the ens (likelly to the angular-core), so you can require angular libraries (etc...) directly into the frontend without building duplicated libraries into your dapps.
+
+- @angular
+- @ionic-native
+- @ngx-translate
+- @zxing
+- ionic-angular
+- ionic-tags-input
+- ng-circle-progress
+- rxjs
+
 angular-sass
 ============
-The angular-sass library includes styling definitions for evan.network featured DApps.
+The `angular-sass </angular-sass/index.html>`_ library includes styling definitions for evan.network featured DApps.
 
 - font-style: Open Sans
 - `Ionic Styles <https://github.com/ionic-team/ionic>`_
@@ -186,3 +85,15 @@ The angular-sass library includes styling definitions for evan.network featured 
 - table styles
 - tab styles
 - Ionic adjustments
+
+.. |source bcc_bundlejs| replace:: ``blockchain-core frontend bundle``
+.. _source bcc_bundlejs: https://github.com/evannetwork/blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+
+.. |source CoreInstance| replace:: ``CoreInstance``
+.. _source CoreInstance: /bcc/bcc-bundle.html#coreinstance
+
+.. |source ProfileInstance| replace:: ``ProfileInstance``
+.. _source ProfileInstance: /bcc/bcc-bundle.html#profileinstance
+
+.. |source BCInstance| replace:: ``BCInstance``
+.. _source BCInstance: /bcc/bcc-bundle.html#bcinstance
