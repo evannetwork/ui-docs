@@ -130,6 +130,71 @@ The `angular-core </angular-core/index.html>`_ operates as an global and central
 - Angular 5 Onetime binding directive
 - I18N handling using ngx-translate
 
+usage
+=====
+Include the AngularCore module into your module and all of the services, components, directives (...) are defined within your project.
+
+- tsconfig.json
+
+.. code-block:: json
+
+  {
+    "compilerOptions": {
+      "declaration": true,
+      "module": "es2015",
+      "target": "es5",
+      "baseUrl": "./src",
+      "stripInternal": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      "outDir": "../build",
+      "rootDir": "./src",
+      "lib": [
+        "es2015",
+        "dom"
+      ],
+      "skipLibCheck": true,
+      "types": [],
+      "paths": {
+        "angular-core": [
+          "../node_modules/@evan.network/angular-core/dist/angularcore.js"
+        ]
+      }
+    },
+    "angularCompilerOptions": {
+      "annotateForClosureCompiler": true,
+      "strictMetadataEmit": true,
+      "skipTemplateCodegen": true,
+      "flatModuleOutFile": "dashboard.js",
+      "flatModuleId": "dashboard"
+    },
+    "files": [
+      "./index.ts"
+    ]
+  }
+
+- module.ts
+
+.. code-block:: typescript
+
+  import {
+    AngularCore,
+  } from 'angular-core';
+
+  @NgModule({
+    ...
+    imports: [
+      CommonModule,
+      AngularCore,
+    ],
+    ...
+  })
+  class SampleModule {
+    constructor() { }
+  }
+
+Next to the ususal angular stuff, additional functionallities are provided to handle nested ionic angular apps and a dynamic routing. For this have a look at additionals.
 
 additionals
 ===========
