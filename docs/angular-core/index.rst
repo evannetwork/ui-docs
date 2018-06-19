@@ -129,3 +129,77 @@ The `angular-core </angular-core/index.html>`_ operates as an global and central
   
 - Angular 5 Onetime binding directive
 - I18N handling using ngx-translate
+
+
+additionals
+===========
+.. toctree::
+  :maxdepth: 1
+  :glob:
+
+  additionals/*
+
+animations
+==========
+.. toctree::
+  :maxdepth: 1
+  :glob:
+
+  animations/*
+
+components
+==========
+.. toctree::
+  :maxdepth: 1
+  :glob:
+
+  components/*
+
+directives
+==========
+.. toctree::
+  :maxdepth: 1
+  :glob:
+
+  directives/*
+
+modules
+=======
+.. toctree::
+  :maxdepth: 1
+  :glob:
+
+  modules/*
+
+pipes
+=====
+.. toctree::
+  :maxdepth: 1
+  :glob:
+
+  pipes/*
+
+general services
+================
+.. toctree::
+  :maxdepth: 1
+  :glob:
+
+  services/utils
+  services/singleton-service
+
+ui services
+===========
+.. toctree::
+  :maxdepth: 1
+  :glob:
+
+  services/ui/*
+
+bcc services
+============
+.. toctree::
+  :maxdepth: 1
+  :glob:
+
+  services/bcc/*

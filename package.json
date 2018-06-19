@@ -3,7 +3,7 @@
   "name": "@evan.network/fe-docs",
   "scripts": {
     "build": "cd docs && make html",
-    "watch": "cd docs && sphinx-autobuild . _build/html"
+    "serve": "cd docs && sphinx-autobuild . _build/html"
   },
   "version": "1.0.0",
   "keywords": [
