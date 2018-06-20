@@ -348,6 +348,7 @@ Returns
 ``Promise`` returns ``any``: The bookmark from definition.
 
 .. code-block:: typescript
+
   {
     name: definition.name,
     description: definition.description,
