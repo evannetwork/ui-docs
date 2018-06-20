@@ -106,7 +106,7 @@ getExternalProvider
 
   core.getExternalProvider();
 
-Function description
+Checks if a injected web3 provider exists an returns it's name
 
 -------
 Returns
