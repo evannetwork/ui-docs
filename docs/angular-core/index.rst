@@ -1,6 +1,9 @@
 ============
 angular-core
 ============
+
+General
+=======
 The `angular-core </angular-core/index.html>`_ operates as an global and central library for the evan.network Angular 5 frontend development. Using this project you will be able to to the following things:
 
 - easy import AngularCoreModule for including all services and components
@@ -130,7 +133,7 @@ The `angular-core </angular-core/index.html>`_ operates as an global and central
 - Angular 5 Onetime binding directive
 - I18N handling using ngx-translate
 
-usage
+Usage
 =====
 Include the AngularCore module into your module and all of the services, components, directives (...) are defined within your project.
 
@@ -196,7 +199,7 @@ Include the AngularCore module into your module and all of the services, compone
 
 Next to the ususal angular stuff, additional functionallities are provided to handle nested ionic angular apps and a dynamic routing. For this have a look at additionals.
 
-additionals
+Additionals
 ===========
 .. toctree::
   :maxdepth: 1
@@ -204,7 +207,7 @@ additionals
 
   additionals/*
 
-animations
+Animations
 ==========
 .. toctree::
   :maxdepth: 1
@@ -212,7 +215,7 @@ animations
 
   animations/*
 
-components
+Components
 ==========
 .. toctree::
   :maxdepth: 1
@@ -220,7 +223,7 @@ components
 
   components/*
 
-directives
+Directives
 ==========
 .. toctree::
   :maxdepth: 1
@@ -228,7 +231,7 @@ directives
 
   directives/*
 
-modules
+Modules
 =======
 .. toctree::
   :maxdepth: 1
@@ -236,7 +239,7 @@ modules
 
   modules/*
 
-pipes
+Pipes
 =====
 .. toctree::
   :maxdepth: 1
@@ -244,7 +247,7 @@ pipes
 
   pipes/*
 
-general services
+General Services
 ================
 .. toctree::
   :maxdepth: 1
@@ -253,7 +256,7 @@ general services
   services/utils
   services/singleton-service
 
-ui services
+UI Services
 ===========
 .. toctree::
   :maxdepth: 1
@@ -261,7 +264,7 @@ ui services
 
   services/ui/*
 
-bcc services
+BCC Services
 ============
 .. toctree::
   :maxdepth: 1
