@@ -8,6 +8,62 @@ The |source bcc_bundlejs|_ is similar to the blockchain-core runtime and its bui
 - ProfileRuntime: |source ProfileInstance|_
 - BCRuntime: |source BCInstance|_
 
+Installation
+============
+.. code-block:: sh
+
+  npm i @evan.network/angular-libs
+
+Usage
+=====
+Include the AngularCore module into your module and all of the services, components, directives (...) are defined within your project.
+
+- tsconfig.json
+
+.. code-block:: json
+
+  {
+    "compilerOptions": {
+      "declaration": true,
+      "module": "es2015",
+      "target": "es5",
+      "baseUrl": "./src",
+      "stripInternal": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      "outDir": "../build",
+      "rootDir": "./src",
+      "lib": [
+        "es2015",
+        "dom"
+      ],
+      "skipLibCheck": true,
+      "types": [],
+      "paths": {
+        "bcc": [
+          "../node_modules/@evan.network/blockchain-core/bundles/bcc/bcc"
+        ]
+      }
+    },
+    "angularCompilerOptions": {
+      "annotateForClosureCompiler": true,
+      "strictMetadataEmit": true,
+      "skipTemplateCodegen": true,
+      "flatModuleOutFile": "dashboard.js",
+      "flatModuleId": "dashboard"
+    },
+    "files": [
+      "./index.ts"
+    ]
+  }
+
+- module.ts
+
+.. code-block:: typescript
+
+  import * as bcc from 'bcc';
+
 --------------------------------------------------------------------------------
 
 Interface: SolcInterface

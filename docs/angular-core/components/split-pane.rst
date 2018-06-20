@@ -15,9 +15,9 @@ ng-content selectors:
  - "evan-menu-content" for left panel contents
  - "evan-content" for right side 
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `Dashboard DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/dashboard/src/components/dashboard/dashboard.html>`_
 
 - typescript
@@ -61,14 +61,15 @@ Reference Implementation: `Dashboard DApp <https://github.com/evannetwork/core-d
     </div>
   </evan-split-pane>
 
------------
-View Sample
------------
+------------
+View Example
+------------
 - normal view
 
 .. image:: /images/angular-core/components/evan-split-pane.png
    :width: 600
 
 - small view
+
 .. image:: /images/angular-core/components/evan-split-pane-small.png
    :width: 600

@@ -6,10 +6,10 @@ The `lightwallet </dapp-browser/lightwallet.html#setpasswordfunction>`_ vault un
 
 It can be used as reference implementation for custom global password dialogs.
 
------
-Usage
------
-Reference Implementation: `reference </angular/core/components/big-picture.rst>`_
+-------
+Example
+-------
+Reference Implementation: `EvanBCCService initialize method <https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bcc.ts>`_
 
 - typescript
 
@@ -29,9 +29,9 @@ Reference Implementation: `reference </angular/core/components/big-picture.rst>`
     await this.bcc.initialize((accountId) => this.bcc.globalPasswordDialog(this.core.activeAccount()));
   }
 
------------
-View Sample
------------
+------------
+View Example
+------------
 
 .. image:: /images/angular-core/components/global-password.png
    :width: 600

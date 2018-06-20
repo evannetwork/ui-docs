@@ -3,18 +3,18 @@ NotImplementedComponent
 =======================
 Shows an easy "not-implemented" overlay.
 
------
-Usage
------
+-------
+Example
+-------
 - html
 
 ::
 
   <not-implemented></not-implemented>
 
------------
-View Sample
------------
+------------
+View Example
+------------
 
 .. image:: /images/angular-core/components/not-implemented.png
    :width: 600

@@ -18,9 +18,9 @@ Inputs
 #. ``encryptedHashes`` - ``boolean`` (default = true): encrypt hashes from values
 #. ``onUpdate`` - ``Function``: is emitted when new data was loaded
 
------
-Usage
------
+-------
+Example
+-------
 In this exmapled we are saved sub contract ids within a list and load the dbcp definition for the contracts.
 
 - component.ts

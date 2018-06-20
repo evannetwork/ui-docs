@@ -17,9 +17,9 @@ Outpus
 
 #. ``param`` - ``string``: 
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `Favorites DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/dapp-list/dapp-list.html>`_
 
 - html
@@ -32,9 +32,9 @@ Reference Implementation: `Favorites DApp <https://github.com/evannetwork/core-d
     ensAddress="favorites">
   </evan-empty-dapp>
 
------------
-View Sample
------------
+------------
+View Example
+------------
 
 .. image:: /images/angular-core/components/empty-dapp-display.png
    :width: 600

@@ -133,8 +133,16 @@ The `angular-core </angular-core/index.html>`_ operates as an global and central
 - Angular 5 Onetime binding directive
 - I18N handling using ngx-translate
 
-Usage
-=====
+
+Installation
+============
+.. code-block:: sh
+
+  npm i @evan.network/angular-core
+
+
+Example
+=======
 Include the AngularCore module into your module and all of the services, components, directives (...) are defined within your project.
 
 - tsconfig.json

@@ -4,9 +4,9 @@ MailDialogComponent
 
 Used within an modal to enable the user to edit a mail, before it's send.
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `Addressbook DApp detail <https://github.com/evannetwork/core-dapps/blob/develop/dapps/addressbook/src/components/account-detail/account-detail.ts>`_
 
 - typescript
@@ -30,9 +30,9 @@ Reference Implementation: `Addressbook DApp detail <https://github.com/evannetwo
       mail: mail
     });
 
------------
-View Sample
------------
+------------
+View Example
+------------
 
 .. image:: /images/angular-core/components/mail-dialog.png
    :width: 600

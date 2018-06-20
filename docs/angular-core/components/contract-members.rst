@@ -20,9 +20,9 @@ Outpus
 
 #. ``onChange`` - ``EventEmitter<any>``: Event trigger that is called when something has changed (account moved / removed)
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `Task DApp detail <https://github.com/evannetwork/core-dapps/blob/develop/dapps/dashboard/src/index.ts>`_
 
 .. code-block:: typescript

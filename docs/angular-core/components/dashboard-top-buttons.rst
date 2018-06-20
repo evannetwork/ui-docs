@@ -5,9 +5,9 @@ Display buttons on big screens on the top right, used to be included remotly int
 
 Use the "on-small-move-down" class to move it automtically to the bottom right corner of the screen. Within this component ion-searchbars will be hidden on small devices, so you can easily create dynamic scaled top bar elements.
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `Favorites DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/dapp-list/dapp-list.html>`_
 
 ::
@@ -31,9 +31,9 @@ Reference Implementation: `Favorites DApp <https://github.com/evannetwork/core-d
     (ionInput)="filter($event)">
   </ion-searchbar>
 
------------
-View Sample
------------
+------------
+View Example
+------------
 
 - big screens
 

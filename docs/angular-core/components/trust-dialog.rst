@@ -4,14 +4,14 @@ TrustDialogComponent
 
 Dialog to request user to accept permissions. (should only used within modal)
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `Contacts Account Create component <https://github.com/evannetwork/core-dapps/blob/develop/dapps/addressbook/src/components/account-create/account-create.ts>`_
 
 - typescript
 
-.. code-block:: typescript
+::
 
   await this.modalService.createModal(TrustDialogComponent, {
     smartAgentName: 'Onboarding Smart Agent',
@@ -53,9 +53,9 @@ Reference Implementation: `Contacts Account Create component <https://github.com
     }
   }, true);
 
------------
-View Sample
------------
+------------
+View Example
+------------
 
 .. image:: /images/angular-core/components/trust-dialog.png
    :width: 600

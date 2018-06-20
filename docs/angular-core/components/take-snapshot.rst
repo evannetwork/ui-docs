@@ -4,9 +4,9 @@ SnapshotDialogComponent
 
 Component to take pictures using HTML 5. Should only be used within a modal.
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `EvanPictureService <https://github.com/evannetwork/angular-core/blob/develop/src/services/ui/picture.ts>`_
 
 - typescript
@@ -44,9 +44,9 @@ Reference Implementation: `EvanPictureService <https://github.com/evannetwork/an
     (click)="openPictureDetail(picture.blobURI)"
   />
 
------------
-View Sample
------------
+------------
+View Example
+------------
 
 .. image:: /images/angular-core/components/take-snapshot-dialog.png
    :width: 600

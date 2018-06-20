@@ -9,9 +9,9 @@ Generic evan.network Angular 5 featured DApp bootstrap component.
 
 **Use this everytime to bootstrap your Angular applications.**
 
------
-Usage
------
+-------
+Example
+-------
 Used in every feature `DApp module <https://evannetwork.github.io/dapps/angular/hello-world>`_.
 
 .. code-block:: typescript

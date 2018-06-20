@@ -17,9 +17,9 @@ Outpus
 
 #. ``refreshing`` - ``EventEmitter<any>``: Emitted when the routing data refresh property is set and the reload button is clicked, so the parent module can reload the current component content.
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `Favorites DApp root component <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/root/root.html>`_
 
 Use the *evan-content* attribute to specify, which html data should be displayed within the wrapper.
@@ -33,9 +33,9 @@ Use the *evan-content* attribute to specify, which html data should be displayed
     </div>
   </dapp-wrapper>
 
------------
-View Sample
------------
+------------
+View Example
+------------
 
 .. image:: /images/angular-core/components/dapp-wrapper.png
    :width: 600

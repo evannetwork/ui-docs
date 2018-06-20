@@ -10,12 +10,12 @@ The following url will start the following dapps:
   
   - favorites.evan
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `Dashboard DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/dashboard/src/index.ts>`_
 
-- within routes configuration, usage as wildcard route for dynamic DApp registering:
+- within routes configuration, Example as wildcard route for dynamic DApp registering:
 
 .. code-block:: typescript
 

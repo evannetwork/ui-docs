@@ -11,9 +11,9 @@ Inputs
 #. ``address`` - ``number``: width/height of the blockie
 #. ``address`` - ``number``: width/height of each block in pixels, default: 5
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `Profile DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/profile/src/components/profile>`_
 
 ::
@@ -24,9 +24,9 @@ Reference Implementation: `Profile DApp <https://github.com/evannetwork/core-dap
     [scale]="18">
   </blockie-component>
 
------------
-View Sample
------------
+------------
+View Example
+------------
 
 .. image:: /images/angular-core/components/blockie.png
    :width: 600

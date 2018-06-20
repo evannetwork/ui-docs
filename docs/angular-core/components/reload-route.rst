@@ -16,12 +16,12 @@ Outpus
 
 #. ``param`` - ``string``: 
 
------
-Usage
------
-Reference Implementation: `reference <https://github.com/evannetwork/angular-core/blob/develop/src/classes/routesBuilder.ts>`_
+-------
+Example
+-------
+Reference Implementation: `RoutesBuilder <https://github.com/evannetwork/angular-core/blob/develop/src/classes/routesBuilder.ts>`_
 
-Usage within routesBuilder dashboardRoutes:
+Example within routesBuilder dashboardRoutes:
 
 - typescript
 

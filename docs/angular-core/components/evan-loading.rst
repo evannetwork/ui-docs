@@ -11,9 +11,9 @@ Inputs
 #. ``delayLoading`` - ``string``: milliseconds to delay the loading symbol display (normally the DApp will load within 500ms and their we need no loading icon)
 #. ``loadingText`` - ``string``: text that should be displayed during loading
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `Favorites DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/dapp-list/dapp-list.html>`_
 
 - html
@@ -24,9 +24,9 @@ Reference Implementation: `Favorites DApp <https://github.com/evannetwork/core-d
 
   <div *ngIf="!loading"> </div>
 
------------
-View Sample
------------
+------------
+View Example
+------------
 
 .. image:: /images/angular-core/components/evan-loading.png
    :width: 600

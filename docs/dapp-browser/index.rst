@@ -12,13 +12,13 @@ To do this, however, all DApps must be started via the evan.network dapp-browser
 
 **Be aware: The instances will only be exposed when the dapp-browser is started using the** `initializeEvanNetworkStructure </dapp-browser/functions.html#initializeevannetworkstructure>`_ **function (normally executed by the index.html of the dapp-browser).**
 
-installation
+Installation
 ============
 .. code-block:: sh
 
   npm i dapp-browser
 
-usage as dependency
+Usage as Dependency
 ===================
 - typescript file:
 
@@ -46,13 +46,13 @@ usage as dependency
   }
 
 
-usage for local development
+Usage for local Development
 ===========================
 The src folder includes a dev.html and a index.html file. By opening the dev.html file, the code will bypass several code loading checks, to try to load dapps from the local file server. The compiled files from the "src/app" folder will be placed within the runtime folder. Chosen files will be copied to the www folder for deployment and native app building. Durin the dev mode the application will try to load dapps not from ens and ipfs, but from the local file server (runtime/external). This folder will be filled using `angular-gulp <https://github.com/evannetwork/angular-gulp>`_ and the lerna DApp projects (e.g. `core-dapps <https://github.com/evannetwork/core-dapps>`_). During production mode, each DApp or contract will be loaded using its ens or contract address and dbcp description. How to develop DApps, that can be loaded via the dapp-browser, have a look here `DApp Basics <https://evannetwork.github.io/dapps/basics>`_.
 
 For more informations on how to start the dapp-browser locally and on how to deploy DApps have a look at `dapp-browser <https://github.com/evannetwork/dapp-browser>`_ git repository. 
 
-classes
+Classes
 =======
 .. toctree::
   :maxdepth: 1
@@ -63,7 +63,7 @@ classes
   ipfs-cache
   idb-store
 
-functions
+Functions
 =========
 .. toctree::
   :maxdepth: 1
@@ -71,7 +71,7 @@ functions
 
   functions
 
-instances
+Instances
 =========
 .. toctree::
   :maxdepth: 1

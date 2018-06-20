@@ -12,9 +12,9 @@ Inputs
 #. ``totalSize`` - ``number``: page size to split the loaded bunches in
 #. ``loadMore`` - ``Function``: function that is called to load more data
 
------
-Usage
------
+-------
+Example
+-------
 Reference Implementation: `contract list entries component <https://github.com/evannetwork/angular-core/tree/develop/src/components/contract-listentries>`_
 
 - html

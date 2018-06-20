@@ -5,6 +5,7 @@ angular-libs
 This `project <https://github.com/evannetwork/angular-libs>`_ contains a collection of Angular core libraries. This project is deployed to the ens (likelly to the angular-core), so you can require angular libraries (etc...) directly into the frontend without building duplicated libraries into your dapps.
 
 This project exports the following libraries for you:
+
   - @angular/animations
   - @angular/common
   - @angular/common/locales/de
@@ -37,16 +38,15 @@ This project exports the following libraries for you:
 ------------
 Installation
 ------------
+
 .. code-block:: sh
 
-  npm i angular-libs
+  npm i @evan.network/angular-libs
 
 -----
 Usage
 -----
-- typescript
-
-tsconfig.json
+- tsconfig.json
 
 .. code-block:: typescript
 
@@ -61,6 +61,8 @@ tsconfig.json
       ...
     }
   }
+
+- typescript
 
 .. code-block:: typescript
 
