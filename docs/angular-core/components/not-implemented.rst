@@ -1,35 +1,20 @@
-===============
-not-implemented
-===============
-
-------
-Inputs
-------
-
-#. ``param`` - ``string``: 
-
-------
-Outpus
-------
-
-#. ``param`` - ``string``: 
+=======================
+NotImplementedComponent
+=======================
+Shows an easy "not-implemented" overlay.
 
 -----
 Usage
 -----
-Reference Implementation: `reference </angular/core/components/big-picture.rst>`_
-
-- typescript
-
-.. code-block:: typescript
-
 - html
 
 ::
+
+  <not-implemented></not-implemented>
 
 -----------
 View Sample
 -----------
 
-.. image:: /images/angular-core/components/dapp-wrapper.png
+.. image:: /images/angular-core/components/not-implemented.png
    :width: 600

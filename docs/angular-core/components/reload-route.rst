@@ -1,6 +1,8 @@
-============
-reload-route
-============
+===================
+EvanReloadComponent
+===================
+
+Is used to hardly reload an route. The user gets navigate to this route and it will navigate back after 500 milliseconds.
 
 ------
 Inputs
@@ -17,19 +19,21 @@ Outpus
 -----
 Usage
 -----
-Reference Implementation: `reference </angular/core/components/big-picture.rst>`_
+Reference Implementation: `reference <https://github.com/evannetwork/angular-core/blob/develop/src/classes/routesBuilder.ts>`_
+
+Usage within routesBuilder dashboardRoutes:
 
 - typescript
 
 .. code-block:: typescript
 
-- html
-
-::
-
------------
-View Sample
------------
-
-.. image:: /images/angular-core/components/dapp-wrapper.png
-   :width: 600
+  const routes: Routes = [ ...
+    {
+      path: `evan-reload`,
+      component: EvanReloadComponent,
+      data: {
+        navigateBack : true
+      }
+    }
+  ]
+  

@@ -1,35 +1,38 @@
-===========
-mail-dialog
-===========
+===================
+MailDialogComponent
+===================
 
-------
-Inputs
-------
-
-#. ``param`` - ``string``: 
-
-------
-Outpus
-------
-
-#. ``param`` - ``string``: 
+Used within an modal to enable the user to edit a mail, before it's send.
 
 -----
 Usage
 -----
-Reference Implementation: `reference </angular/core/components/big-picture.rst>`_
+Reference Implementation: `Addressbook DApp detail <https://github.com/evannetwork/core-dapps/blob/develop/dapps/addressbook/src/components/account-detail/account-detail.ts>`_
 
 - typescript
 
 .. code-block:: typescript
 
-- html
+    mail = await this.mailboxService
+      .showMailModal(
+        this.modalService,
+        '_dappcontacts.invitation-message',
+        '_dappcontacts.invitation-message-long',
+        '_dappcontacts.invitation-text.title',
+        '_dappcontacts.invitation-text.body',
+      );
 
-::
+    formData.accountId = formData.accountId || this.accountId || formData.email;
+
+    this.addressBookService.addContactToQueue(formData.accountId, {
+      isCreate: this.isCreate,
+      profile: formData,
+      mail: mail
+    });
 
 -----------
 View Sample
 -----------
 
-.. image:: /images/angular-core/components/dapp-wrapper.png
+.. image:: /images/angular-core/components/mail-dialog.png
    :width: 600

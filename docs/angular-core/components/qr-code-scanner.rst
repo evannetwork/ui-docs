@@ -1,35 +1,23 @@
-===============
-qr-code-scanner
-===============
+============================
+QRCodeScannerDialogComponent
+============================
 
-------
-Inputs
-------
-
-#. ``param`` - ``string``: 
-
-------
-Outpus
-------
-
-#. ``param`` - ``string``: 
+Shows an QR-Code Scanner Dialog for HTML 5. Should only be used within a modal.
 
 -----
 Usage
 -----
-Reference Implementation: `reference </angular/core/components/big-picture.rst>`_
+Reference Implementation: `EvanQrCodeService <https://github.com/evannetwork/angular-core/blob/develop/src/services/ui/qr-code.ts>`_
 
 - typescript
 
 .. code-block:: typescript
 
-- html
-
-::
+  const qrCodeValue = await this.modalService.createModal(QRCodeScannerDialogComponent, {});
 
 -----------
 View Sample
 -----------
 
-.. image:: /images/angular-core/components/dapp-wrapper.png
+.. image:: /images/angular-core/components/qr-code-scanner.png
    :width: 600
