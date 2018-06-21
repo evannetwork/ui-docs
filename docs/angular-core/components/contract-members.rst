@@ -100,3 +100,10 @@ Reference Implementation: `Task DApp detail <https://github.com/evannetwork/core
       {{ '_dapptaskboard.invite-members' | translate }}
     </button>
   </div>
+
+------------
+View Example
+------------
+
+.. image:: /images/angular-core/components/contract_members.png
+   :width: 600
