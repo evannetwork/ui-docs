@@ -6,34 +6,34 @@ This `project <https://github.com/evannetwork/angular-libs>`_ contains a collect
 
 This project exports the following libraries for you:
 
-  - @angular/animations
-  - @angular/common
-  - @angular/common/locales/de
-  - @angular/common/locales/en
-  - @angular/common/locales/fr
-  - @angular/core
-  - @angular/forms
-  - @angular/http
-  - @angular/platform-browser
-  - @angular/platform-browser-dynamic
-  - @angular/platform-browser/animations
-  - @angular/router
-  - @ionic-native/camera
-  - @ionic-native/file
-  - @ionic-native/file-path
-  - @ionic-native/qr-scanner
-  - @ionic-native/splash-screen
-  - @ionic-native/status-bar
-  - @ionic-native/transfer
-  - @ngx-translate/core
-  - @zxing/library
-  - @zxing/ngx-scanner
-  - ionic-angular
-  - ionic-tags-input
-  - ng-circle-progress
-  - rxjs/BehaviorSubject
-  - rxjs/Observable
-  - rxjs/Subscription
+- `@angular/animations <https://angular.io/api?query=animations>`_
+- `@angular/common <https://angular.io/api?query=common>`_
+- `@angular/common/locales/de <https://angular.io/api?query=common>`_
+- `@angular/common/locales/en <https://angular.io/api?query=common>`_
+- `@angular/common/locales/fr <https://angular.io/api?query=common>`_
+- `@angular/core <https://angular.io/api?query=core>`_
+- `@angular/forms <https://angular.io/api?query=forms>`_
+- `@angular/http <https://angular.io/api?query=http>`_
+- `@angular/platform-browser <https://angular.io/api?query=platform-browser>`_
+- `@angular/platform-browser-dynamic <https://angular.io/api?query=platform-browser-dynamic>`_
+- `@angular/platform-browser/animations <https://angular.io/api?query=platform-browser>`_
+- `@angular/router <https://angular.io/api?query=router>`_
+- `@ionic-native/camera <https://ionicframework.com/docs/native/camera/>`_
+- `@ionic-native/file <https://ionicframework.com/docs/native/file/>`_
+- `@ionic-native/file-path <https://ionicframework.com/docs/native/file-path>`_
+- `@ionic-native/qr-scanner <https://ionicframework.com/docs/native/qr-scanner/>`_
+- `@ionic-native/splash-screen <https://ionicframework.com/docs/native/splash-screen/>`_
+- `@ionic-native/status-bar <https://ionicframework.com/docs/native/status-bar>`_
+- `@ionic-native/transfer <https://ionicframework.com/docs/native/file-transfer>`_
+- `@ngx-translate/core <https://github.com/ngx-translate/core>`_
+- `@zxing/library <https://github.com/zxing-js/ngx-scanner>`_
+- `@zxing/ngx-scanner <https://github.com/zxing-js/ngx-scanner>`_
+- `ionic-angular <https://ionicframework.com/docs/>`_
+- `ionic-tags-input <https://github.com/HsuanXyz/ionic-tags-input>`_
+- `ng-circle-progress <https://github.com/bootsoon/ng-circle-progress>`_
+- `rxjs/BehaviorSubject <https://angular.io/guide/rx-library>`_
+- `rxjs/Observable <https://angular.io/guide/rx-library>`_
+- `rxjs/Subscription <https://angular.io/guide/rx-library>`_
 
 ------------
 Installation
