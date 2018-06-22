@@ -9,7 +9,7 @@ The dataUrl can be anything that can display an img:
 - base64 img code
 - data url (blob:http://localhost:...)
 
-To take pictures during application runtime have a look at the `EvanPictureService </angular-core/services/ui/picture.html>`_ or `SnapshotDialogComponent </angular-core/components/take-snapshot.html>`_.
+To take pictures during application runtime have a look at the `EvanPictureService <../services/ui/picture.html>`_ or `SnapshotDialogComponent <../components/take-snapshot.html>`_.
 
 -------
 Example
@@ -39,11 +39,11 @@ Reference Implementation: `Task DApp detail <https://github.com/evannetwork/core
     (click)="openPictureDetail(picture.blobURI)"
   />
 
-Havea look at the `EvanModalService </angular-core/services/ui/modal.html#showbigpicture>`_. 
+Havea look at the `EvanModalService <../services/ui/modal.html#showbigpicture>`_. 
 
 ------------
 View Example
 ------------
 
-.. image:: /images/angular-core/components/big-picture.png
+.. image:: ../../images/angular-core/components/big-picture.png
    :width: 600

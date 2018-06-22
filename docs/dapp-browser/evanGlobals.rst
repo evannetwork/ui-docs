@@ -28,19 +28,19 @@ Parameters
 .. _source SystemJS: https://github.com/systemjs/systemjs
 
 .. |source System| replace:: ``System``
-.. _source System: /dapp-browser/System
+.. _source System: ../dapp-browser/System
 
 .. |source smart_contracts| replace:: ``SmartContracts``
 .. _source smart_contracts: https://github.com/evannetwork/smart-contracts
 
 .. |source loadDApp| replace:: ``dapp.loadDApp``
-.. _source loadDApp: /dapp-browser/dapp.html#loaddappdependencies
+.. _source loadDApp: ../dapp-browser/dapp.html#loaddappdependencies
 
 .. |source devMode| replace:: ``devMode``
-.. _source devMode: /dapp-browser/utils.html#devMode
+.. _source devMode: ../dapp-browser/utils.html#devMode
 
 .. |source ipfsCatPromise| replace:: ``ipfsCatPromise``
-.. _source ipfsCatPromise: /dapp-browser/ipfs.html#ipfscatpromise
+.. _source ipfsCatPromise: ../dapp-browser/ipfs.html#ipfscatpromise
 
 .. |source restIpfs| replace:: ``restIpfs``
-.. _source restIpfs: /dapp-browser/rest-ipfs.html
+.. _source restIpfs: ../dapp-browser/rest-ipfs.html

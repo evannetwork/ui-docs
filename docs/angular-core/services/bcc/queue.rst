@@ -10,7 +10,7 @@ The evan queue synchronisation implementation. You can add entries using QueueID
 - ``allSyncing`` - ``boolean``: are all queue entries syncing?;
 
 .. |source dapp_browser_queue| replace:: ``QueueId``
-.. _source dapp_browser_queue: /dapp-browser/queue.html
+.. _source dapp_browser_queue: ../../dapp-browser/queue.html
 
 
 

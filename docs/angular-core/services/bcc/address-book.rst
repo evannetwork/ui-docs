@@ -5,7 +5,7 @@ EvanAddressBookService
 BCC addressbook wrapper
 
 - ``queueId`` - |source queueId|_: Address book sync queue id
-- ``current`` - any: latest loaded address book data (object result from `loadAccounts </angular-core/services/bcc/address-book.html#loadaccounts>`_)
+- ``current`` - any: latest loaded address book data (object result from `loadAccounts <../services/bcc/address-book.html#loadaccounts>`_)
 
 .. |source queueId| replace:: ``qr-code-scanner module``
 .. _source queueId: /angular-core/services/bcc/queue-utilities.html#queueid

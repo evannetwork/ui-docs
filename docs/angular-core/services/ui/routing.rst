@@ -760,7 +760,7 @@ Returns
 Example
 -------
 
-Have a look at `getDataParam </angular-core/services/ui/routing.html#getdataparam>`_.
+Have a look at `getDataParam <../services/ui/routing.html#getdataparam>`_.
 
 
 
@@ -776,7 +776,7 @@ reloadCurrentContent
 
   routingService.reloadCurrentContent();
 
-Triggers an loading of the current split pane content. (navigates to `evan-reload route </angular-core/additional/routes-builder.html>`_)
+Triggers an loading of the current split pane content. (navigates to `evan-reload route <../additional/routes-builder.html>`_)
 
 -------
 Example
@@ -898,7 +898,7 @@ getActiveRootEns
 
   routingService.getActiveRootEns();
 
-Return the current active route ENS (if no one is opened, it returns `routing.defaultDAppENS </dapp-browser/routing.html#getdefaultdappns>`_)
+Return the current active route ENS (if no one is opened, it returns `routing.defaultDAppENS <../../dapp-browser/routing.html#getdefaultdappns>`_)
 
 -------
 Returns

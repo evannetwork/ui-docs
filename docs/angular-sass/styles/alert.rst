@@ -52,5 +52,5 @@ Example
 View Example
 ------------
 
-.. image:: /images/angular-sass/alert.png
+.. image:: ../../images/angular-sass/alert.png
    :width: 600

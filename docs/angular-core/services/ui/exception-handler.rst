@@ -2,7 +2,7 @@
 EvanExceptionHandler
 ====================
 
-Global angular exception handler to prevent uncatched global errors. Will be registered by the `AngularCore </angular-core/modules/angular-core.html>`_ module and must not be manually used.
+Global angular exception handler to prevent uncatched global errors. Will be registered by the `AngularCore <../modules/angular-core.html>`_ module and must not be manually used.
 
 --------------------------------------------------------------------------------
 

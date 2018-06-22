@@ -46,5 +46,5 @@ View Example
 ------------
 Looks on browsers like the following:
 
-.. image:: /images/angular-core/components/qr-code-scanner.png
+.. image:: ../../../images/angular-core/components/qr-code-scanner.png
    :width: 600

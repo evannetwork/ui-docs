@@ -106,7 +106,7 @@ The text plugin loads data from anywhere and returns simply the result. (e.g. us
 .. _source SystemJS: https://github.com/systemjs/systemjs
 
 .. |source loadDApp| replace:: ``dapp.loadDApp``
-.. _source loadDApp: /dapp-browser/dapp.html#loaddappdependencies
+.. _source loadDApp: ../dapp-browser/dapp.html#loaddappdependencies
 
 .. |source restipfs| replace:: ``restipfs``
-.. _source restipfs: /dapp-browser/ipfs.html#ipfscatpromise
+.. _source restipfs: ../dapp-browser/ipfs.html#ipfscatpromise

@@ -57,5 +57,5 @@ Reference Implementation: `Contacts Account Create component <https://github.com
 View Example
 ------------
 
-.. image:: /images/angular-core/components/trust-dialog.png
+.. image:: ../../images/angular-core/components/trust-dialog.png
    :width: 600

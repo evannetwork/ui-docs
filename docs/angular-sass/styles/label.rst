@@ -31,7 +31,7 @@ Example
 View Example
 ------------
 
-.. image:: /images/angular-sass/label-rounded.png
+.. image:: ../../images/angular-sass/label-rounded.png
    :width: 200
 
 .evan-circle
@@ -54,5 +54,5 @@ Example
 View Example
 ------------
 
-.. image:: /images/angular-sass/label-round.png
+.. image:: ../../images/angular-sass/label-round.png
    :width: 600

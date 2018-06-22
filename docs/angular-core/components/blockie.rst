@@ -28,5 +28,5 @@ Reference Implementation: `Profile DApp <https://github.com/evannetwork/core-dap
 View Example
 ------------
 
-.. image:: /images/angular-core/components/blockie.png
+.. image:: ../../images/angular-core/components/blockie.png
    :width: 600

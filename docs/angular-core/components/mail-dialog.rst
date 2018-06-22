@@ -34,5 +34,5 @@ Reference Implementation: `Addressbook DApp detail <https://github.com/evannetwo
 View Example
 ------------
 
-.. image:: /images/angular-core/components/mail-dialog.png
+.. image:: ../../images/angular-core/components/mail-dialog.png
    :width: 600

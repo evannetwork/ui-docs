@@ -49,7 +49,7 @@ finishDAppLoading
 
   coreService.finishDAppLoading();
 
-Hides the `initial loading </dapp-browser/loading.html#finishdapploading>`_ that is embedded to the root dapp html page. => It will disappear smooth and will be removed when animation is over
+Hides the `initial loading <../../dapp-browser/loading.html#finishdapploading>`_ that is embedded to the root dapp html page. => It will disappear smooth and will be removed when animation is over
 
 -------
 Example

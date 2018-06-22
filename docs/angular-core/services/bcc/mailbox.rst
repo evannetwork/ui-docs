@@ -168,7 +168,7 @@ showMailModal
 
 Show a mail modal, to provide the user the possility to change the email text before sending.
 
-Have a look at `MailDialogComponent </angular-core/components/mail-dialog.html>`_
+Have a look at `MailDialogComponent <../components/mail-dialog.html>`_
 
 ----------
 Parameters

@@ -234,7 +234,7 @@ Returns
 Example
 -------
 
-Usage: have a look into the description service, `getDescription function </angular-core/services/bcc/description.html#getdescription>`_
+Usage: have a look into the description service, `getDescription function <../services/bcc/description.html#getdescription>`_
 
 --------------------------------------------------------------------------------
 

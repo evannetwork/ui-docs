@@ -42,7 +42,7 @@ Include the AngularCore module into your module and all of the services, compone
       "types": [],
       "paths": {
         "bcc": [
-          "../node_modules/@evan.network/blockchain-core/bundles/bcc/bcc"
+          "../node_modules/@evan.network/blockchain-core/bundlesbcc"
         ]
       }
     },
@@ -334,7 +334,7 @@ Example
 
   bcc.createCore(options);
 
-Usage Example: https://github.com/evannetwork/dapp-browser/blob/develop/src/app/bcc/bcc.ts
+Usage Example: https://github.com/evannetwork/dapp-browser/blob/develop/src/appbcc.ts
 
 
 --------------------------------------------------------------------------------
@@ -364,7 +364,7 @@ Example
 
   bcc.setCore(CoreInstance)
 
-Usage Example: https://github.com/evannetwork/dapp-browser/blob/develop/src/app/bcc/bcc.ts
+Usage Example: https://github.com/evannetwork/dapp-browser/blob/develop/src/appbcc.ts
 
 
 --------------------------------------------------------------------------------
@@ -400,7 +400,7 @@ Example
 
   bcc.create(options)
 
-Usage Example: https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bcc.ts
+Usage Example: https://github.com/evannetwork/angular-core/blob/develop/src/servicesbcc.ts
 
 
 
@@ -438,7 +438,7 @@ Example
 
   bcc.create(options)
 
-Usage Example: https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bcc.ts
+Usage Example: https://github.com/evannetwork/angular-core/blob/develop/src/servicesbcc.ts
 
 
 
@@ -476,7 +476,7 @@ Example
 
   bcc.createBC(options)
 
-Usage Example: https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bc.ts
+Usage Example: https://github.com/evannetwork/angular-core/blob/develop/src/servicesbc.ts
 
 
 
@@ -514,7 +514,7 @@ Example
 
   bcc.createBC(options)
 
-Usage Example: https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bc.ts
+Usage Example: https://github.com/evannetwork/angular-core/blob/develop/src/servicesbc.ts
 
 
 
@@ -558,52 +558,52 @@ Example
 
 .. required for building markup
 .. |source bcc_bundlejs| replace:: ``blockchain-core frontend bundle``
-.. _source bcc_bundlejs: https://github.com/evannetwork/blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+.. _source bcc_bundlejs: https://github.com/evannetwork/blockchain-core/blob/develop/src/bundlesbcc.ts
 
 .. |source CoreBundle| replace:: ``CoreBundle``
-.. _source CoreBundle: /bcc/bcc-bundle.html#corebundle
+.. _source CoreBundle: bcc-bundle.html#interface-corebundle
 
 .. |source CoreBundleOptions| replace:: ``CoreBundleOptions``
-.. _source CoreBundleOptions: /bcc/bcc-bundle.html#corebundleoptions
+.. _source CoreBundleOptions: bcc-bundle.html#interface-corebundleoptions
 
 .. |source CoreInstance| replace:: ``CoreInstance``
-.. _source CoreInstance: /bcc/bcc-bundle.html#coreinstance
+.. _source CoreInstance: bcc-bundle.html#interface-coreinstance
 
 .. |source ProfileInstance| replace:: ``ProfileInstance``
-.. _source ProfileInstance: /bcc/bcc-bundle.html#profileinstance
+.. _source ProfileInstance: bcc-bundle.html#interface-rofileinstance
 
 .. |source BCInstance| replace:: ``BCInstance``
-.. _source BCInstance: /bcc/bcc-bundle.html#bcinstance
+.. _source BCInstance: bcc-bundle.html#interface-bcinstance
 
 .. |source BCBundleOptions| replace:: ``BCBundleOptions``
-.. _source BCBundleOptions: /bcc/bcc-bundle.html#bcbundleoptions
+.. _source BCBundleOptions: bcc-bundle.html#interface-bcbundleoptions
 
 .. |source ProfileBundle| replace:: ``ProfileBundle``
-.. _source ProfileBundle: /bcc/bcc-bundle.html#profilebundle
+.. _source ProfileBundle: bcc-bundle.html#interface-profilebundle
 
 .. |source ProfileBundleOptions| replace:: ``ProfileBundleOptions``
-.. _source ProfileBundleOptions: /bcc/bcc-bundle.html#profilebundleoptions
+.. _source ProfileBundleOptions: bcc-bundle.html#interface-profilebundleoptions
 
 .. |source SolcInterface| replace:: ``SolcInterface``
-.. _source SolcInterface: /bcc/bcc-bundle.html#solcionterface
+.. _source SolcInterface: bcc-bundle.html#interface-solcinterface
 
 .. |source createCore| replace:: ``createCore``
-.. _source createCore: /bcc/bcc-bundle.html#createcore
+.. _source createCore: bcc-bundle.html#createcore
 
 .. |source createAndSetCore| replace:: ``createAndSetCore``
-.. _source createAndSetCore: /bcc/bcc-bundle.html#createandsetcore
+.. _source createAndSetCore: bcc-bundle.html#createandsetcore
 
 .. |source create| replace:: ``create``
-.. _source create: /bcc/bcc-bundle.html#create
+.. _source create: bcc-bundle.html#create
 
 .. |source createAndSet| replace:: ``createAndSet``
-.. _source createAndSet: /bcc/bcc-bundle.html#createandset
+.. _source createAndSet: bcc-bundle.html#createandset
 
 .. |source Web3| replace:: ``Web3``
 .. _source Web3: https://github.com/ethereum/web3.js
 
 .. |source config| replace:: ``config``
-.. _source config: /dapp-browser/config.html
+.. _source config: ../dapp-browser/config.html
 
 .. |source executor| replace:: ``Executor``
 .. _source executor: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/executor.rst
@@ -624,7 +624,7 @@ Example
 .. _source name_resolver: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/name-resolver.rst
 
 .. |source ipfs_cache| replace:: ``IpfsCache``
-.. _source ipfs_cache: /dapp-browser/ipfs-cache.html
+.. _source ipfs_cache: ../dapp-browser/ipfs-cache.html
 
 .. |source smart_contracts| replace:: ``SmartContracts``
 .. _source smart_contracts: https://github.com/evannetwork/smart-contracts
@@ -642,7 +642,7 @@ Example
 .. _source Unencrypted: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/cryptor-unencrypted.rst
 
 .. |source isAccountOnboarded| replace:: ``isAccountOnboarded``
-.. _source isAccountOnboarded: /bcc/bcc-bundle.html#isaccountonboarded
+.. _source isAccountOnboarded: bcc-bundle.html#isaccountonboarded
 
 .. |source keyStore| replace:: ``KeyStore``
 .. _source keyStore: https://github.com/ConsenSys/eth-lightwallet/blob/master/lib/keystore.js

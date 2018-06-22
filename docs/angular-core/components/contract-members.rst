@@ -105,5 +105,5 @@ Reference Implementation: `Task DApp detail <https://github.com/evannetwork/core
 View Example
 ------------
 
-.. image:: /images/angular-core/components/contract_members.png
+.. image:: ../../images/angular-core/components/contract_members.png
    :width: 600

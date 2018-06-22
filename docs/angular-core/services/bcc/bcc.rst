@@ -471,7 +471,7 @@ Example
 .. _source Web3: https://github.com/ethereum/web3.js
 
 .. |source config| replace:: ``config``
-.. _source config: /dapp-browser/config.html
+.. _source config: ../../dapp-browser/config.html
 
 .. |source executor| replace:: ``Executor``
 .. _source executor: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/executor.rst
@@ -492,7 +492,7 @@ Example
 .. _source name_resolver: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/name-resolver.rst
 
 .. |source ipfs_cache| replace:: ``IpfsCache``
-.. _source ipfs_cache: /dapp-browser/ipfs-cache.html
+.. _source ipfs_cache: ../../dapp-browser/ipfs-cache.html
 
 .. |source smart_contracts| replace:: ``SmartContracts``
 .. _source smart_contracts: https://github.com/evannetwork/smart-contracts

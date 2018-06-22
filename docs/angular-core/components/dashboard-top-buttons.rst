@@ -37,10 +37,10 @@ View Example
 
 - big screens
 
-.. image:: /images/angular-core/components/dashboard-top-buttons-big.png
+.. image:: ../../images/angular-core/components/dashboard-top-buttons-big.png
    :width: 600
 
 - small screens
 
-.. image:: /images/angular-core/components/dashboard-top-buttons-small.png
+.. image:: ../../images/angular-core/components/dashboard-top-buttons-small.png
  :width: 600

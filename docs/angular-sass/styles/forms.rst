@@ -49,7 +49,7 @@ Reference Implementation: `Angular-core Contract Mbembers Component <https://git
 View Example
 ------------
 
-.. image:: /images/angular-sass/tag-container.png
+.. image:: ../../images/angular-sass/tag-container.png
    :width: 600
 
 
@@ -117,5 +117,5 @@ Uses ion-label's and ion-inputs's to create one grouped form layout for e.g. use
 View Example
 ------------
 
-.. image:: /images/angular-sass/group-icon-form.png
+.. image:: ../../images/angular-sass/group-icon-form.png
    :width: 600

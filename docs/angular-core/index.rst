@@ -4,7 +4,7 @@ angular-core
 
 General
 =======
-The `angular-core </angular-core/index.html>`_ operates as an global and central library for the evan.network Angular 5 frontend development. Using this project you will be able to to the following things:
+The `angular-core <../index.html>`_ operates as an global and central library for the evan.network Angular 5 frontend development. Using this project you will be able to to the following things:
 
 - easy import AngularCoreModule for including all services and components
 - featured Angular DApp starting mechanisms

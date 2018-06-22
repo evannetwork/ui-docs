@@ -116,4 +116,4 @@ Github Sample: `initializeEvanNetworkStructure <https://github.com/evannetwork/d
 .. _source CoreBundle: https://github.com/evannetwork/blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
 
 .. |source KeyProvider| replace:: ``KeyProvider``
-.. _source KeyProvider: /dapp-browser/KeyProvider.html
+.. _source KeyProvider: ../dapp-browser/KeyProvider.html

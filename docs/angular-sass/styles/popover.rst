@@ -10,7 +10,7 @@ Uses an HTML element to show it within an small layout within any component.
 -------
 Example
 -------
-- Reference Implementation: `SplitPaneComponent <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/dapp-list/dapp-list.html>`_
+- Reference Implementation: `DApp List <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/dapp-list/dapp-list.html>`_
 
 ::
 
@@ -22,13 +22,13 @@ Example
 View Example
 ------------
 
-.. image:: /images/angular-sass/popover.png
+.. image:: ../../images/angular-sass/popover.png
    :width: 600
 
 Callout
 =======
 
-Uses an `ion-select <>`_ and removes the default select styles to show only a simple callout.
+Uses an `ion-select <https://ionicframework.com/docs/components/#select>`_ and removes the default select styles to show only a simple callout.
 
 -------
 Example
@@ -51,7 +51,7 @@ Example
 View Example
 ------------
 
-.. image:: /images/angular-sass/callout.png
+.. image:: ../../images/angular-sass/callout.png
    :width: 600
 
    

@@ -78,7 +78,7 @@ Parameters
 Returns
 -------
 
-``Promise`` returns ``any``: `business center object </angular-core/services/bcc/bc.html#getcurrentbusinesscenter>`_
+``Promise`` returns ``any``: `business center object <../services/bcc/bc.html#getcurrentbusinesscenter>`_
 
 -------
 Example

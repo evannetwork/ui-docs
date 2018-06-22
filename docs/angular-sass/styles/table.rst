@@ -43,5 +43,5 @@ Example
 View Example
 ------------
 
-.. image:: /images/angular-sass/table.png
+.. image:: ../../images/angular-sass/table.png
    :width: 600

@@ -34,7 +34,7 @@ Returns
 ---------
 Component
 ---------
-Each component that is used within this service needs to be added to your modals "entryComponents". The `AngularCore module </angular-core/modules/angular-core.html>`_ specifies the following components that can be used by default of your application: 
+Each component that is used within this service needs to be added to your modals "entryComponents". The `AngularCore module <../modules/angular-core.html>`_ specifies the following components that can be used by default of your application: 
 
 - |source MailDialogComponent|_
 - |source GlobalPasswordComponent|_
