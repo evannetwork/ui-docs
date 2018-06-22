@@ -23,9 +23,22 @@ Class                           Description
 .no-margin-right, .m-r-0        add ``margin-right: 0px !important``
 .no-margin-top, .m-t-0          add ``margin-top: 0px !important``
 .no-padding-bottom, .p-b-0      add ``padding-bottom: 0px !important``
-.no-padding-left, .p-ö-0        add ``padding-left: 0px !important``
+.no-padding-left, .p-l-0        add ``padding-left: 0px !important``
 .no-padding-right, .p-r-0       add ``padding-right: 0px !important``
 .no-padding-top, .p-t-0         add ``padding-top: 0px !important``
 .scroll-content                 add ``overflow-y: auto`` and a better css3 look scrollbar
 .evan-list                      add it to ion-list for better evan.network style
+iframe.evan-dapp                shows an iframe on fullscreen (position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;)
+.evan-logo                      sets background-img to |source evanlogo|_
+.evan-logo-favicon              sets background-img to |source evanlogofavicon|_
+.evan-beauty-screen             shows the initial loading screen of the evan.network |source dappbrowser|_
 ==============================  ================================================================================================
+
+.. |source evanlogo| replace:: ``evan-logo.svg``
+.. _source evanlogo: https://github.com/evannetwork/angular-sass/blob/master/img/evan-logo.svg
+
+.. |source evanlogofavicon| replace:: ``evan-favicon.png``
+.. _source evanlogofavicon: https://github.com/evannetwork/angular-sass/blob/master/img/evan-favicon.png
+
+.. |source dappbrowser| replace:: ``dapp-browser``
+.. _source dappbrowser: https://dashboard.evan.network
