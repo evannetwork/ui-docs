@@ -16,8 +16,6 @@ Installation
 
 Usage
 =====
-Include the AngularCore module into your module and all of the services, components, directives (...) are defined within your project.
-
 - tsconfig.json
 
 .. code-block:: json
