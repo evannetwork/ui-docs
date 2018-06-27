@@ -898,7 +898,7 @@ getActiveRootEns
 
   routingService.getActiveRootEns();
 
-Return the current active route ENS (if no one is opened, it returns `routing.defaultDAppENS <../../dapp-browser/routing.html#getdefaultdappns>`_)
+Return the current active route ENS (if no one is opened, it returns `routing.defaultDAppENS <../../../dapp-browser/routing.html#getdefaultdappns>`_)
 
 -------
 Returns
