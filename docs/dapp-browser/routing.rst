@@ -221,3 +221,31 @@ Returns
 
 ``string``: transforms #/dapp/dapp1?param1=est to dapp/dapps
 
+--------------------------------------------------------------------------------
+
+.. _db_routing_history:
+
+history
+================================================================================
+
+.. code-block:: typescript
+
+  routing.history.push('dashboard.evan/favorites.evan');
+
+The current navigation stack and includes every route that is opened from apps to handle a specific
+and logical go back function. Each application should implement an navigate function that pushes into this history array.
+
+**Important: Need to be filled by the application it self!!!**
+
+--------------------------------------------------------------------------------
+
+.. _db_routing_updateHistory:
+
+updateHistory
+================================================================================
+
+.. code-block:: typescript
+
+  routing.updateHistory();
+
+Takes the current navigation history and writes it to the sessionStorage if the user navigates to another page and navigates back
