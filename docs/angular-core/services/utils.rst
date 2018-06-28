@@ -323,7 +323,7 @@ windowSize
 
 .. code-block:: typescript
 
-  utilSerivce.windowSize(callback);
+  await utilSerivce.windowSize(callback);
 
 Registers and window resize watcher
 
@@ -337,7 +337,7 @@ Parameters
 Returns
 -------
 
-``Function``: Function to unsubscribe
+``Promise`` returns ``Function``: Function to unsubscribe after the callback function was called the first time
 
 -------
 Example
@@ -345,7 +345,7 @@ Example
 
 .. code-block:: typescript
 
-  const unsubscribe = utilService.windowSize((width) => {
+  const unsubscribe = await utilService.windowSize((width) => {
     console.log(width);
   })
 
