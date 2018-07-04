@@ -12,8 +12,22 @@ Create easy Dashboards
 
 ng-content selectors:
 
- - "evan-menu-content" for left panel contents
- - "evan-content" for right side 
+  - "header" for top bar replacement (customHeader parameter must be true)
+  - "evan-menu-content" for left panel contents
+  - "evan-content" for right side
+
+------
+Inputs
+------
+- ``disableSidepanel`` : use dashboard wrapper functions, but hide the sidepanel
+- ``customHeader`` : Check if a custom header should be displayed
+
+------
+Events
+------
+
+- ``smallToolbarToggled`` : Event triggered, when user clicks of dashboard header
+- ``rootDAppLoaded`` : Event triggered, when a new root dapp was loaded (can be submitted multiple times)
 
 -------
 Example
