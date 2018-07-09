@@ -792,3 +792,34 @@ Example
 .. code-block:: typescript
 
   const isDeveloperMode = utilService.isDeveloperMode();
+
+--------------------------------------------------------------------------------
+
+.. _document_isDeveloperMode:
+
+getErrorLog
+================================================================================
+
+.. code-block:: typescript
+
+  utilSerivce.getErrorLog(ex);
+
+Transforms an Exception into an loggable string format. Returns the string if the exception is only a string.
+
+-------
+Returns
+-------
+
+``string``: Transformed exception
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  try {
+    throw new Error('Exception');
+  } catch (ex) {
+    this.core.utils.log(`Error : ${ this.utils.getErrorLog(ex) }`, 'error');
+  }
