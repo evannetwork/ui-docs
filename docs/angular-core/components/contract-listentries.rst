@@ -17,6 +17,7 @@ Inputs
 #. ``dfsStorage`` - ``boolean`` (default = true): store values in dfs
 #. ``encryptedHashes`` - ``boolean`` (default = true): encrypt hashes from values
 #. ``onUpdate`` - ``Function``: is emitted when new data was loaded
+#. ``onError`` - ``Function``: is emitted when an error occures during list entries loading
 
 -------
 Example
