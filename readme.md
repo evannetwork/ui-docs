@@ -1,4 +1,4 @@
-# Frontend Documentation
+# UI Documentation
 This project handles the full rts documentation for angular-core, angular-sass, dapp-browser and the blockchain-core frontend bundle.
 
 ## Build
