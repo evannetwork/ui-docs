@@ -7,7 +7,7 @@ Used to handle normal `ionic alerts <https://ionicframework.com/docs/components/
 -------
 Example
 -------
-- Reference Implementation: `Favorites DApp - DApp add component <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/dapp-add/dapp-add.html>`_
+- Reference Implementation: `Favorites DApp - DApp add component <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/favorites/src/components/dapp-add/dapp-add.html>`_
 - typescript using `alertService </angular-core/services/ui/alert.html>`_
 
 .. code-block:: typescript
@@ -30,7 +30,7 @@ Example
   }
 
 - html definition with translation
-- Reference Implementation: `Favorites DApp I18N <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/i18n/en.ts>`_
+- Reference Implementation: `Favorites DApp I18N <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/favorites/src/i18n/en.ts>`_
 
 ::
 

@@ -107,13 +107,13 @@ Example
 
     initializeEvanNetworkStructure()
 
-Github Sample: `initializeEvanNetworkStructure <https://github.com/evannetwork/dapp-browser/blob/3cbd07427c8aec220b3bf1657b90c368c036c5de/src/index.html#L109>`_
+Github Sample: `initializeEvanNetworkStructure <https://github.com/evannetwork/ui-dapp-browser/blob/3cbd07427c8aec220b3bf1657b90c368c036c5de/src/index.html#L109>`_
 
 
 .. required for building markup
 
 .. |source CoreBundle| replace:: ``CoreBundle``
-.. _source CoreBundle: https://github.com/evannetwork/blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+.. _source CoreBundle: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
 
 .. |source KeyProvider| replace:: ``KeyProvider``
 .. _source KeyProvider: ../dapp-browser/KeyProvider.html

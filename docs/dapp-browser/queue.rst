@@ -2,7 +2,7 @@
 queue
 =====
 
-The `evan queue <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/queue.ts>`_ is a global data handler for data synchronisation, for multiple DApp cross usage. It provides functions to save data entries and metadata globally within an browser indexDB.
+The `evan queue <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/queue.ts>`_ is a global data handler for data synchronisation, for multiple DApp cross usage. It provides functions to save data entries and metadata globally within an browser indexDB.
 
 **Be ware: Its not a final implementation of data saving into the blockchain. The dapp-browser handles only a initialized blockchain-core instance without any profile interaction. As a result of this, the queue synchronisation must be handle by the DApps. For a sample implementation for Angular 5, have a look at** |source queue_service|_ **(including QueueSequences, -Entries, Ids and QueueDispatchers) and** |source dapp_wrapper|_ **(for implementation reference, have a look at** |source queue_tutorial|_)
 

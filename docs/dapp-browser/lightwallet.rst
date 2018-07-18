@@ -2,7 +2,7 @@
 lightwallet
 ===========
 
-The `lightwallet lib <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/lightwallet.ts>`_ is a wrapper for the original |source lightwallet_keystore|_ and |source bitcore_mnemonic|_. It handles logged in users key vaults and encryption.
+The `lightwallet lib <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/lightwallet.ts>`_ is a wrapper for the original |source lightwallet_keystore|_ and |source bitcore_mnemonic|_. It handles logged in users key vaults and encryption.
 
 
 
@@ -367,7 +367,7 @@ setPasswordFunction
 
   lightwallet.setPasswordFunction(arguments);
 
-Sets the password function. The dapp-browser does not includes any library / framework / css that handles a good and nice ui development (e.g. angular, react, bootstrap, ...). To handle coporate design and a better DApp development freedom, each DApp must specify its own password dialog. In case of Angular 5 development have a look at the default one, provided by the angular-core: globalPasswordDialog https://github.com/evannetwork/angular-core/blob/4f539a2f5492b137d6be82c133427871073c3929/src/services/evan/bcc.ts#L300
+Sets the password function. The dapp-browser does not includes any library / framework / css that handles a good and nice ui development (e.g. angular, react, bootstrap, ...). To handle coporate design and a better DApp development freedom, each DApp must specify its own password dialog. In case of Angular 5 development have a look at the default one, provided by the angular-core: globalPasswordDialog https://github.com/evannetwork/ui-angular-core/blob/4f539a2f5492b137d6be82c133427871073c3929/src/services/evan/bcc.ts#L300
 
 ----------
 Parameters

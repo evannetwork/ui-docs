@@ -35,10 +35,10 @@ iframe.evan-dapp                shows an iframe on fullscreen (position: absolut
 ==============================  ================================================================================================
 
 .. |source evanlogo| replace:: ``evan-logo.svg``
-.. _source evanlogo: https://github.com/evannetwork/angular-sass/blob/master/img/evan-logo.svg
+.. _source evanlogo: https://github.com/evannetwork/ui-angular-sass/blob/master/img/evan-logo.svg
 
 .. |source evanlogofavicon| replace:: ``evan-favicon.png``
-.. _source evanlogofavicon: https://github.com/evannetwork/angular-sass/blob/master/img/evan-favicon.png
+.. _source evanlogofavicon: https://github.com/evannetwork/ui-angular-sass/blob/master/img/evan-favicon.png
 
 .. |source dappbrowser| replace:: ``dapp-browser``
 .. _source dappbrowser: https://dashboard.evan.network

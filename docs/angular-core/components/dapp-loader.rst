@@ -13,7 +13,7 @@ The following url will start the following dapps:
 -------
 Example
 -------
-Reference Implementation: `Dashboard DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/dashboard/src/index.ts>`_
+Reference Implementation: `Dashboard DApp <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/dashboard/src/index.ts>`_
 
 - within routes configuration, Example as wildcard route for dynamic DApp registering:
 

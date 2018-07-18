@@ -7,7 +7,7 @@ Detaches Angular view update bindings to prevent automatic updates.
 -------
 Example
 -------
-Reference Implementation: `SplitPane Component <https://github.com/evannetwork/angular-core/blob/develop/src/components/split-pane/split-pane.html>`_
+Reference Implementation: `SplitPane Component <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/split-pane/split-pane.html>`_
 
 ::
   

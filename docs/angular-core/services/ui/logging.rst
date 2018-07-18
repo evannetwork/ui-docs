@@ -13,7 +13,7 @@ log
 
   loggingService.log(message, level);
 
-Using `BCC log <https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.rst>`_ function to handle a generalized logging mechanism.
+Using `BCC log <https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/common/logger.rst>`_ function to handle a generalized logging mechanism.
 
 ----------
 Parameters
@@ -258,7 +258,7 @@ Example
 
 
 .. |source bcc_log| replace:: ``BCC log``
-.. _source bcc_log: https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.rst
+.. _source bcc_log: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/common/logger.rst
 
 .. |source logLog| replace:: ``logLog``
-.. _source logLog: https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.rst#logloginterface
+.. _source logLog: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/common/logger.rst#logloginterface

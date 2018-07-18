@@ -2,7 +2,7 @@
 EvanDescriptionService
 ======================
 
-`Blockchain core description <https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/description.rst>`_ class wrapper.
+`Blockchain core description <https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/blockchain/description.rst>`_ class wrapper.
 
 --------------------------------------------------------------------------------
 

@@ -10,7 +10,7 @@ Some specific styles for inputs.
 -------
 Example
 -------
-Reference Implementation: `Angular-core Contract Mbembers Component <https://github.com/evannetwork/angular-core/blob/develop/src/components/contract-members/contract-members.html>`_
+Reference Implementation: `Angular-core Contract Mbembers Component <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/contract-members/contract-members.html>`_
 
 ::
 

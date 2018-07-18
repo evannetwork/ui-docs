@@ -2,7 +2,7 @@
 angular-libs
 ============
 
-This `project <https://github.com/evannetwork/angular-libs>`_ contains a collection of Angular core libraries. This project is deployed to the ens (likelly to the angular-core), so you can require angular libraries (etc...) directly into the frontend without building duplicated libraries into your dapps.
+This `project <https://github.com/evannetwork/ui-angular-libs>`_ contains a collection of Angular core libraries. This project is deployed to the ens (likelly to the angular-core), so you can require angular libraries (etc...) directly into the frontend without building duplicated libraries into your dapps.
 
 This project exports the following libraries for you:
 
@@ -41,7 +41,7 @@ Installation
 
 .. code-block:: sh
 
-  npm i @evan.network/angular-libs
+  npm i @evan.network/ui-angular-libs
 
 -----
 Usage
@@ -55,7 +55,7 @@ Usage
       ...,
       "paths": {
         "angular-libs": [
-          "../node_modules/@evan.network/angular-core/dist/angularlibs.js"
+          "../node_modules/@evan.network/ui-angular-core/dist/angularlibs.js"
         ]
       }
       ...

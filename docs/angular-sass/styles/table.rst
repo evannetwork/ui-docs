@@ -8,7 +8,7 @@ Tables are simply and dont need any classes. Only for a responsive design, you s
 Example
 -------
 
-- Reference Implementation: `Logging DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/logging/src/components/logging/logging.html>`_
+- Reference Implementation: `Logging DApp <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/logging/src/components/logging/logging.html>`_
 
 ::
 

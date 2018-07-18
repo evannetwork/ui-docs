@@ -72,7 +72,7 @@ referenceApplicationRef
 
   referenceApplicationRef(applicationRef, elementRef);
 
-Is used to cache an angular application ref to global context, to be able to clear everything correct. This is used in combination with the `BootstrapComponent <https://github.com/evannetwork/angular-core/blob/master/src/components/bootstrap-component/bootstrap-component.ts>`_ of the angular-core.
+Is used to cache an angular application ref to global context, to be able to clear everything correct. This is used in combination with the `BootstrapComponent <https://github.com/evannetwork/ui-angular-core/blob/master/src/components/bootstrap-component/bootstrap-component.ts>`_ of the angular-core.
 
 ----------
 Parameters

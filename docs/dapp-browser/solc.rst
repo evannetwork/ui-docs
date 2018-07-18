@@ -2,7 +2,7 @@
 Solc
 ================================================================================
 
-Smart `contracts solc <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/solc.ts>`_ representation. Is used to handle and sort the compiled |source SmartContracts|_ compiled object.
+Smart `contracts solc <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/solc.ts>`_ representation. Is used to handle and sort the compiled |source SmartContracts|_ compiled object.
 
 --------------------------------------------------------------------------------
 
@@ -45,7 +45,7 @@ Example
     ...
   });
 
-Usage: `Solc <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/bcc/bcc.ts>`_
+Usage: `Solc <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/bcc/bcc.ts>`_
 
 
 

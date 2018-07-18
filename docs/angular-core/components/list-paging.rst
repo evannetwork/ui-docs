@@ -15,7 +15,7 @@ Inputs
 -------
 Example
 -------
-Reference Implementation: `contract list entries component <https://github.com/evannetwork/angular-core/tree/develop/src/components/contract-listentries>`_
+Reference Implementation: `contract list entries component <https://github.com/evannetwork/ui-angular-core/tree/develop/src/components/contract-listentries>`_
 
 - html
 

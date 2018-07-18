@@ -32,7 +32,7 @@ Events
 -------
 Example
 -------
-Reference Implementation: `Dashboard DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/dashboard/src/components/dashboard/dashboard.html>`_
+Reference Implementation: `Dashboard DApp <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/dashboard/src/components/dashboard/dashboard.html>`_
 
 - typescript
 

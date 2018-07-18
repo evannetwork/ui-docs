@@ -2,7 +2,7 @@
 evanGlobals
 ===========
 
-The `evan globals <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/main.ts>`_ are a runtime object that handles global references for internal functions within the dapp-browser. This is nessecary to remove any dapp-browser dependency from the window object. Maybe this collection will help you.
+The `evan globals <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/main.ts>`_ are a runtime object that handles global references for internal functions within the dapp-browser. This is nessecary to remove any dapp-browser dependency from the window object. Maybe this collection will help you.
 
 ----------
 Parameters

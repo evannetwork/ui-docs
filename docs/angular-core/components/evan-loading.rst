@@ -14,7 +14,7 @@ Inputs
 -------
 Example
 -------
-Reference Implementation: `Favorites DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/dapp-list/dapp-list.html>`_
+Reference Implementation: `Favorites DApp <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/favorites/src/components/dapp-list/dapp-list.html>`_
 
 - html
 

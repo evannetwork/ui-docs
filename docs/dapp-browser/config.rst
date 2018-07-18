@@ -2,7 +2,7 @@
 config
 ======
 
-The config represents the blockchain-core configuration that is passed to the |source CoreBundle|_ during the initialization process. This is a derivate of the default `blockchain-core config <https://github.com/evannetwork/blockchain-core/blob/develop/src/config.ts>`_.
+The config represents the blockchain-core configuration that is passed to the |source CoreBundle|_ during the initialization process. This is a derivate of the default `blockchain-core config <https://github.com/evannetwork/api-blockchain-core/blob/develop/src/config.ts>`_.
 
 Each process.evn configuration property can be overwritten using localStorage properties.
 
@@ -60,4 +60,4 @@ Example
 
 
 .. |source CoreBundle| replace:: ``CoreBundle``
-.. _source CoreBundle: https://github.com/evannetwork/blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+.. _source CoreBundle: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts

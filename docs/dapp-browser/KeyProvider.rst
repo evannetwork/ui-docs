@@ -13,10 +13,10 @@ Key Provider
    * - Extends
      - `Logger </common/logger.html>`_
    * - Source
-     - `key-provider.ts <https://github.com/evannetwork/dapp-browser/blob/master/src/app/bcc/KeyProvider.ts>`_
+     - `key-provider.ts <https://github.com/evannetwork/ui-dapp-browser/blob/master/src/app/bcc/KeyProvider.ts>`_
 
 
-This `DApp browser KeyProvider <https://github.com/evannetwork/dapp-browser/blob/master/src/app/bcc/KeyProvider.ts>`_ is a adaption of the original `DBCP KeyProvider <https://github.com/evannetwork/dbcp/blob/develop/src/encryption/key-provider.ts>`_ returns given decryption/encryption keys for a given CryptoInfo. They use a given evan.network profile to retrieve the needed keys to encrypt/decrypt the envelope
+This `DApp browser KeyProvider <https://github.com/evannetwork/ui-dapp-browser/blob/master/src/app/bcc/KeyProvider.ts>`_ is a adaption of the original `DBCP KeyProvider <https://github.com/evannetwork/dbcp/blob/develop/src/encryption/key-provider.ts>`_ returns given decryption/encryption keys for a given CryptoInfo. They use a given evan.network profile to retrieve the needed keys to encrypt/decrypt the envelope
 
 ------------------------------------------------------------------------------
 
@@ -145,7 +145,7 @@ Example
 .. required for building markup
 
 .. |source logLevel| replace:: ``LogLevel``
-.. _source logLevel: https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.html#loglevel
+.. _source logLevel: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/common/logger.html#loglevel
 
 .. |source logLogInterface| replace:: ``LogLogInterface``
-.. _source logLogInterface: https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.html#logloginterface
+.. _source logLogInterface: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/common/logger.html#logloginterface

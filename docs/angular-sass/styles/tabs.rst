@@ -4,7 +4,7 @@ Tabs
 
 Tabs are basicly included into Ionic. But for a simply tab implementation with html you can use the following Sample (have a look at `Tab animations </angular-core/animations/tab.html>`_:
 
-- Reference Implementation: `Profile DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/profile/src/components/profile/profile.html>`_
+- Reference Implementation: `Profile DApp <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/profile/src/components/profile/profile.html>`_
 
 .. code-block:: typescript
 

@@ -7,7 +7,7 @@ Dialog to request user to accept permissions. (should only used within modal)
 -------
 Example
 -------
-Reference Implementation: `Contacts Account Create component <https://github.com/evannetwork/core-dapps/blob/develop/dapps/addressbook/src/components/account-create/account-create.ts>`_
+Reference Implementation: `Contacts Account Create component <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/addressbook/src/components/account-create/account-create.ts>`_
 
 - typescript
 

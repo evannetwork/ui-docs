@@ -19,7 +19,7 @@ Outpus
 -------
 Example
 -------
-Reference Implementation: `RoutesBuilder <https://github.com/evannetwork/angular-core/blob/develop/src/classes/routesBuilder.ts>`_
+Reference Implementation: `RoutesBuilder <https://github.com/evannetwork/ui-angular-core/blob/develop/src/classes/routesBuilder.ts>`_
 
 Example within routesBuilder dashboardRoutes:
 

@@ -19,7 +19,7 @@ Utility service for the whole angular core module.
 .. _source devMode: ../../dapp-browser/utils.html#devmode
 
 .. |source logger| replace:: ``BCC logger``
-.. _source logger: https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.rst
+.. _source logger: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/common/logger.rst
 
 --------------------------------------------------------------------------------
 

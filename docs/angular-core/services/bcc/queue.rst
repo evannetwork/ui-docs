@@ -576,7 +576,7 @@ Parameters
 -------
 Example
 -------
-Reference Implementation: `Task DApp <https://github.com/evannetwork/core-dapps/blob/master/dapps/task/src/components/detail/detail.ts>`_
+Reference Implementation: `Task DApp <https://github.com/evannetwork/ui-core-dapps/blob/master/dapps/task/src/components/detail/detail.ts>`_
 
 .. code-block:: typescript
 

@@ -2,7 +2,7 @@
 ContractListEntriesComponent
 ============================
 
-Contract paged listentry display. Each `DataContract <https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/data-contract.rst>`_ can have several list definitions to store its necessary data in. Each of this lists can grow to an large list of elements. To be able to page this entries easily this component can be used.
+Contract paged listentry display. Each `DataContract <https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/contracts/data-contract.rst>`_ can have several list definitions to store its necessary data in. Each of this lists can grow to an large list of elements. To be able to page this entries easily this component can be used.
 
 Shows simply a button, when the user will be able to page to the next page. Else nothing will be displayed, only the OnUpdate function is called so you can load your list entries like you want.
 
