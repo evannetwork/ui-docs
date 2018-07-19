@@ -767,7 +767,7 @@ isDeveloperMode
 
 .. code-block:: typescript
 
-  utilSerivce.isDeveloperMode(arguments);
+  utilSerivce.isDeveloperMode();
 
 Check if the user enabled developer mode within profile configuration. Can be enabled using the profile DApp under settings. It opens the following functionalities:
 
@@ -795,7 +795,34 @@ Example
 
 --------------------------------------------------------------------------------
 
-.. _document_isDeveloperMode:
+.. _document_notificationsEnabled:
+
+notificationsEnabled
+================================================================================
+
+.. code-block:: typescript
+
+  utilSerivce.notificationsEnabled();
+
+Check if the user enabled notifications on the mobile devices.
+
+-------
+Returns
+-------
+
+``boolean``: True if notifications are enabled, False otherwise.
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  const notificationsEnabled = utilService.notificationsEnabled();
+
+--------------------------------------------------------------------------------
+
+.. _document_getErrorLog:
 
 getErrorLog
 ================================================================================

@@ -357,6 +357,7 @@ Parameters
 ----------
 
 #. ``stringToCopy`` - ``string``: text that should be copied
+#. ``toastMessage`` - ``string`` (optional): Provide a custom toast message
 
 -------
 Example

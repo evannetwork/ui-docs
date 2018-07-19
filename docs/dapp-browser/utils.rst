@@ -81,7 +81,7 @@ sendEvent
 
 .. code-block:: typescript
 
-  utils.sendEvent(name);
+  utils.sendEvent(name, data);
 
 Sends an event using window.dispatchEvent
 
@@ -90,6 +90,7 @@ Parameters
 ----------
 
 #. ``name`` - ``string``: event name
+#. ``data`` - ``any`` (optional): data that should be send
 
 -------
 Example
@@ -97,7 +98,7 @@ Example
 
 .. code-block:: typescript
 
-  utils.sendEvent('my-cool-event');
+  utils.sendEvent('my-cool-event', { anyData: 1234 });
 
 
 
