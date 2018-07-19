@@ -20,7 +20,7 @@ You can use the color definition variables, to assume, that you are ongoing with
 
 ::
 
-  @import 'angular-sass/src/variables/colors';
+  @import 'ui-angular-sass/src/variables/colors';
 
 
 - background colors

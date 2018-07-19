@@ -9,7 +9,7 @@ You can simply create your own fullscreen modal style, by add the following styl
 
 ::
   
-  @import 'angular-sass/src/variables/colors';
+  @import 'ui-angular-sass/src/variables/colors';
 
   modal-component {
     position: fixed;
