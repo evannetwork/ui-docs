@@ -20,7 +20,7 @@ Outpus
 -------
 Example
 -------
-Reference Implementation: `Favorites DApp root component <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/root/root.html>`_
+Reference Implementation: `Favorites DApp root component <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/favorites/src/components/root/root.html>`_
 
 Use the *evan-content* attribute to specify, which html data should be displayed within the wrapper.
 

@@ -6,7 +6,7 @@ IPFSCache
 IPFSCache
 ================================================================================
 
-`IPFS cache <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/ipfs-cache.ts>`_ that uses an index db to store ipfs results in. Will be passed to the `blockchain-core for automated caching </bcc/bcc-bundle.html>`_.
+`IPFS cache <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/ipfs-cache.ts>`_ that uses an index db to store ipfs results in. Will be passed to the `blockchain-core for automated caching </bcc/bcc-bundle.html>`_.
 
 --------------------------------------------------------------------------------
 

@@ -9,7 +9,7 @@ It can be used as reference implementation for custom global password dialogs.
 -------
 Example
 -------
-Reference Implementation: `EvanBCCService initialize method <https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bcc.ts>`_
+Reference Implementation: `EvanBCCService initialize method <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/bcc.ts>`_
 
 - typescript
 

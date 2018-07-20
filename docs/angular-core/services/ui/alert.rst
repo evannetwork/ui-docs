@@ -117,7 +117,7 @@ Parameters
 -------
 Example
 -------
-Reference Implementation: `Favorites DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/dapp-add/dapp-add.ts>`_
+Reference Implementation: `Favorites DApp <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/favorites/src/components/dapp-add/dapp-add.ts>`_
 
 .. code-block:: typescript
 
@@ -148,7 +148,7 @@ Parameters
 -------
 Example
 -------
-Reference Implementation: `Favorites DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/dapp-add/dapp-add.ts>`_
+Reference Implementation: `Favorites DApp <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/favorites/src/components/dapp-add/dapp-add.ts>`_
 
 .. code-block:: typescript
 

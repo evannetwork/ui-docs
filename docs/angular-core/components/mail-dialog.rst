@@ -7,7 +7,7 @@ Used within an modal to enable the user to edit a mail, before it's send.
 -------
 Example
 -------
-Reference Implementation: `Addressbook DApp detail <https://github.com/evannetwork/core-dapps/blob/develop/dapps/addressbook/src/components/account-detail/account-detail.ts>`_
+Reference Implementation: `Addressbook DApp detail <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/addressbook/src/components/account-detail/account-detail.ts>`_
 
 - typescript
 

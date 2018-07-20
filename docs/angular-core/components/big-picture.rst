@@ -14,7 +14,7 @@ To take pictures during application runtime have a look at the `EvanPictureServi
 -------
 Example
 -------
-Reference Implementation: `Task DApp detail <https://github.com/evannetwork/core-dapps/blob/develop/dapps/task/src/components/detail>`_
+Reference Implementation: `Task DApp detail <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/task/src/components/detail>`_
 
 - typescript
 

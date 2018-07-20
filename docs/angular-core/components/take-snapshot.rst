@@ -7,7 +7,7 @@ Component to take pictures using HTML 5. Should only be used within a modal.
 -------
 Example
 -------
-Reference Implementation: `EvanPictureService <https://github.com/evannetwork/angular-core/blob/develop/src/services/ui/picture.ts>`_
+Reference Implementation: `EvanPictureService <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/picture.ts>`_
 
 - typescript
 

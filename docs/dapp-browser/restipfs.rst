@@ -2,7 +2,7 @@
 restipfs
 ========
 
-The `restipfs <https://github.com/evannetwork/dapp-browser/blob/develop/src/libs/browser-ipfs.js>`_ is a local copy of `browser ipfs <https://github.com/pelle/browser-ipfs>`_ including some small adjustments, to handle a lightweight rest based ipfs connection. It is used to initial files (before bcc and browserified ipfs-js loaded) and small DBCP descriptions. 
+The `restipfs <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/libs/browser-ipfs.js>`_ is a local copy of `browser ipfs <https://github.com/pelle/browser-ipfs>`_ including some small adjustments, to handle a lightweight rest based ipfs connection. It is used to initial files (before bcc and browserified ipfs-js loaded) and small DBCP descriptions. 
 
 
 

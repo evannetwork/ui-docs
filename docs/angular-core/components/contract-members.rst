@@ -23,7 +23,7 @@ Outpus
 -------
 Example
 -------
-Reference Implementation: `Task DApp detail <https://github.com/evannetwork/core-dapps/blob/develop/dapps/dashboard/src/index.ts>`_
+Reference Implementation: `Task DApp detail <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/dashboard/src/index.ts>`_
 
 .. code-block:: typescript
 

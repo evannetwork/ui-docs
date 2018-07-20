@@ -19,7 +19,7 @@ Utility service for the whole angular core module.
 .. _source devMode: ../../dapp-browser/utils.html#devmode
 
 .. |source logger| replace:: ``BCC logger``
-.. _source logger: https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.rst
+.. _source logger: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/common/logger.rst
 
 --------------------------------------------------------------------------------
 
@@ -767,7 +767,7 @@ isDeveloperMode
 
 .. code-block:: typescript
 
-  utilSerivce.isDeveloperMode(arguments);
+  utilSerivce.isDeveloperMode();
 
 Check if the user enabled developer mode within profile configuration. Can be enabled using the profile DApp under settings. It opens the following functionalities:
 
@@ -792,3 +792,61 @@ Example
 .. code-block:: typescript
 
   const isDeveloperMode = utilService.isDeveloperMode();
+
+--------------------------------------------------------------------------------
+
+.. _document_notificationsEnabled:
+
+notificationsEnabled
+================================================================================
+
+.. code-block:: typescript
+
+  utilSerivce.notificationsEnabled();
+
+Check if the user enabled notifications on the mobile devices.
+
+-------
+Returns
+-------
+
+``boolean``: True if notifications are enabled, False otherwise.
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  const notificationsEnabled = utilService.notificationsEnabled();
+
+--------------------------------------------------------------------------------
+
+.. _document_getErrorLog:
+
+getErrorLog
+================================================================================
+
+.. code-block:: typescript
+
+  utilSerivce.getErrorLog(ex);
+
+Transforms an Exception into an loggable string format. Returns the string if the exception is only a string.
+
+-------
+Returns
+-------
+
+``string``: Transformed exception
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  try {
+    throw new Error('Exception');
+  } catch (ex) {
+    this.core.utils.log(`Error : ${ this.utils.getErrorLog(ex) }`, 'error');
+  }

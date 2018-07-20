@@ -547,17 +547,17 @@ Example
 .. _source queueId: /angular-core/services/bcc/queue-utilities.html#queueid
 
 .. |source RightsAndRoles| replace:: ``RightsAndRoles``
-.. _source RightsAndRoles: https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/rights-and-roles.rst
+.. _source RightsAndRoles: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/contracts/rights-and-roles.rst
 
 .. |source Ipld| replace:: ``Ipld``
-.. _source Ipld: https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/ipld.rst
+.. _source Ipld: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/dfs/ipld.rst
 
 .. |source BusinessCenterProfile| replace:: ``BusinessCenterProfile``
-.. _source BusinessCenterProfile: https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/business-center-profile.rst
+.. _source BusinessCenterProfile: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/profile/business-center-profile.rst
 
 .. |source DataContract| replace:: ``DataContract``
-.. _source DataContract: https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/data-contract.rst
+.. _source DataContract: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/contracts/data-contract.rst
 
 .. |source description| replace:: ``Description``
-.. _source description: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/description.rst
+.. _source description: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/blockchain/description.rst
 

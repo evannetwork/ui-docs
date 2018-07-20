@@ -87,7 +87,7 @@ The `angular-sass </angular-sass/index.html>`_ library includes styling definiti
 - Ionic adjustments
 
 .. |source bcc_bundlejs| replace:: ``blockchain-core frontend bundle``
-.. _source bcc_bundlejs: https://github.com/evannetwork/blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+.. _source bcc_bundlejs: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
 
 .. |source CoreInstance| replace:: ``CoreInstance``
 .. _source CoreInstance: /bcc/bcc-bundle.html#coreinstance

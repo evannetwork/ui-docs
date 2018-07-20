@@ -10,7 +10,7 @@ Uses an HTML element to show it within an small layout within any component.
 -------
 Example
 -------
-- Reference Implementation: `DApp List <https://github.com/evannetwork/core-dapps/blob/develop/dapps/favorites/src/components/dapp-list/dapp-list.html>`_
+- Reference Implementation: `DApp List <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/favorites/src/components/dapp-list/dapp-list.html>`_
 
 ::
 
@@ -33,7 +33,7 @@ Uses an `ion-select <https://ionicframework.com/docs/components/#select>`_ and r
 -------
 Example
 -------
-- Reference Implementation: `SplitPaneComponent <https://github.com/evannetwork/angular-core/blob/develop/src/components/split-pane/split-pane.html>`_
+- Reference Implementation: `SplitPaneComponent <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/split-pane/split-pane.html>`_
 
 ::
 

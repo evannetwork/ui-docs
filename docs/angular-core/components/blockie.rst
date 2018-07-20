@@ -14,7 +14,7 @@ Inputs
 -------
 Example
 -------
-Reference Implementation: `Profile DApp <https://github.com/evannetwork/core-dapps/blob/develop/dapps/profile/src/components/profile>`_
+Reference Implementation: `Profile DApp <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/profile/src/components/profile>`_
 
 ::
 

@@ -1,12 +1,6 @@
 {
   "author": "Contractus",
-  "name": "@evan.network/fe-docs",
   "description": "Read the docs API documentation for dapp-browser, angular-core, angular-libs, angular-sass, bcc-bundle.",
-  "scripts": {
-    "build": "cd docs && make html",
-    "serve": "cd docs && sphinx-autobuild . _build/html"
-  },
-  "version": "1.0.1",
   "keywords": [
     "blockchain",
     "ethereum",
@@ -18,5 +12,11 @@
     "Ionic",
     "DApp",
     "SASS"
-  ]
+  ],
+  "name": "@evan.network/ui-docs",
+  "scripts": {
+    "build": "cd docs && make html",
+    "serve": "cd docs && sphinx-autobuild . _build/html"
+  },
+  "version": "1.0.2"
 }

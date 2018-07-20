@@ -23,7 +23,7 @@ Parameters
 -------
 Example
 -------
-Reference Implementation: `EvanBookmarkService <https://github.com/evannetwork/angular-core/blob/develop/src/services/bcc/bookmark.ts>`_
+Reference Implementation: `EvanBookmarkService <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/bookmark.ts>`_
 
 .. code-block:: typescript
 

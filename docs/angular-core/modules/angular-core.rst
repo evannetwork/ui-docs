@@ -84,25 +84,25 @@ Example
     ...
   
 .. |source angular_common| replace:: ``@angular/common``
-.. _source angular_common: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst
+.. _source angular_common: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/key-provider.rst
 
 .. |source ionic_angular| replace:: ``ionic-angular``
-.. _source ionic_angular: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst
+.. _source ionic_angular: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/key-provider.rst
 
 .. |source ngx_translate| replace:: ``@ngx-translate/core``
-.. _source ngx_translate: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst
+.. _source ngx_translate: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/key-provider.rst
 
 .. |source angular_forms| replace:: ``@angular/forms``
-.. _source angular_forms: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst
+.. _source angular_forms: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/key-provider.rst
 
 .. |source ionic_tags_input| replace:: ``ionic-tags-input``
-.. _source ionic_tags_input: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst
+.. _source ionic_tags_input: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/key-provider.rst
 
 .. |source angular_router| replace:: ``@angular/router``
-.. _source angular_router: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst
+.. _source angular_router: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/key-provider.rst
 
 .. |source ng_circle_progress| replace:: ``ng-circle-progress``
-.. _source ng_circle_progress: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst
+.. _source ng_circle_progress: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/key-provider.rst
 
 .. |source qr_code_scanner_module| replace:: ``qr-code-scanner module``
-.. _source qr_code_scanner_module: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst
+.. _source qr_code_scanner_module: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/key-provider.rst

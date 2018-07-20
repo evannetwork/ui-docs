@@ -1,7 +1,7 @@
 ====
 core
 ====
-The `core <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/core.ts>`_ is a function catalog to handle users accountId, login provider and users utility functions.
+The `core <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/core.ts>`_ is a function catalog to handle users accountId, login provider and users utility functions.
 
 --------------------------------------------------------------------------------
 

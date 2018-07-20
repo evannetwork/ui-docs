@@ -138,7 +138,7 @@ Installation
 ============
 .. code-block:: sh
 
-  npm i @evan.network/angular-core
+  npm i @evan.network/ui-angular-core
 
 
 Example
@@ -169,7 +169,7 @@ Include the AngularCore module into your module and all of the services, compone
       "types": [],
       "paths": {
         "angular-core": [
-          "../node_modules/@evan.network/angular-core/dist/angularcore.js"
+          "../node_modules/@evan.network/ui-angular-core/dist/angularcore.js"
         ]
       }
     },

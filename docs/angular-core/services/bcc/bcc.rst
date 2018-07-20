@@ -426,7 +426,7 @@ Example
 .. _source getCurrentProvider: /angular-core/services/ui/core.html#getcurrentprovider
 
 .. |source bcc_bundlejs| replace:: ``blockchain-core frontend bundle``
-.. _source bcc_bundlejs: https://github.com/evannetwork/blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+.. _source bcc_bundlejs: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
 
 .. |source CoreBundle| replace:: ``CoreBundle``
 .. _source CoreBundle: /bcc/bcc-bundle.html#corebundle
@@ -474,22 +474,22 @@ Example
 .. _source config: ../../dapp-browser/config.html
 
 .. |source executor| replace:: ``Executor``
-.. _source executor: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/executor.rst
+.. _source executor: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/blockchain/executor.rst
 
 .. |source contract_loader| replace:: ``ContractLoader``
-.. _source contract_loader: https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/contract-loader.rst
+.. _source contract_loader: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/contracts/contract-loader.rst
 
 .. |source description| replace:: ``Description``
-.. _source description: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/description.rst
+.. _source description: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/blockchain/description.rst
 
 .. |source dfs_interface| replace:: ``DfsInterface``
-.. _source dfs_interface: https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/dfs-interface.rst
+.. _source dfs_interface: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/dfs/dfs-interface.rst
 
 .. |source ipfs_api| replace:: ``IpfsRemoteConstructor``
 .. _source ipfs_api: https://github.com/ipfs/js-ipfs-api
 
 .. |source name_resolver| replace:: ``NameResolver``
-.. _source name_resolver: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/name-resolver.rst
+.. _source name_resolver: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/blockchain/name-resolver.rst
 
 .. |source ipfs_cache| replace:: ``IpfsCache``
 .. _source ipfs_cache: ../../dapp-browser/ipfs-cache.html
@@ -498,16 +498,16 @@ Example
 .. _source smart_contracts: https://github.com/evannetwork/smart-contracts
 
 .. |source CryptoProvider| replace:: ``CryptoProvider``
-.. _source CryptoProvider: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/crypto-provider.rst
+.. _source CryptoProvider: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/crypto-provider.rst
 
 .. |source EventHub| replace:: ``EventHub``
-.. _source EventHub: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/event-hub.rst
+.. _source EventHub: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/blockchain/event-hub.rst
 
 .. |source Ipfs| replace:: ``Ipfs``
-.. _source Ipfs: https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/ipfs.rst
+.. _source Ipfs: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/dfs/ipfs.rst
 
 .. |source Unencrypted| replace:: ``Unencrypted``
-.. _source Unencrypted: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/cryptor-unencrypted.rst
+.. _source Unencrypted: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/cryptor-unencrypted.rst
 
 .. |source isAccountOnboarded| replace:: ``isAccountOnboarded``
 .. _source isAccountOnboarded: /bcc/bcc-bundle.html#isaccountonboarded
@@ -519,46 +519,46 @@ Example
 .. _source Mnemonic: https://github.com/bitpay/bitcore-mnemonic
 
 .. |source KeyProviderInterface| replace:: ``KeyProviderInterface``
-.. _source KeyProviderInterface: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst
+.. _source KeyProviderInterface: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/key-provider.rst
 
 .. |source KeyProvider| replace:: ``KeyProvider``
-.. _source KeyProvider: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/key-provider.rst
+.. _source KeyProvider: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/key-provider.rst
 
 .. |source SignerInternal| replace:: ``SignerInternal``
-.. _source SignerInternal: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/signer.rst
+.. _source SignerInternal: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/blockchain/signer.rst
 
 .. |source SignerExternal| replace:: ``SignerExternal``
-.. _source SignerExternal: https://github.com/evannetwork/blockchain-core/blob/develop/docs/blockchain/signer.rst
+.. _source SignerExternal: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/blockchain/signer.rst
 
 .. |source Aes| replace:: ``Aes``
-.. _source Aes: https://github.com/evannetwork/blockchain-core/blob/develop/docs/encryption/cryptor-aes.rst
+.. _source Aes: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/encryption/cryptor-aes.rst
 
 .. |source Ipld| replace:: ``Ipld``
-.. _source Ipld: https://github.com/evannetwork/blockchain-core/blob/develop/docs/dfs/ipld.rst
+.. _source Ipld: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/dfs/ipld.rst
 
 .. |source KeyExchange| replace:: ``KeyExchange``
-.. _source KeyExchange: https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/key-exchange.rst
+.. _source KeyExchange: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/profile/key-exchange.rst
 
 .. |source Logger| replace:: ``Logger``
-.. _source Logger: https://github.com/evannetwork/blockchain-core/blob/develop/docs/common/logger.html
+.. _source Logger: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/common/logger.html
 
 .. |source Mailbox| replace:: ``Mailbox``
-.. _source Mailbox: https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/mailbox.rst
+.. _source Mailbox: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/profile/mailbox.rst
 
 .. |source Onboarding| replace:: ``Onboarding``
-.. _source Onboarding: https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/onboarding.rst
+.. _source Onboarding: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/profile/onboarding.rst
 
 .. |source Profile| replace:: ``Profile``
-.. _source Profile: https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/profile.rst
+.. _source Profile: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/profile/profile.rst
 
 .. |source RightsAndRoles| replace:: ``RightsAndRoles``
-.. _source RightsAndRoles: https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/rights-and-roles.rst
+.. _source RightsAndRoles: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/contracts/rights-and-roles.rst
 
 .. |source Sharing| replace:: ``Sharing``
-.. _source Sharing: https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/sharing.rst
+.. _source Sharing: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/contracts/sharing.rst
 
 .. |source DataContract| replace:: ``DataContract``
-.. _source DataContract: https://github.com/evannetwork/blockchain-core/blob/develop/docs/contracts/data-contract.rst
+.. _source DataContract: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/contracts/data-contract.rst
 
 .. |source BusinessCenterProfile| replace:: ``BusinessCenterProfile``
-.. _source BusinessCenterProfile: https://github.com/evannetwork/blockchain-core/blob/develop/docs/profile/business-center-profile.rst
+.. _source BusinessCenterProfile: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/profile/business-center-profile.rst

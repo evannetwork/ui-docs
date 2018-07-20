@@ -2,7 +2,7 @@
 routing
 =======
 
-The `routing library <https://github.com/evannetwork/dapp-browser/blob/develop/src/app/routing.ts>`_ is a small routing library that handles top level DApp navigation. To be small as possible, it uses the `navigo routing <https://github.com/krasimir/navigo>`_ as helper library.
+The `routing library <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/routing.ts>`_ is a small routing library that handles top level DApp navigation. To be small as possible, it uses the `navigo routing <https://github.com/krasimir/navigo>`_ as helper library.
 
 - On first loading, it checks a logged in user and in case of an unregistered user, it redirectes the browser to the onboarding DApp.
 - It watches dynamically on route changes to trigger a new `dapp.startDApp </dapp-browser/dapp.html#startdapp>`_ call when the root dapp hash changed.
@@ -15,7 +15,7 @@ The `routing library <https://github.com/evannetwork/dapp-browser/blob/develop/s
 .. _source angular_core_routes_builder: /angular-core/custom/routes-builder.html
 
 .. |source sample_route_dynamic_config| replace:: ``angular sample dynamic & nested routes configuration``
-.. _source sample_route_dynamic_config: https://github.com/evannetwork/core-dapps/blob/master/dapps/dashboard/src/index.ts
+.. _source sample_route_dynamic_config: https://github.com/evannetwork/ui-core-dapps/blob/master/dapps/dashboard/src/index.ts
 
 
 

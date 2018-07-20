@@ -7,7 +7,7 @@ Shows an QR-Code Scanner Dialog for HTML 5. Should only be used within a modal.
 -------
 Example
 -------
-Reference Implementation: `EvanQrCodeService <https://github.com/evannetwork/angular-core/blob/develop/src/services/ui/qr-code.ts>`_
+Reference Implementation: `EvanQrCodeService <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/qr-code.ts>`_
 
 - typescript
 
