@@ -256,3 +256,33 @@ Example
 .. code-block:: typescript
 
   utils.devLog(`Loading dapp: ${ dappEns }`, 'trace');
+
+
+--------------------------------------------------------------------------------
+
+.. _db_utils_onDeviceReady:
+
+onDeviceReady
+================================================================================
+
+.. code-block:: typescript
+
+  utils.devLogonDeviceReady();
+
+Adds an deviceready event handler and wait for the result to resolve the promise. If we are on a
+desktop device, dont wait for deviceready, it will be never called.
+
+-------
+Returns
+-------
+
+``Promise`` returns ``void``: resolved when decive is ready
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  await utils.onDeviceReady();
+  console.log('device is ready :)');

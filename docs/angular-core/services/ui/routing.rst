@@ -931,6 +931,7 @@ getStandAloneContractId
 
 return this.getHashParam('address') or Split the current url hash and return the latest path.
 
+
 -------
 Returns
 -------
@@ -947,6 +948,41 @@ Example
   getStandAloneContractId() // will return 0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c, even when the ":address" parameter within the path is not defined
 
 
+--------------------------------------------------------------------------------
+
+.. _document_forceUrlNavigation:
+
+forceUrlNavigation
+================================================================================
+
+.. code-block:: typescript
+
+  routingService.forceUrlNavigation(hash);
+
+Uses an hash value and replaces the current hash with the new one. But it will use href = to force
+parent dapp router handling, if we only set the hash, the navigation will stuck within the current
+child DApp.
+
+e.g. dashboard/favorites goes back to dashboard with empty history stack but nothing will happen
+because the favorites capured the navigation event and stops bubbling
+
+----------
+Parameters
+----------
+
+#. ``hash`` - ``string``: new window.location.hash value
+
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  this.forceUrlNavigation('dashboard.evan');
+
+
 .. |source route_configuration| replace:: ``RouteConfiguration``
 .. _source route_configuration: /angular-core/additionals/routes-builder.html
+
 

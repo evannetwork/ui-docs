@@ -83,10 +83,11 @@ Instances
   dapp
   evanGlobals
   ipfs
-  restipfs
   lightwallet
   loading
+  notifications
   queue
+  restipfs
   routing
   solc
   System
