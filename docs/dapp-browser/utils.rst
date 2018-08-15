@@ -286,3 +286,37 @@ Example
 
   await utils.onDeviceReady();
   console.log('device is ready :)');
+
+--------------------------------------------------------------------------------
+
+.. _db_utils_getDAppName:
+
+getDAppName
+================================================================================
+
+.. code-block:: typescript
+
+  utils.getDAppName();
+
+Removes the text after the last dot.
+
+----------
+Parameters
+----------
+
+#. ``ensAddress`` - ``string``: ens address to get the name for
+
+-------
+Returns
+-------
+
+``string``: dappname including sub ens paths
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  const dappName = utils.getDAppName('mydapp.mycompany.evan');
+  console.log(dappName) // => mydapp.mycompany
