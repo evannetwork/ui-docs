@@ -20,6 +20,12 @@ Outpus
 
 #. ``onChange`` - ``EventEmitter<any>``: Event trigger that is called when something has changed (account moved / removed)
 
+-------------
+Public Params
+-------------
+
+#. ``touched`` - ``string``: if the menu was opened and closed, the component "gets touched"
+
 -------
 Example
 -------
@@ -92,6 +98,7 @@ Reference Implementation: `Task DApp detail <https://github.com/evannetwork/ui-c
     [readonly]="!(amITheCreator() && task.contractState == 2)"
     [contractMemberStates]="task.states"
     (onChange)="ref.detectChanges()">
+    <h3 label>{{ 'custom-label' | translate }}</h3>
   </contract-members>
 
   <div *ngIf="membersToAdd.length > 0">
