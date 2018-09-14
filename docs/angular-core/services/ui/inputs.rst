@@ -2,7 +2,7 @@
 EvanInputService
 ================
 
-Helper that imoproves input selection on mobile devices. It will scroll automatically, so the input will appear within the viewport.
+Helper that improves input selection on mobile devices. It will scroll automatically, so the input will appear within the viewport.
 
 
 

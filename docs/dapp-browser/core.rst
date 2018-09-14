@@ -50,7 +50,7 @@ Get the current, in local storage, configured provider.
 Returns
 -------
 
-``string``: The current provider (external, internal)
+``string``: The current provider (external, internal, agent-executor)
 
 -------
 Example
@@ -276,6 +276,40 @@ Example
   core.getExternalAccount()
   // '0x000...'
 
+--------------------------------------------------------------------------------
+
+.. _db_core_getAgentExecutor:
+
+getAgentExecutor
+================================================================================
+
+.. code-block:: typescript
+
+  core.getAgentExecutor();
+
+Checks the current url parameters if agent executor login parameters are given.
+
+-------
+Returns
+-------
+
+``any``: all agent-exeutor parameters for requesting smart-agents and decrypting the profile
+
+-------
+Example
+-------
+
+- URL : hhtps://dashboard.evan.network/index.html?agent-executor=1234...#/dashboard.evan
+
+.. code-block:: typescript
+
+  core.getAgentExecutor()
+  
+  // {
+  //   token: '', // token to request the smart-agent and to load accountId and key for decrypting profile
+  //   accountId: '', // accountId of the smart-agent account
+  //   key: '' // data-key of the profile
+  // }
 
 
 

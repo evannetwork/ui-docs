@@ -5,6 +5,14 @@
 ### Fixes
 ### Deprecations
 
+## Version 1.2.0
+### Features
+- docs for FileService
+- docs for FileSelectComponent docs
+
+### Fixes
+### Deprecations
+
 ## Version 1.0.2
 ### Features
 - initial version

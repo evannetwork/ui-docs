@@ -222,3 +222,25 @@ Returns
 
 ``Promise`` returns ``string``: users alias
 
+--------------------------------------------------------------------------------
+
+getNameForAccount
+================================================================================
+
+.. code-block:: typescript
+
+  addressBookService.getNameForAccount(disableNoAlias);
+
+Gets the name for a account from the addressbook.
+
+----------
+Parameters
+----------
+
+#. ``accountId`` - ``string``: account id to load the alias for
+
+-------
+Returns
+-------
+
+``Promise`` returns ``string``: The name / email for account. Default is the account id.

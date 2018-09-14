@@ -5,7 +5,7 @@ EvanTranslationService
 I18N utility functions. Make it possible to share i18n through all applications. The I18N service uses `ngx translate <https://github.com/ngx-translate/core>`_ to handle translations in services and templates.
 
 
-
+#. ``monthShortNames`` - ``Array<string>``: array of the 12 translated short names of the months
 
 --------------------------------------------------------------------------------
 
