@@ -2,6 +2,9 @@
 
 ## Next Version
 ### Features
+- docs for FileService
+- docs for FileSelectComponent docs
+
 ### Fixes
 ### Deprecations
 
