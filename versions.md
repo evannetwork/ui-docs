@@ -2,6 +2,8 @@
 
 ## Next Version
 ### Features
+- add documentation for `ui-dapp-browser` and `bccHelper` to check for correct password and bcc profile initialization
+
 ### Fixes
 ### Deprecations
 
