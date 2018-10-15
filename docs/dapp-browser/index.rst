@@ -62,6 +62,10 @@ Environment configuration using localStorage and url parameters
   - ``accountId`` : Overwrite global accountId
   - ``password`` : provide directly a password
 
+**Hint: by using pro mnemonic, provider, accountId, password at the same time, the user can be logged in directly.**
+
+**WARNING: By passing mnemonics and passwords into the url, you will create security leaks!**
+
 - url parameters for agent provider usage
 
   - ``agent-executor`` : if an token is specified, load the data from the edge-server
@@ -93,10 +97,6 @@ Environment configuration using localStorage and url parameters
   - ``evan-test-password`` : password that is used for testing, user gets automatically logged with this password (DANGER: should not be used in production, its a big security) leak by passing clear text passwords to localStorage 
   - ``evan-vault`` : encrypted vault of the current logged in user
   - ``evan-web3-provider`` : overwrite web3 provider (default = 'wss://testcore.evan.network/ws')
-
-**Hint: by using pro mnemonic, provider, accountId, password at the same time, the user can be logged in directly.**
-
-**WARNING: By passing mnemonics and passwords into the url, you will create security leaks!**
 
 Classes
 =======
