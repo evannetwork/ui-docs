@@ -80,7 +80,7 @@ getSigner
 =========
 .. code-block:: javascript
 
-    accountStore.getSigner(CoreBundle, provider)
+    accountStore.getSigner(CoreBundle, provider, accountStore)
 
 Returns the existing executor or creates a new one, for the active current provider.
 
@@ -89,6 +89,7 @@ Parameters
 ----------
 #. ``CoreBundle`` - |source CoreBundle|_ : blockchain-core ipfs bundle import (System.import('bcc'))
 #. ``provider`` - ``string`` (default = core.getCurrentProvider()): the current selected provider that should be loaded
+#. ``accountStore`` - ``AccountStore`` (default = new AccountStore()): account store to use for the internal signer
 
 -------
 Returns
@@ -293,5 +294,54 @@ Example
   }
 
 
+--------------------------------------------------------------------------------
 
+====================
+createDefaultRuntime
+====================
+.. code-block:: javascript
+
+    accountStore.createDefaultRuntime(CoreBundle, accountId, encryptionKey, privateKey, runtimeConfig, web3, dfs)
+
+Wraps the original create default runtime bcc function to simplify key and account map management.
+
+----------
+Parameters
+----------
+#. ``CoreBundle`` - |source CoreBundle|_: blockchain-core ipfs bundle
+#. ``accountId`` - ``string``: account id to create the runtime for
+#. ``encryptionKey`` - ``string``: enryption key of the users profile
+#. ``privateKey`` - ``string``: account id's private key
+#. ``config`` - ``any``: overwrite the ui configuration with a custom config
+#. ``web3`` - ``any``: overwrite the CoreRuntime web3 with a new one
+#. ``dfs`` - ``any``: overwrite the CoreRuntime dfs with a new one
+
+-------
+Returns
+-------
+
+``Promis<any>`` the new bcc defaultruntime
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  import * as bcc from 'bcc';
+  import {
+    bccHelper,
+    lightwallet,
+  } from 'dapp-browser';
+
+  const vault = await lightwallet.getNewVault('test faucet ...', 'xyazqw91923');
+  const accountId = lightwallet.getAccounts(vault, 1)[0]; 
+
+  // create a new runtime
+  const runtime = await bccHelper.createDefaultRuntime(
+    bcc,
+    accountId,
+    vault.encryptionKey,
+    lightwallet.getPrivateKey(vault, accountId),
+  );
 

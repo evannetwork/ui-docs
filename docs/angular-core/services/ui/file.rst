@@ -53,6 +53,54 @@ Example
 
 --------------------------------------------------------------------------------
 
+.. _document_equalizeFileStructure:
+
+equalizeFileStructure
+================================================================================
+
+.. code-block:: typescript
+
+  inputsService.equalizeFileStructure(files);
+
+Transform an array of files to be valid for display (including file, blob and blobURI) (normally the
+result of the EvanPictureComponent or EvanFileSelectComponent)
+
+----------
+Parameters
+----------
+
+#. ``files`` - ``Array<any>``: array of files that should be checked
+
+-------
+Returns
+-------
+
+``Promise<Array<any>>``: array of valid files
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  const parsed = JSON.parse(formData[key]);
+
+  if (parsed.private) {
+    formData[key] = (await this.bcc.dataContract.decrypt(
+      formData[key],
+      contractAddress,
+      activeAccount,
+      '*'
+    )).private;
+
+    // transform blobURI to security trust url, so the ui can show it
+    formData[key] = await this.fileService.equalizeFileStructure(formData[key]);
+  } else {
+    formData[key] = parsed;
+  }
+
+--------------------------------------------------------------------------------
+
 .. _document_downloadMobile:
 
 downloadMobile
