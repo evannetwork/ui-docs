@@ -344,6 +344,50 @@ Example
 
 --------------------------------------------------------------------------------
 
+.. _document_sendMail:
+
+sendMail
+================================================================================
+
+.. code-block:: typescript
+
+  mailboxService.sendMail(mail, from, to);
+
+Send an mail, using the queue.
+
+----------
+Parameters
+----------
+
+#. ``mail`` - ``string``: mail object
+#. ``from`` - ``string``: account id from
+#. ``to`` - ``string``: to account id
+
+-------
+Returns
+-------
+
+``Promise`` returns ``void``: resolved when done
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  this.mailboxService.sendMail({
+    content: {
+      sent: new Date().getTime(),
+      from: this.myAccountId,
+      to: this.mail.content.from,
+      title: this.mail.content.title,
+      body: this.answer,
+    }
+  }, '0x000', '0x001')
+
+
+--------------------------------------------------------------------------------
+
 .. _document_sendAnswer:
 
 sendAnswer
