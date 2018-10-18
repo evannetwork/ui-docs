@@ -850,3 +850,57 @@ Example
   } catch (ex) {
     this.core.utils.log(`Error : ${ this.utils.getErrorLog(ex) }`, 'error');
   }
+
+--------------------------------------------------------------------------------
+
+.. _document_showLoading:
+
+showLoading
+================================================================================
+
+.. code-block:: typescript
+
+  utilSerivce.showLoading(context);
+
+Shows the loading of a ref detached component
+
+----------
+Parameters
+----------
+
+#. ``context`` - ``any``: this of the component
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  this.utils.showLoading(this)
+
+--------------------------------------------------------------------------------
+
+.. _document_hideLoading:
+
+hideLoading
+================================================================================
+
+.. code-block:: typescript
+
+  utilSerivce.hideLoading(context);
+
+Hides the loading of a ref detached component.
+
+----------
+Parameters
+----------
+
+#. ``context`` - ``any``: this of the component
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  this.utils.hideLoading(this)

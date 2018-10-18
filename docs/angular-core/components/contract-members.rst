@@ -11,6 +11,8 @@ Inputs
 #. ``members`` - ``string``: new member account ids that should be added to the contract
 #. ``contractMemberStates`` - ``string``: members states of the contract
 #. ``label`` - ``string``: this component is displayed like an ionic input, defines property or hides it
+#. ``placeholder`` - ``string``: replace input placeholder
+#. ``maxMembers`` - ``number``: max users that can be added
 #. ``origin`` - ``string``: already added user accounts
 #. ``readonly`` - ``string``: show display or add mode
 

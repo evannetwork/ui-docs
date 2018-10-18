@@ -30,7 +30,7 @@ constructor
 
 .. code-block:: typescript
 
-  new AccountStore(options);
+  new AccountStore(vault?: any);
 
 Creates a new AccountStore instance.
 
@@ -38,12 +38,7 @@ Creates a new AccountStore instance.
 Parameters
 ----------
 
-#. ``options`` - ``AccountStoreOptions``: options for AccountStore constructor.
-    * ``accounts`` - ``any``: object with accountid/privatekey mapping
-    * ``log`` - ``Function`` (optional): function to use for logging: ``(message, level) => {...}``
-    * ``logLevel`` - |source logLevel|_ (optional): messages with this level will be logged with ``log``
-    * ``logLog`` - |source logLogInterface|_ (optional): container for collecting log messages
-    * ``logLogLevel`` - |source logLevel|_ (optional): messages with this level will be pushed to ``logLog``
+#. ``vault`` - ``AccountStoreOptions`` (optional): overwrite the global vault with an specific one
 
 -------
 Returns

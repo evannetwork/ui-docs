@@ -5,6 +5,11 @@
 ### Fixes
 ### Deprecations
 
+## Version 1.3.0
+### Features
+- add documentation for `ui-dapp-browser` and `bccHelper` to check for correct password and bcc profile initialization
+- `ui-angular-core` `sendMail` function
+
 ## Version 1.2.0
 ### Features
 - docs for FileService
