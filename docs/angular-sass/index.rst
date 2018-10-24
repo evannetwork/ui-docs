@@ -134,14 +134,27 @@ The evan.network supports multiple themes, so you can provide a custom look and 
     dark-gray: $dark-gray,
     dark: $dark,
     evan-blue-dark: $dark-blue,
+    gray-blue: $gray-blue,
+    gray-overlay: $gray-overlay,
     green: $green,
+    ligh-red: $ligh-red,
+    light-blue: $light-blue,
+    light-cyan: $light-cyan,
     light-gray: $light-gray,
     light-green: $green,
     light: $light,
+    medium-blue: $medium-blue,
+    medium-cyan: $medium-cyan,
     medium-gray: $medium-gray,
+    medium-light-gray: $medium-light-gray,
+    medium-red: $medium-red,
     primary: $primary,
+    red: $red,
     secondary: $green,
-    transparency: rgba(2,56,69,0.3)
+    success: $green,
+    transparency: rgba(2,56,69,0.3),
+    white: $white,
+    yellow: $yellow
   );
 
   // map the colors so they can be used within mixins
