@@ -920,14 +920,14 @@ Example
 
 --------------------------------------------------------------------------------
 
-.. _document_getStandAloneContractId:
+.. _document_getContractAddress:
 
-getStandAloneContractId
+getContractAddress
 ================================================================================
 
 .. code-block:: typescript
 
-  .getStandAloneContractId(arguments);
+  .getContractAddress(arguments);
 
 return this.getHashParam('address') or Split the current url hash and return the latest path.
 
@@ -945,7 +945,8 @@ Example
 .. code-block:: typescript
 
   // https://dashboard.evan.network/#/taskboard.evan/0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c
-  getStandAloneContractId() // will return 0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c, even when the ":address" parameter within the path is not defined
+  // https://dashboard.evan.network/#/taskboard.evan/0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c/edit-contract
+  getContractAddress() // will return 0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c, even when the ":address" parameter within the path is not defined
 
 
 --------------------------------------------------------------------------------
