@@ -2,6 +2,13 @@
 dapp-browser
 ============
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `dapp-browser <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/index.ts>`__
+
 The `dapp-browser <https://github.com/evannetwork/ui-dapp-browser>`_ is used to start applications over it. Within this applications, several classes, functions and runtime instances can be used. General DApps will be opened like the following "https://.../index.html#/my-dapp-ens.evan". Where the index.html file is the entry point of the dapp-browser.
 
 It is the wrapper application for the evan.network DApp framework. Using the project you will be possible to create featured DApps.

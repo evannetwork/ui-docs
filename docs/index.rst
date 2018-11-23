@@ -22,6 +22,7 @@ Welcome to evan.network frontend's documentation!
   angular-core/index
   angular-libs/index
   angular-sass/index
+  core-dapps/index
 
 Indices and tables
 ==================

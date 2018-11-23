@@ -2,6 +2,13 @@
 evanGlobals
 ===========
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `evanGlobals <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/main.ts>`__
+
 The `evan globals <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/main.ts>`_ are a runtime object that handles global references for internal functions within the dapp-browser. This is nessecary to remove any dapp-browser dependency from the window object. Maybe this collection will help you.
 
 ----------

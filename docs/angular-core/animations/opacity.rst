@@ -2,6 +2,13 @@
 createOpacityTransition
 =======================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `opacity <https://github.com/evannetwork/ui-angular-core/blob/develop/src/animations/opacity.ts>`__
+
 .. code-block:: typescript
 
   createOpacityTransition();

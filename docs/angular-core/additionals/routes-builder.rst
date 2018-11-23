@@ -2,9 +2,14 @@
 routes-builder
 ==============
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `routes-builder <https://github.com/evannetwork/ui-angular-core/blob/develop/src/classes/routesBuilder.ts>`__
+
 The routes builder is a collection of functions that handles dynamic and nested routing handling, including the default evan.network dapp routes (profile, favorites, addressbook, mailbox, queue, logging).
-
-
 
 
 --------------------------------------------------------------------------------

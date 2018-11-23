@@ -2,6 +2,13 @@
 EvanUtilService
 ===============
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `utils <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/utils.ts>`__
+
 Utility service for the whole angular core module.
 
 

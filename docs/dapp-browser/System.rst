@@ -2,6 +2,13 @@
 System
 ======
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `System <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/systemjs-plugins>`__
+
 The dapp-browser uses |source SystemJS|_ load js bundles (UMD), json and css files from IPFS. You can use SystemJS directly. It is exposed as "System" property by the dapp-browser.
 
 Using the `DApp loader </dapp-browser/dapp.html#loaddappdependencies>`_, each within the DBCP defined dependency of an DApp gets registered within SystemJS. So you can use the normal import statements within your DApp. Each library will be loaded before your app is running and inserted into your module.

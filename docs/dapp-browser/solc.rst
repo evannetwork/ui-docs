@@ -2,6 +2,13 @@
 Solc
 ================================================================================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `Solc <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/solc.ts>`__
+
 Smart `contracts solc <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/solc.ts>`_ representation. Is used to handle and sort the compiled |source SmartContracts|_ compiled object.
 
 --------------------------------------------------------------------------------

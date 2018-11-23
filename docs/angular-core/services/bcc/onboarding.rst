@@ -2,6 +2,13 @@
 EvanOnboardingService
 =====================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `onboarding <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/onboarding.ts>`__
+
 Onboarding wrapper service, with some utility functions. Primary used by the core-dapps/onboarding Dapp.
 
 --------------------------------------------------------------------------------

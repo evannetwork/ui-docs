@@ -2,6 +2,13 @@
 ListPagingComponent
 ===================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `list-paging <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/list-paging>`__
+
 Simple helper for list paging. It offers the handling of basic paging parameters (offsett, totalSize) and shows a button, when the user can page to the next page. The whole logic how to load and display data is yours.
 
 ------

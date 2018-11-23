@@ -2,6 +2,13 @@
 EvanModalService
 ================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `modal <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/modal.ts>`__
+
 Service that handles components within modals.
 
 --------------------------------------------------------------------------------

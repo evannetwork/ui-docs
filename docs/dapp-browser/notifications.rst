@@ -2,6 +2,13 @@
 notifications
 =============
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `Notifications <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/notifications.ts>`__
+
 The dapp-browser provides an general notification handling for mobile devices. In the normal case,
 the configuration of the push notifications are handled by the default evan.network applications. On
 mobile  devices, notifications can be enabled by opening the profile / configuration DApp and

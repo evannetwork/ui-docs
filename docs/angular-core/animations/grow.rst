@@ -2,6 +2,14 @@
 createGrowTransition
 ====================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `grow <https://github.com/evannetwork/ui-angular-core/blob/develop/src/animations/grow.ts>`__
+
+
 .. code-block:: typescript
 
   createGrowTransition();

@@ -2,6 +2,13 @@
 EvanPictureService
 ==================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `picture <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/picture.ts>`__
+
 Picture taking service for HTML 5 / IOS / Android.
 
 

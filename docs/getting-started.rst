@@ -85,6 +85,7 @@ The `angular-sass </angular-sass/index.html>`_ library includes styling definiti
 - table styles
 - tab styles
 - Ionic adjustments
+- evan theming
 
 .. |source bcc_bundlejs| replace:: ``blockchain-core frontend bundle``
 .. _source bcc_bundlejs: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts

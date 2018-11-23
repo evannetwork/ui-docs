@@ -2,6 +2,13 @@
 router transition
 =================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `router-transition <https://github.com/evannetwork/ui-angular-core/blob/develop/src/animations/router-transition.ts>`__
+
 createRouterTransition
 ======================
 .. code-block:: typescript

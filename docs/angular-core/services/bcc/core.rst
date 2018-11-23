@@ -2,6 +2,13 @@
 EvanCoreService
 ===============
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `core <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/core.ts>`__
+
 Core service for angular-core that handles dapp-browser connections, active accounts, current provider and more.
 
 --------------------------------------------------------------------------------

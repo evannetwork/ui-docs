@@ -2,6 +2,13 @@
 ipfs
 ====
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `ipfs <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/ipfs.ts>`__
+
 The `ipfs library <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/ipfs.ts>`_ handles the ipfs.evan.network connection settings and provides functions to handle restIpfs calls.
 
 

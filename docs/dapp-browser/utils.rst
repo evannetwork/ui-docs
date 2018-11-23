@@ -2,6 +2,13 @@
 utils
 =====
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `utils <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/utils.ts>`__
+
 The `utils <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/utils.ts>`_ includes several support functions.
 
 One primary function is to check for dapps that should be loaded from the local development file server. This is enabled when opening the dev.html, instead of the index.html.

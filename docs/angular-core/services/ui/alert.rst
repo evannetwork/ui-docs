@@ -2,6 +2,13 @@
 EvanAlertService
 ================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `alert <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/alert.ts>`__
+
 `Ionic AlertController <https://ionicframework.com/docs/api/components/alert/AlertController/>`_ wrapper for easier usage.
 
 --------------------------------------------------------------------------------

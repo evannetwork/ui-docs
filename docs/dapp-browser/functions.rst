@@ -1,6 +1,14 @@
 ==============
 getCoreOptions
 ==============
+
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `getCoreOptions <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/bcc/bcc.ts>`__
+
 .. code-block:: javascript
 
     accountStore.getCoreOptions(CoreBundle, SmartContracts)
@@ -32,6 +40,13 @@ Example
 =============
 getDomainName
 =============
+
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `getDomainName <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/dapp.ts>`__
 
 .. code-block:: javascript
 
@@ -67,6 +82,13 @@ Example
 getLatestKeyProvider
 ====================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `getLatestKeyProvider <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/bcc/KeyProvider.ts>`__
+
 .. code-block:: javascript
 
   getLatestKeyProvider()
@@ -92,6 +114,13 @@ Example
 ==============================
 initializeEvanNetworkStructure
 ==============================
+
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `initializeEvanNetworkStructure <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/main.ts>`__
 
 .. code-block:: javascript
 

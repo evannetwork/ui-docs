@@ -2,6 +2,13 @@
 EvanSlidesService
 =================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `slides <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/slides.ts>`__
+
 Ionic Slide helper service to work around Ionic bugs.
 
 

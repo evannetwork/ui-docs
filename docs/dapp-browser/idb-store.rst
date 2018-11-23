@@ -2,7 +2,12 @@
 IDBStore
 ================================================================================
 
-`IndexDB store wrapper <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/idb-store.ts>`_.
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `IDBStore <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/idb-store.ts>`__
 
 
 --------------------------------------------------------------------------------

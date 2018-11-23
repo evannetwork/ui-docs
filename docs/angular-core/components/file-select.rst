@@ -2,6 +2,13 @@
 EvanFileSelectComponent
 =======================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `file-select <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/file-select>`__
+
 file selector component for HTML 5 &IOS & Anroid
 
 ------

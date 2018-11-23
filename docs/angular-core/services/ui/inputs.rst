@@ -2,6 +2,13 @@
 EvanInputService
 ================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `inputs <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/inputs.ts>`__
+
 Helper that improves input selection on mobile devices. It will scroll automatically, so the input will appear within the viewport.
 
 

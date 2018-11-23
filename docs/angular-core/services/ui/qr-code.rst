@@ -2,6 +2,13 @@
 EvanQrCodeService
 =================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `qr-code <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/qr-code.ts>`__
+
 QR-Code Scanner service for HTML 5 / IOS / Android.
 
 

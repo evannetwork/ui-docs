@@ -2,6 +2,13 @@
 EvanLoadingComponent
 ====================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `evan-loading <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/evan-loading>`__
+
 Evan network loading img wrapper. Use it for full application loading, its build as a big loading animation
 
 ------

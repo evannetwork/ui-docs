@@ -2,6 +2,13 @@
 EvanBookmarkService
 ===================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `bookmark <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/bookmark.ts>`__
+
 Blockchain-core wrapper service to handle users favorites.
 
 - ``joinLeaveBcQueueId`` - |source queueId|_: queue id for handling favorite saving

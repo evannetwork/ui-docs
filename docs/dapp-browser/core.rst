@@ -1,6 +1,14 @@
 ====
 core
 ====
+
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `core <https://github.com/evannetwork/ui-dapp-browser/tree/develop/src/app/core.ts>`__
+
 The `core <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/core.ts>`_ is a function catalog to handle users accountId, login provider and users utility functions.
 
 --------------------------------------------------------------------------------

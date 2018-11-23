@@ -2,6 +2,13 @@
 createTabSlideTransition
 ========================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `tabs <https://github.com/evannetwork/ui-angular-core/blob/develop/src/animations/tabs.ts>`__
+
 .. code-block:: typescript
 
   createTabSlideTransition(arguments);

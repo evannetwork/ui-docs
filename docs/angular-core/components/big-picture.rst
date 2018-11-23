@@ -2,6 +2,13 @@
 BigPictureDialog
 ================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `big-picture <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/big-picture>`__
+
 Takes an img url and shows an image on fullscreen (optimized for modal dialogs).
 The dataUrl can be anything that can display an img:
   

@@ -2,6 +2,13 @@
 SnapshotDialogComponent
 =======================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `take-snapshot <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/take-snapshot>`__
+
 Component to take pictures using HTML 5. Should only be used within a modal.
 
 -------

@@ -2,6 +2,13 @@
 dapp
 ====
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `dapp <https://github.com/evannetwork/ui-dapp-browser/tree/develop/src/app/dapp.ts>`__
+
 The `DApp library <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/dapp.ts>`_ is a collection of several functions to handle DApp loading, starting and depdency resolve.
 
 --------------------------------------------------------------------------------

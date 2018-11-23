@@ -2,6 +2,13 @@
 EvanRoutingService
 ==================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `routing <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/routing.ts>`__
+
 Angular 5 routing wrapper service.
 
 **Be aware: We are doing fancy stuff to handle dynamic routing over cross Angular applications. We cant use the Ionic router for the app view routing, because its to restricted. Ionic router is only used for internal services like alerts, toasts and so on.**

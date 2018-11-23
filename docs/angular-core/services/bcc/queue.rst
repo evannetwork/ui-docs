@@ -2,6 +2,13 @@
 EvanQueue
 =========
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `queue <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/queue.ts>`__
+
 The evan queue synchronisation implementation. You can add entries using QueueIDs and data properties. The configured dispatchers and its Angular modules are loaded during runtime, so each dispatcher can handle angular services, also, when the DApp is not openend.
 
 - ``queue`` - |source dapp_browser_queue|_: dapp-wrapper queue reference object to handle alsome global queue;

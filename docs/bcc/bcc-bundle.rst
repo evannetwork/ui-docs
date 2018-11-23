@@ -2,6 +2,13 @@
 blockchain-core frontend bundle
 ===============================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `AsyncComponent <https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts>`__
+
 The |source bcc_bundlejs|_ is similar to the blockchain-core runtime and its build to handle several UI steps including blockchain-core instance without account interactions, blockchain-core instance including account id for profile interactions and blockchain-core instance to interact with business centers. It exposes the following Runtime parameters and several functions to create, handle and overwrite them:
 
 - CoreRuntime: |source CoreInstance|_
@@ -183,6 +190,7 @@ Parameters
 #. |source createAndSet|_ - ``Function``;
 #. ``ProfileRuntime`` - |source ProfileInstance|_;
 #. ``Aes`` - |source Aes|_;
+#. ``Claims`` - |source Claims|_;
 #. ``Ipld`` - |source Ipld|_;
 #. ``KeyExchange`` - |source KeyExchange|_;
 #. ``Logger`` - |source Logger|_;
@@ -225,6 +233,7 @@ Parameters
 #. ``ipldInstance`` - |source Ipld|_;
 #. ``keyExchange`` - |source KeyExchange|_;
 #. ``mailbox`` - |source Mailbox|_;
+#. ``claims`` - |source Claims|_;
 #. ``profile`` - |source Profile|_;
 #. ``sharing`` - |source Sharing|_;
 #. ``dataContract`` - |source DataContract|_;
@@ -692,3 +701,6 @@ Example
 
 .. |source BusinessCenterProfile| replace:: ``BusinessCenterProfile``
 .. _source BusinessCenterProfile: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/profile/business-center-profile.rst
+
+.. |source Claims| replace:: ``Claims``
+.. _source Claims: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/claims/claims.ts
