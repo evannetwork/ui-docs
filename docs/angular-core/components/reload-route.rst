@@ -2,6 +2,13 @@
 EvanReloadComponent
 ===================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `reload-route <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/reload-route>`__
+
 Is used to hardly reload an route. The user gets navigate to this route and it will navigate back after 500 milliseconds.
 
 ------
@@ -19,7 +26,7 @@ Outpus
 -------
 Example
 -------
-Reference Implementation: `RoutesBuilder <https://github.com/evannetwork/ui-angular-core/blob/develop/src/classes/routesBuilder.ts>`_
+Reference Implementation: `RoutesBuilder <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/routesBuilder.ts>`_
 
 Example within routesBuilder dashboardRoutes:
 

@@ -2,6 +2,13 @@
 ObjectToArrayPipe
 =================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `ObjectToArray <https://github.com/evannetwork/ui-angular-core/blob/develop/src/pipes/ObjectToArray.ts>`__
+
 Transforms an object into an array, to easily \*ngFor repeat for an object.
 
 -------

@@ -2,6 +2,13 @@
 IPFSCache
 =========
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `IPFSCache <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/ipfs.ts>`__
+
 ================================================================================
 IPFSCache
 ================================================================================

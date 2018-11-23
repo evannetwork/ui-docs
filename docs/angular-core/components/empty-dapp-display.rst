@@ -1,6 +1,14 @@
 =========================
 EmptyDAppDisplayComponent
 =========================
+
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `empty-dapp-display <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/empty-dapp-display>`__
+
 Shows an generalized "Theirs no data." screen using DApp DBCP descriptions 
 
 ------

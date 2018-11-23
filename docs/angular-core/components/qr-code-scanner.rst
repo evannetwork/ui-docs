@@ -2,6 +2,13 @@
 QRCodeScannerDialogComponent
 ============================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `qr-code-scanner <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/qr-code-scanner>`__
+
 Shows an QR-Code Scanner Dialog for HTML 5. Should only be used within a modal.
 
 -------

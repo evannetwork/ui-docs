@@ -2,6 +2,13 @@
 EvanBCCService
 ==============
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `bcc <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/bcc.ts>`__
+
 Core blockchain-core angular-core wrapper. Initializes and extends new runtimes from dapp-browser, when user unlocked successfully its account, to  handle correct user encryption keys and object instances
 
 - ``passwordModalPromise`` - ``any``: wait for password dialog to be resolved;

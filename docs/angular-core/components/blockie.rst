@@ -2,14 +2,21 @@
 BlockieComponent
 ================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `blockie <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/blockie>`__
+
 Displays account ids in blockie style. Angular component wrapper for `blockies <https://github.com/download13/blockies.>`_.
 
 ------
 Inputs
 ------
 #. ``address`` - ``string``: Address that should be displayed as an blockie
-#. ``address`` - ``number``: width/height of the blockie
-#. ``address`` - ``number``: width/height of each block in pixels, default: 5
+#. ``height`` - ``number``: width/height of the blockie
+#. ``width`` - ``number``: width/height of each block in pixels, default: 5
 
 -------
 Example

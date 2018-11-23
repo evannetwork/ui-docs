@@ -2,4 +2,11 @@
 i18n
 ====
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `i18n <https://github.com/evannetwork/ui-angular-core/blob/develop/src/i18n>`__
+
 The angular-core is registering several i18n keys per default. Have a look at `the default translations <https://github.com/evannetwork/ui-angular-core/blob/master/src/i18n/en.ts>`_ to see, wich translations are predefined, when you are using the angular-core. For more informations how to use translations within angular expressions or how to use the translation service, have a look `here <../services/ui/translate.html>`_.

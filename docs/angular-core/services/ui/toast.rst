@@ -2,6 +2,13 @@
 EvanToastService
 ================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `toast <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/toast.ts>`__
+
 Ionic toast wrapper service that handles translated toasts.
 
 This service hold the reference to the latest available toast service to handle cross dapp toast messages. It could be possible, that the queue is running and tries to submit an toast, even when the queue origin dapp was closed and the toastService is destroyed.

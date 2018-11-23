@@ -2,6 +2,13 @@
 EvanTranslationService
 ======================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `translate <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/translate.ts>`__
+
 I18N utility functions. Make it possible to share i18n through all applications. The I18N service uses `ngx translate <https://github.com/ngx-translate/core>`_ to handle translations in services and templates.
 
 

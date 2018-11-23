@@ -2,6 +2,13 @@
 EvanFileService
 ================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `files <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/files.ts>`__
+
 Service to handle files and its encryption / decryption.
 
 

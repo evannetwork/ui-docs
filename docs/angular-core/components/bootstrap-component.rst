@@ -2,6 +2,13 @@
 BootstrapComponent
 ==================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `bootstrap-component <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/bootstrap-component>`__
+
 Generic evan.network Angular 5 featured DApp bootstrap component.
   - helpers for dynamic routing configurations for dynamic parent routes
   - registers referenceApplicationRef for correct deleting later

@@ -2,6 +2,13 @@
 EvanDescriptionService
 ======================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `description <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/description.ts>`__
+
 `Blockchain core description <https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/blockchain/description.rst>`_ class wrapper.
 
 --------------------------------------------------------------------------------

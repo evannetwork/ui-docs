@@ -2,6 +2,13 @@
 SingletonService
 ================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `singleton-service <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/singleton-service.ts>`__
+
 This service can be used to create Singleton services, that shares it reference everywhere. (**Be aware: this will share services even between dapps that uses the same library! Some Ionic functionallities can have some problems, because runtime references are destroyed after an DApp was closed.**).
 
 --------------------------------------------------------------------------------

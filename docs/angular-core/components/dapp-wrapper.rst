@@ -2,6 +2,13 @@
 EvanDAppWrapperComponent
 ========================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `dapp-wrapper <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/dapp-wrapper>`__
+
 top-bar wrapper for DApps that enables:
 
 - back navigation

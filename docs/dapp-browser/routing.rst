@@ -2,6 +2,13 @@
 routing
 =======
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `routing <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/routing.ts>`__
+
 The `routing library <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/routing.ts>`_ is a small routing library that handles top level DApp navigation. To be small as possible, it uses the `navigo routing <https://github.com/krasimir/navigo>`_ as helper library.
 
 - On first loading, it checks a logged in user and in case of an unregistered user, it redirectes the browser to the onboarding DApp.

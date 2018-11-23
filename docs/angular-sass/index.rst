@@ -16,116 +16,199 @@ Usage
 
 For the directly usage you can include and build in scss each file into your project. We recommend to dont include the css styles as imports to your application to reduce file size loading, it will be loaded by the evan.network library dapps. 
 
-You can use the color definition variables, to assume, that you are ongoing with the evan.network styles. By using the `angular-gulp <https://github.com/evannetwork/angular-gulp>`_ you can use the following scss import to load the evan.network variables:
+You can use the color definition variables, to assume, that you are ongoing with the evan.network styles. By using the `angular-gulp <https://github.com/evannetwork/angular-gulp>`_ you can use the following scss import to load the evan.network core variables:
 
 ::
 
-  @import 'ui-angular-sass/src/variables/colors';
+  @import '@evan.network/ui-angular-sass/src/variables/colors';
 
+The evan.network supports multiple themes (currently evan basic, evan-light theme). If you are using the color variables, you should define your scss styles for all themes. To do so, it's recommended to split your structual css from your color css. It will be like the following
 
-- background colors
+::
 
-  - ``$dark-blue``: ``#023845``;
-  - ``$medium-blue``: ``#24545e``;
+  .my-custom-style {
+    postion: relative;
+    width: ...
+  }
 
-- top bar color
-  
-  - ``$light-cyan``: ``#64c6c1``;
-  - ``$medium-cyan``: ``#61cbc8``;
+  @mixin customTheme($colors, $theme) {
+    .my-custom-style {
+      background-color: map-get($theme, background-color);
+      color: map-get($theme, text-color);
+    }
+  }
 
-- font color
+  // apply custom styles for all themes
+  @import '@evan.network/ui-angular-sass/src/theme';
+  @each $theme, $definition in $evanThemes {
+    @if $theme == 'evan' {
+      @include customTheme(map-get($definition, colors), map-get($definition, evanStyles));
+    } @else {
+      .evan-#{$theme} {
+        @include customTheme(map-get($definition, colors), map-get($definition, evanStyles));
+      }
+    }
+  }
 
-  - ``$light-gray``: ``#c6d1d5``;
+Color Themes
+============
 
-- complementary
+The evan.network supports multiple themes, so you can provide a custom look and feel to each DApp. Each color theme is represented by one color map defining file. A theme can include the following variables:
 
-  - ``$green``: ``#53e69d``;
-  - ``$red``: ``#ff7676``;
+::
 
-- additional colors
+  /**************************************** color definitions ***************************************/
+  $dark-blue: #023845;
+  $dark-gray: #4a4a4a;
+  $dark: #222222;
+  $gray-blue: #556080;
+  $gray-overlay: transparentize($dark-gray, 0.6);
+  $green: #53e69d;
+  $ligh-red: #fdeeee;
+  $light-blue: #cce1ec;
+  $light-cyan: #64c6c1;
+  $light-gray: #c6d1d5;
+  $light: #ffffff;
+  $medium-blue: #24545e;
+  $medium-cyan: #61cbc8;
+  $medium-gray: #808080;
+  $medium-light-gray: #b4b4b4;
+  $medium-red: #e48991;
+  $red: #ff7676;
+  $white: #ffffff;
+  $yellow: #fb7d00;
 
-  - ``$dark-gray``: ``#4a4a4a``;
-  - ``$gray-blue``: ``#556080``;
-  - ``$gray-overlay``: ``transparentize($dark-gray, 0.6)``;
-  - ``$ligh-red``: ``#fdeeee``;
-  - ``$light-blue``: ``cce1ec``;
-  - ``$medium-gray``: ``#808080``;
-  - ``$medium-light-gray``: ``#b4b4b4``;
-  - ``$medium-red``: ``#e48991``;
-  - ``$white``: ``#ffffff``;
-  - ``$yellow``: ``#fb7d00``;
+  /***************************************** evan definitions ***************************************/
+  // general
+  $border-color: #29757b;
+  $primary: $medium-cyan;
+  $refresher-border-color: transparent;
 
---------------------------------------------------------------------------------
+  // text
+  $content-header-color: $primary;
+  $label-text-color: $light;
+  $link-color: $medium-cyan;
+  $placeholder-color: $light-gray;
+  $subdued-text-color: #c6d1d5;
+  $text-color: $light;
 
-- ionic styles
+  // backgrounds
+  $background-backdrop: rgba(0, 0, 0, 0.5);
+  $background-color: $dark-blue;
+  $background-color-2: $medium-blue;
+  $background-opacity: 0.5;
+  $background-color-opacity: rgba($background-color, $background-opacity);
+  $background-gradient-reverse: linear-gradient(-134deg, #0c3140 0%, #3b9c97 100%);
+  $background-gradient: linear-gradient($dark-blue, $primary);
+  $hover-color: $primary;
+  $hover: rgba(0,0,0,0.1);
 
-  - ``$light``: ``#ffffff``;
-  - ``$dark``: ``#222222``;
-  - ``$primary``: ``$medium-cyan``;
-  - ``$colors``
-  
-    - ``primary``: ``$primary``;
-    - ``secondary``: ``$green``;
-    - ``danger``: ``$red``;
-    - ``light``: ``$light``;
-    - ``dark``: ``$dark``;
-    - ``light-gray``: ``$light-gray``;
-    - ``medium-gray``: ``$medium-gray``;
-    - ``dark-gray``: ``$dark-gray``;
-    - ``evan-blue-dark``: ``$dark-blue``;
-    - ``green``: ``$green``;
-    - ``light-green``: ``$green``;
-    - ``dark-blue``: ``$dark-blue``;
-    - ``alert``: ``$yellow``;
+  // toolbar
+  $background-toolbar-small: transparent;
+  $background-toolbar-wide: transparent;
 
---------------------------------------------------------------------------------
+  // components
+  $blockie-border: $white;
+  $list-icon-color: $dark-gray;
 
-- general
+  // grid
+  $grid-list-item-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2),
+  0 1px 1px 0 rgba(0, 0, 0, 0.14),
+  0 2px 1px -1px rgba(0, 0, 0, 0.12);
 
-  - ``$border-color``: ``#24545e``;
-  - ``$refresher-border-color``: ``transparent``;
+  // list
+  $list-text-color: $text-color !default;
+  $list-background-color: transparent !default;
+  $list-border-color: $medium-cyan !default;
 
-- text
+  // sizing
+  $content-margin: 25px !default;
+  $content-padding: 25px !default;
 
-  - ``$text-color``: ``$light !default``;
-  - ``$link-color``: ``$medium-cyan !default``;
-  - ``$subdued-text-color``: ``#c6d1d5 !default``;
-  - ``$label-text-color``: ``$light``;
+  /********************************************* exports ********************************************/
+  // color definitions
+  $colors: (
+    alert: $yellow,
+    danger: $red,
+    dark-blue: $dark-blue,
+    dark-gray: $dark-gray,
+    dark: $dark,
+    evan-blue-dark: $dark-blue,
+    gray-blue: $gray-blue,
+    gray-overlay: $gray-overlay,
+    green: $green,
+    ligh-red: $ligh-red,
+    light-blue: $light-blue,
+    light-cyan: $light-cyan,
+    light-gray: $light-gray,
+    light-green: $green,
+    light: $light,
+    medium-blue: $medium-blue,
+    medium-cyan: $medium-cyan,
+    medium-gray: $medium-gray,
+    medium-light-gray: $medium-light-gray,
+    medium-red: $medium-red,
+    primary: $primary,
+    red: $red,
+    secondary: $green,
+    success: $green,
+    transparency: rgba(2,56,69,0.3),
+    white: $white,
+    yellow: $yellow
+  );
 
-- backgrounds
+  // map the colors so they can be used within mixins
+  $evanStyles: (
+    background-backdrop: $background-backdrop,
+    background-color-2: $background-color-2,
+    background-color-opacity: $background-color-opacity,
+    background-color: $background-color,
+    background-gradient-reverse: $background-gradient-reverse,
+    background-gradient: $background-gradient,
+    background-opacity: $background-opacity,
+    background-toolbar-small: $background-toolbar-small,
+    background-toolbar-wide: $background-toolbar-wide,
+    blockie-border: $blockie-border,
+    border-color: $border-color,
+    content-header-color: $content-header-color,
+    content-margin: $content-margin,
+    content-padding: $content-padding,
+    grid-list-item-shadow: $grid-list-item-shadow,
+    hover: $hover,
+    hover-color: $hover-color,
+    label-text-color: $label-text-color,
+    link-color: $link-color,
+    list-background-color: $list-background-color,
+    list-border-color: $list-border-color,
+    list-icon-color: $list-icon-color,
+    list-text-color: $list-text-color,
+    placeholder-color: $placeholder-color,
+    refresher-border-color: $refresher-border-color,
+    subdued-text-color: $subdued-text-color,
+    text-color: $text-color
+  );
 
-  - ``$background-color``: ``$dark-blue``;
-  - ``$background-color-2``: ``$medium-blue``;
-  - ``$background-gradient``: ``linear-gradient(-134deg, #3b9c97 0%, #0c3140 100%)``;
-  - ``$background-gradient-reverse``: ``linear-gradient(-134deg, #0c3140 0%, #3b9c97 100%)``;
-  - ``$background-backdrop``: ``rgba(0, 0, 0, 0.5)``;
-  - ``$hover``:  ``$medium-blue``;
+To define your own DApp theme, you can copy this content to your own DApp and include the following code. In this case, we assumes, that the file is called "custom-color-theme.scss".
 
-- toolbar
-  
-  - ``$background-toolbar-wide``: ``$light-cyan``;
-  - ``$background-toolbar-small``: ``$light-cyan``;
-  - ``$toolbar-height``: ``56px``;
+::
 
-- components
-  
-  - ``$blockie-border``: ``$white``;
-  - ``$list-icon-color``: ``$dark-gray``;
+  .evan-custom-style {
+    @import '@evan.network/ui-angular-sass/src/theme';
+    @import 'custom-color-theme';
+    @include evanTheme($colors, $evanStyles);
 
-- grid
+    // my custom styles
+  }
 
-  - ``$grid-list-item-shadow``: ``0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12)``;
+After this is defined, your DApp will include a full custom evan.network design. To enable this design, apply your custom-style class to your dapp entrypoint element (e.g. within the index.ts of your DApp).
 
-- list
+::
 
-  - ``$list-text-color``: ``$text-color !default``;
-  - ``$list-background-color``: ``$background-color !default``;
-  - ``$list-border-color``: ``$medium-cyan !default``;
+  ...
+  // Add project class name to the ion-app / .evan-dapp element for generalized styling
+  ionicAppEl.className += ' .evan-custom-style';
+  ...
 
-- sizing
-
-  - ``$content-margin``: ``25px !default``;
-  - ``$content-padding``: ``25px !default``;
 
 Style Definitions
 =================

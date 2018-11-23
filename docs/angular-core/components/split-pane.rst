@@ -2,6 +2,13 @@
 EvanSplitPaneComponent
 ======================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `split-pane <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/split-pane>`__
+
 Create easy Dashboards
 
   - generates an left panel using Ionic (will be folded on small displays)

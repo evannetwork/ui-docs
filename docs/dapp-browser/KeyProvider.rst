@@ -12,8 +12,10 @@ Key Provider
      - `KeyProviderInterface <https://github.com/evannetwork/dbcp/tree/master/src/encryption/key-provider-interface.ts>`_
    * - Extends
      - `Logger </common/logger.html>`_
-   * - Source
+   * - Extends
      - `key-provider.ts <https://github.com/evannetwork/ui-dapp-browser/blob/master/src/app/bcc/KeyProvider.ts>`_
+   * - Source
+     - `key-provider.ts <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/bcc/KeyProvider.ts>`_
 
 
 This `DApp browser KeyProvider <https://github.com/evannetwork/ui-dapp-browser/blob/master/src/app/bcc/KeyProvider.ts>`_ is a adaption of the original `DBCP KeyProvider <https://github.com/evannetwork/dbcp/blob/develop/src/encryption/key-provider.ts>`_ returns given decryption/encryption keys for a given CryptoInfo. They use a given evan.network profile to retrieve the needed keys to encrypt/decrypt the envelope

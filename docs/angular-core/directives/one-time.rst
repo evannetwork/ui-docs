@@ -2,6 +2,13 @@
 OneTimeDirective
 ================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `oneTime <https://github.com/evannetwork/ui-angular-core/blob/develop/src/directives/oneTime.ts>`__
+
 Detaches Angular view update bindings to prevent automatic updates.
 
 -------

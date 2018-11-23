@@ -2,6 +2,13 @@
 MailDialogComponent
 ===================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `mail-dialog <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/mail-dialog>`__
+
 Used within an modal to enable the user to edit a mail, before it's send.
 
 -------

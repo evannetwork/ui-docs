@@ -2,6 +2,13 @@
 EvanLoggingService
 ==================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `logging <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/logging.ts>`__
+
 Helper to handle |source bcc_log|_ logging reports. The frontend is configured to cache each log that was submitted from everywhere. As a result of this, this service can handle this logs and can create reports for developers for error analysis. 
 
 --------------------------------------------------------------------------------

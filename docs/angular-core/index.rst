@@ -2,6 +2,13 @@
 angular-core
 ============
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `angular-core <https://github.com/evannetwork/ui-angular-core>`__
+
 General
 =======
 The `angular-core <../index.html>`_ operates as an global and central library for the evan.network Angular 5 frontend development. Using this project you will be able to to the following things:
@@ -51,6 +58,10 @@ The `angular-core <../index.html>`_ operates as an global and central library fo
   - contract-members
 
     - generalized contract member managment
+
+  - evan-claim
+
+    - Display a all claims for a specific topic using the api-blockchain-core claims service
 
   - dapp-loader
 
@@ -104,6 +115,16 @@ The `angular-core <../index.html>`_ operates as an global and central library fo
   - qr-code-scanner
 
     - scan qr-codes on HTML 5 & IOS & Anroid
+
+
+  - qr-code compnent
+
+    - display qr-codes within angular components
+
+
+  - evan-profile-claims
+
+    - Display all for the user configured active claims for a specific topic
 
   - reload-route
 

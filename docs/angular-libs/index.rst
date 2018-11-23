@@ -2,6 +2,13 @@
 angular-libs
 ============
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `AsyncComponent <https://github.com/evannetwork/ui-angular-libs/blob/develop/src/index.ts>`__
+
 This `project <https://github.com/evannetwork/ui-angular-libs>`_ contains a collection of Angular core libraries. This project is deployed to the ens (likelly to the angular-core), so you can require angular libraries (etc...) directly into the frontend without building duplicated libraries into your dapps.
 
 This project exports the following libraries for you:

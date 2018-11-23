@@ -2,6 +2,13 @@
 bccHelper
 =========
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `bccHelper <https://github.com/evannetwork/ui-dapp-browser/tree/develop/src/app/bcc/bcc.ts>`__
+
 Includes basic functionalities to create profile runtimes and check passwords.
 
 --------------------------------------------------------------------------------

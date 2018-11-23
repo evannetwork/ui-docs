@@ -217,3 +217,39 @@ Display a button in the bottom center of the evan-content. Be sure, thath the ev
       <ion-icon name="info"></ion-icon>
     </div> 
   </div>
+
+----------------
+.evan-left-panel
+----------------
+Shows a small left panel for displaying a inner app navigation list.
+
+:: 
+
+    <div class="evan-content evan-left-panel" *ngIf="core.utils.isMD">
+      <b class="content-header m-t-0">
+        {{ '...' | translate }}
+      </b>
+
+      <ion-list>
+        <button ion-item menuClose 
+          color="light"
+          [class.active]="activeGroup === group"
+          *ngFor="let group of navigation"
+          (click)="activeGroup = group; ref.detectChanges()">
+          <h2>{{ group.header }}</h2>
+          <h3>{{ group.desc }}</h3>
+        </button>
+      </ion-list>
+    </div>
+
+
+-----------------
+.evan-right-panel
+-----------------
+Shows a large panel for display content that was managed using the evan-left-panel
+
+::
+
+    <div class="evan-content evan-right-panel evan-relative" text-left>
+      ....
+    </div>

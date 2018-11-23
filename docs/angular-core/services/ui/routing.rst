@@ -2,6 +2,13 @@
 EvanRoutingService
 ==================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `routing <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/ui/routing.ts>`__
+
 Angular 5 routing wrapper service.
 
 **Be aware: We are doing fancy stuff to handle dynamic routing over cross Angular applications. We cant use the Ionic router for the app view routing, because its to restricted. Ionic router is only used for internal services like alerts, toasts and so on.**
@@ -920,14 +927,14 @@ Example
 
 --------------------------------------------------------------------------------
 
-.. _document_getStandAloneContractId:
+.. _document_getContractAddress:
 
-getStandAloneContractId
+getContractAddress
 ================================================================================
 
 .. code-block:: typescript
 
-  .getStandAloneContractId(arguments);
+  .getContractAddress(arguments);
 
 return this.getHashParam('address') or Split the current url hash and return the latest path.
 
@@ -945,7 +952,8 @@ Example
 .. code-block:: typescript
 
   // https://dashboard.evan.network/#/taskboard.evan/0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c
-  getStandAloneContractId() // will return 0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c, even when the ":address" parameter within the path is not defined
+  // https://dashboard.evan.network/#/taskboard.evan/0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c/edit-contract
+  getContractAddress() // will return 0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c, even when the ":address" parameter within the path is not defined
 
 
 --------------------------------------------------------------------------------

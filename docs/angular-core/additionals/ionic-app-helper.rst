@@ -2,6 +2,13 @@
 ionic-app-helper
 ================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `ionic-app-helper <https://github.com/evannetwork/ui-angular-core/blob/develop/src/classes/ionicAppElement.ts>`__
+
 This collection of functions helps you to handle nested ionic angular application starting. Each of the following functions are exposed by the angular-core module and can be imported using the following mechanism:
 
 .. code-block:: typescript

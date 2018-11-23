@@ -2,6 +2,13 @@
 AngularCore
 ===========
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `AngularCore <https://github.com/evannetwork/ui-angular-core/blob/develop/src/modules/index.ts>`__
+
 Angular Core Module that includes all components, services, directives and pipes that are described in this documentation. Besides of the core parts, several libraries are also included: 
 
 - CommonModule (|source angular_common|_)

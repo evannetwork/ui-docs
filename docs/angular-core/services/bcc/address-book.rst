@@ -2,6 +2,13 @@
 EvanAddressBookService
 ======================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `address-book <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/address-book.ts>`__
+
 BCC addressbook wrapper
 
 - ``queueId`` - |source queueId|_: Address book sync queue id

@@ -12,8 +12,10 @@ Account Store
      - `KeyStoreInterface <https://github.com/evannetwork/dbcp/tree/master/src/account-store.ts>`__
    * - Extends
      - `Logger </common/logger.html>`_
-   * - Source
+   * - Extends
      - `account-store.ts <https://github.com/evannetwork/dbcp/tree/master/src/account-store.ts>`__
+   * - Source
+     - `account-store.ts <https://github.com/evannetwork/ui-dapp-browser/tree/develop/src/app/bcc/AccountStore.ts>`__
 
 The `DApp Browser AccountStore <https://github.com/evannetwork/ui-dapp-browser/blob/master/src/app/bcc/AccountStore.ts>`_ is a adaption to the original `blockchain-core AccountStore <https://github.com/evannetwork/dbcp/tree/master/src/account-store.ts>`_ and overwrites the Keystore function, to handle private keys loaded from the lightwallet browser instance. Initially no keys are provided into the KeyProvider. When privateKeys are requested, the user must insert his password to unlock its lightwallet account to handle the privateKeys for signing.
 

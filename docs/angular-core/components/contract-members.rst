@@ -2,6 +2,13 @@
 ContractMembersComponent
 ========================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `contract-members <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/contract-members>`__
+
 Contract member management component. Allows you to show existing members of contracts and, if you want, to collect more users that can be invited by your code.
 
 ------

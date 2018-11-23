@@ -1,6 +1,14 @@
 ===================
 DAppLoaderComponent
 ===================
+
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `dapp-loader <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/dapp-loader.ts>`__
+     
 Dynamic DApp loader component. Handles nested Angular DApps and loads the latest ens address within the url.
 
 The following url will start the following dapps:

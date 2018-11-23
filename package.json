@@ -1,5 +1,5 @@
 {
-  "author": "Contractus",
+  "author": "evan GmbH",
   "description": "Read the docs API documentation for dapp-browser, angular-core, angular-libs, angular-sass, bcc-bundle.",
   "keywords": [
     "blockchain",
@@ -18,5 +18,5 @@
     "build": "cd docs && make html",
     "serve": "cd docs && sphinx-autobuild . _build/html"
   },
-  "version": "1.3.0"
+  "version": "1.4.0"
 }

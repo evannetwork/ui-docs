@@ -2,10 +2,14 @@
 lightwallet
 ===========
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `Lightwallet <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/lightwallet.ts>`__
+
 The `lightwallet lib <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/lightwallet.ts>`_ is a wrapper for the original |source lightwallet_keystore|_ and |source bitcore_mnemonic|_. It handles logged in users key vaults and encryption.
-
-
-
 
 --------------------------------------------------------------------------------
 

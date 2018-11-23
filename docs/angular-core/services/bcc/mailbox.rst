@@ -2,6 +2,13 @@
 EvanMailboxService
 ==================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `mailbox <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/mailbox.ts>`__
+
 `Blockchain core description <https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/blockchain/description.rst>`_ class wrapper.
 
 - ``mails`` - ``object[]``: all mail cache;

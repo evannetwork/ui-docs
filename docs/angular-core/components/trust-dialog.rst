@@ -2,6 +2,13 @@
 TrustDialogComponent
 ====================
 
+.. list-table:: 
+   :widths: auto
+   :stub-columns: 1
+
+   * - Source
+     - `trust-dialog <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/trust-dialog>`__
+
 Dialog to request user to accept permissions. (should only used within modal)
 
 -------
