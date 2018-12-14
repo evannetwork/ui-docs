@@ -2,6 +2,8 @@
 
 ## Next Version
 ### Features
+- update claims documentation to the latest ui-angular-core version (v1.6.0)
+
 ### Fixes
 ### Deprecations
 
