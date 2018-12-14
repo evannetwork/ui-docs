@@ -355,4 +355,28 @@ Reference Implementation: `Profile Claims Component <https://github.com/evannetw
   this.claimsService.getProfileActiveClaims() // => returns [ '/test/twi' ]
 
 
+--------------------------------------------------------------------------------
+
+ensureClaimDescription
+================================================================================
+
+.. code-block:: typescript
+
+  bcService.ensureClaimDescription(claim);
+
+Gets the default description for a claim if it does not exists.
+
+----------
+Parameters
+----------
+
+#. ``claim`` - ``any``: should the saving flag returned?
+
+-------
+Example
+-------
+.. code-block:: typescript
+
+  await this.ensureClaimDescription(computed);
+
   

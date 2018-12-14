@@ -19,6 +19,8 @@ Inputs
 #. ``mode`` - ``string``: display mode that should be used (minimal, detail, full)
 #. ``compute`` - ``boolean``: use computed view and only one claim instead of all possible ones (will display a small claim count at the right of the card)
 #. ``enableIssue`` - ``boolean``: Are issue buttons are available? Not avaialble for icon mode
+#. ``enableDelete`` - ``boolean``: should the delete button be shown?
+#. ``enableReject`` - ``boolean``: should the delete button be shown?
 
 -------
 Example
