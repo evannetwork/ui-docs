@@ -911,3 +911,30 @@ Example
 .. code-block:: typescript
 
   this.utils.hideLoading(this)
+
+--------------------------------------------------------------------------------
+
+.. _document_stopEventBubbling:
+
+stopEventBubbling
+================================================================================
+
+.. code-block:: typescript
+
+  utilSerivce.stopEventBubbling($event);
+
+Stops the browser event bubbling for a dom event (click, hover, ...).
+
+----------
+Parameters
+----------
+
+#. ``$event`` - ``any``: the interaction event (click, hover, ...)
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  return this.utils.stopEventBubbling($event)

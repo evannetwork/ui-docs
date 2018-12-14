@@ -7,7 +7,7 @@
       "files": [
         "index.html"
       ],
-      "origin": "QmVrHEUqZj6uXHsE9RVAHuB9Sd5qvxBMXN77yVHmESZckm",
+      "origin": "QmSNCe8KMyXKLt8vUMKn7KQk2grfAf3CghY6YT4FiN2CZh",
       "primaryColor": "#2747c1",
       "secondaryColor": "#eaeaea",
       "type": "library"
@@ -32,7 +32,7 @@
     ],
     "version": "1.0.0",
     "versions": {
-      "1.0.0": "QmQNi3oD6YiSGPTEKUTUpBh5FrwXJB6AuYjTVkwYZcCoXy"
+      "1.0.0": "QmQq2CDQv8UMGEzCdYdcaN1Vs3W6toLbea98FBH2c2q7hr"
     },
     "dbcpVersion": 1
   }

@@ -5,6 +5,10 @@
 ### Fixes
 ### Deprecations
 
+## Version 1.5.0
+### Features
+- update claims documentation to the latest ui-angular-core version (v1.6.0)
+
 ## Version 1.4.0
 ### Features
 - update source references in all typescript file descriptions
