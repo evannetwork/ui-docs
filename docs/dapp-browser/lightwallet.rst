@@ -502,7 +502,7 @@ getEncryptionKeyFromPassword
 
 .. code-block:: typescript
 
-  lightwallet.getEncryptionKeyFromPassword(password);
+  lightwallet.getEncryptionKeyFromPassword(accountId, password);
 
 Hashes a password using sha3.
 
@@ -510,6 +510,7 @@ Hashes a password using sha3.
 Parameters
 ----------
 
+#. ``accountId`` - ``string``: accountId for that the privateKey should be generated
 #. ``password`` - ``string``: password that should be hashed
 
 -------
@@ -526,7 +527,7 @@ Example
 
   profile.ipld.keyProvider.setKeysForAccount(
     accountId,
-    lightwallet.getEncryptionKeyFromPassword(this.password)
+    lightwallet.getEncryptionKeyFromPassword(accountId, this.password)
   );
 
 

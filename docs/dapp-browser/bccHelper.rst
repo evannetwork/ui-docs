@@ -221,7 +221,7 @@ Example
   // private key
   profile.ipld.keyProvider.setKeysForAccount(
     accountId,
-    lightwallet.getEncryptionKeyFromPassword(password)
+    lightwallet.getEncryptionKeyFromPassword(accountId, password)
   );
 
   let targetPrivateKey;
