@@ -2,6 +2,8 @@
 
 ## Next Version
 ### Features
+- update docs for latest ui changes
+
 ### Fixes
 ### Deprecations
 
