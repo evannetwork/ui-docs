@@ -2,6 +2,11 @@
 
 ## Next Version
 ### Features
+### Fixes
+### Deprecations
+
+## Version 1.6.0
+### Features
 - update docs for latest ui changes
 
 ### Fixes
