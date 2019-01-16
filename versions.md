@@ -2,6 +2,8 @@
 
 ## Next Version
 ### Features
+- add docs for `getNameForAccountSync`
+
 ### Fixes
 ### Deprecations
 
