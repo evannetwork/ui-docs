@@ -1,5 +1,5 @@
 ==================
-EvanClaimComponent
+EvanVerificationComponent
 ==================
 
 .. list-table:: 
@@ -25,7 +25,7 @@ Inputs
 -------
 Example
 -------
-Reference Implementation: `Profile Claims Component <https://github.com/evannetwork/ui-angular-core/tree/develop/src/components/profile-claims>`_
+Reference Implementation: `Profile Verifications Component <https://github.com/evannetwork/ui-angular-core/tree/develop/src/components/profile-claims>`_
 
 ::
 

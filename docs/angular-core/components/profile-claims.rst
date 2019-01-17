@@ -1,5 +1,5 @@
 ==========================
-EvanProfileClaimsComponent
+EvanProfileVerificationsComponent
 ==========================
 
 .. list-table:: 
@@ -9,7 +9,7 @@ EvanProfileClaimsComponent
    * - Source
      - `profile-claims <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/profile-claims>`__
 
-Display all for the user configured active claims for a specific topic. (they can be configured using the `Claims Service <../../angular-core/services/bcc/claims.html>`_, `BCC profile API <https://github.com/evannetwork/api-blockchain-core/blob/develop/src/profile/profile.ts>`_, `Profile DApp <https://evannetwork.github.io/dapps/dapps/profile/profile>`_)
+Display all for the user configured active claims for a specific topic. (they can be configured using the `Verifications Service <../../angular-core/services/bcc/claims.html>`_, `BCC profile API <https://github.com/evannetwork/api-blockchain-core/blob/develop/src/profile/profile.ts>`_, `Profile DApp <https://evannetwork.github.io/dapps/dapps/profile/profile>`_)
 
 ------
 Inputs
@@ -33,4 +33,4 @@ Reference Implementation: `Mail Detail Component <https://github.com/evannetwork
 View Example
 ------------
 
-Have a look at the claims component `Claims Component <https://evannetwork.github.io/dapps/angular/hello-world>`_
+Have a look at the claims component `Verifications Component <https://evannetwork.github.io/dapps/angular/hello-world>`_

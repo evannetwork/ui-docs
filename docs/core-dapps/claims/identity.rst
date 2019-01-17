@@ -14,7 +14,7 @@ Used to check if the identity for the current logged in user exists, if not, it 
 -------
 Example
 -------
-Reference Implementation: `EvanClaimsOverviewComponent <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/claims/src/components/claims>`__
+Reference Implementation: `EvanVerificationsOverviewComponent <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/claims/src/components/claims>`__
 
 - html
 

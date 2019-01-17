@@ -1,5 +1,5 @@
 ================
-EvanClaimService
+EvanVerificationService
 ================
 
 .. list-table:: 
@@ -9,7 +9,7 @@ EvanClaimService
    * - Source
      - `bcc <https://github.com/evannetwork/ui-angular-core/blob/develop/src/services/bcc/claims.ts>`__
    * - Reference Implementation
-     - `Claims Overview DApp <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/claims/src/components/claims>`_
+     - `Verifications Overview DApp <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/claims/src/components/claims>`_
 
 
 Blockchain-core wrapper service to handle users claims.
@@ -50,18 +50,18 @@ Example
   this.queueWatcher = await this.queue.onQueueFinish(
     this.claimService.getQueueId(),
     async (reload, results) => {
-      this.loadClaims();
+      this.loadVerifications();
     }
   );
 
 --------------------------------------------------------------------------------
 
-isClaimLoading
+isVerificationLoading
 ================================================================================
 
 .. code-block:: typescript
 
-  bcService.getCisClaimLoading(claim);
+  bcService.getCisVerificationLoading(claim);
 
 Checks if a claim is current loading (issuing, accepting, deleting).
 
@@ -69,7 +69,7 @@ Checks if a claim is current loading (issuing, accepting, deleting).
 Parameters
 ----------
 
-#. ``claim`` - ``any``: the claim object that should be checked (loaded vom api-blockchain-core / getClaims function)
+#. ``claim`` - ``any``: the claim object that should be checked (loaded vom api-blockchain-core / getVerifications function)
 
 -------
 Returns
@@ -84,17 +84,17 @@ Example
 .. code-block:: typescript
 
   // check if anything is loading for the claim (accept, issue, delete)
-  claim.loading = this.isClaimLoading(claim);
+  claim.loading = this.isVerificationLoading(claim);
 
 
 --------------------------------------------------------------------------------
 
-flatClaimsTree
+flatVerificationsTree
 ================================================================================
 
 .. code-block:: typescript
 
-  bcService.getCflatClaimsTree(claim, flatClaims, origin);
+  bcService.getCflatVerificationsTree(claim, flatVerifications, origin);
 
 Use this function when you want to implement the full tree view! Currently we will concadinate
 all parents to one.
@@ -106,8 +106,8 @@ Parameters
 ----------
 
 #. ``claim`` - ``any``: the claim including parents
-#. ``flatClaims`` - ``Array<Array<any>>``: The final flatted claims, Array of arrays from the lowest to the highest claim
-#. ``origin`` - ``Array<any>``: the flatted claim Array for one parent that will be pushed into the flatClaims array
+#. ``flatVerifications`` - ``Array<Array<any>>``: The final flatted claims, Array of arrays from the lowest to the highest claim
+#. ``origin`` - ``Array<any>``: the flatted claim Array for one parent that will be pushed into the flatVerifications array
 
 -------
 Example
@@ -115,17 +115,17 @@ Example
 
 .. code-block:: typescript
 
-  this.claimService.flatClaimsTree(claim, [ ], [ ]);
+  this.claimService.flatVerificationsTree(claim, [ ], [ ]);
 
 
 --------------------------------------------------------------------------------
 
-flatClaimsToLevels
+flatVerificationsToLevels
 ================================================================================
 
 .. code-block:: typescript
 
-  bcService.getCurreflatClaimsToLevels(claim, levels, index);
+  bcService.getCurreflatVerificationsToLevels(claim, levels, index);
 
 Iterates recursivly through all parents of a claim and splits them into specific levels.
 
@@ -150,7 +150,7 @@ Example
 .. code-block:: typescript
 
   
-  this.claimService.flatClaimsToLevels({
+  this.claimService.flatVerificationsToLevels({
     name: '/company/b-s-s/department',
     parent: '/company/b-s-s',
     parents: [
@@ -203,12 +203,12 @@ Example
 
 --------------------------------------------------------------------------------
 
-getClaims
+getVerifications
 ================================================================================
 
 .. code-block:: typescript
 
-  bcServicegetClaims(address, topic, isIdentity);
+  bcServicegetVerifications(address, topic, isIdentity);
 
 Get all the claims for a specific address.
 
@@ -229,11 +229,11 @@ Returns
 -------
 Example
 -------
-Reference Implementation: `Claims Overview DApp <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/claims/src/components/claims>`_
+Reference Implementation: `Verifications Overview DApp <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/claims/src/components/claims>`_
 
 .. code-block:: typescript
 
-  this.claimsService.getClaims('0x123...', '/test')
+  this.claimsService.getVerifications('0x123...', '/test')
 
   // will return 
 
@@ -269,17 +269,17 @@ Reference Implementation: `Claims Overview DApp <https://github.com/evannetwork/
       'notEnsRootOwner' // invalid ens root owner when check topic is /
     ]
     // parent claims not valid
-    tree: [ ... ] // result of flatClaimsToLevels
+    tree: [ ... ] // result of flatVerificationsToLevels
   }
 
 --------------------------------------------------------------------------------
 
-getComputedClaim
+getComputedVerification
 ================================================================================
 
 .. code-block:: typescript
 
-  bcService.getCurgetComputedClaim(topic, claims);
+  bcService.getCurgetComputedVerification(topic, claims);
 
 Takes an array of claims and combines all the states for one quick view.
 
@@ -302,12 +302,12 @@ Example
 .. code-block:: typescript
 
   // load all sub claims
-  claim.parents = await this.getClaims(claim.issuerAccount, claim.parent || '/', false);
+  claim.parents = await this.getVerifications(claim.issuerAccount, claim.parent || '/', false);
 
   // use all the parents and create a viewable computed tree
   claim.tree = this
-    .flatClaimsToLevels(claim)
-    .map(level => this.getComputedClaim(level.name, level.claims));
+    .flatVerificationsToLevels(claim)
+    .map(level => this.getComputedVerification(level.name, level.claims));
 
   // returns =>
   //   const computed:any = {
@@ -324,12 +324,12 @@ Example
 
 --------------------------------------------------------------------------------
 
-getProfileActiveClaims
+getProfileActiveVerifications
 ================================================================================
 
 .. code-block:: typescript
 
-  bcService.getCurrentBugetProfileActiveClaims(includeSaving);
+  bcService.getCurrentBugetProfileActiveVerifications(includeSaving);
 
 Load the list of claim topics, that are configured as active for the current profile
 
@@ -348,21 +348,21 @@ Returns
 -------
 Example
 -------
-Reference Implementation: `Profile Claims Component <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/profile-claims/profile-claims.ts>`_
+Reference Implementation: `Profile Verifications Component <https://github.com/evannetwork/ui-angular-core/blob/develop/src/components/profile-claims/profile-claims.ts>`_
 
 .. code-block:: typescript
 
-  this.claimsService.getProfileActiveClaims() // => returns [ '/test/twi' ]
+  this.claimsService.getProfileActiveVerifications() // => returns [ '/test/twi' ]
 
 
 --------------------------------------------------------------------------------
 
-ensureClaimDescription
+ensureVerificationDescription
 ================================================================================
 
 .. code-block:: typescript
 
-  bcService.ensureClaimDescription(claim);
+  bcService.ensureVerificationDescription(claim);
 
 Gets the default description for a claim if it does not exists.
 
@@ -377,6 +377,6 @@ Example
 -------
 .. code-block:: typescript
 
-  await this.ensureClaimDescription(computed);
+  await this.ensureVerificationDescription(computed);
 
   
