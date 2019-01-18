@@ -59,9 +59,9 @@ The `angular-core <../index.html>`_ operates as an global and central library fo
 
     - generalized contract member managment
 
-  - evan-claim
+  - evan-verification
 
-    - Display a all claims for a specific topic using the api-blockchain-core claims service
+    - Display a all verifications for a specific topic using the api-blockchain-core verifications service
 
   - dapp-loader
 
@@ -122,9 +122,9 @@ The `angular-core <../index.html>`_ operates as an global and central library fo
     - display qr-codes within angular components
 
 
-  - evan-profile-claims
+  - evan-profile-verifications
 
-    - Display all for the user configured active claims for a specific topic
+    - Display all for the user configured active verifications for a specific topic
 
   - reload-route
 
