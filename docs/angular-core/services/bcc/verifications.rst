@@ -86,121 +86,6 @@ Example
   // check if anything is loading for the claim (accept, issue, delete)
   claim.loading = this.isVerificationLoading(claim);
 
-
---------------------------------------------------------------------------------
-
-flatVerificationsTree
-================================================================================
-
-.. code-block:: typescript
-
-  bcService.getCflatVerificationsTree(claim, flatVerifications, origin);
-
-Use this function when you want to implement the full tree view! Currently we will concadinate
-all parents to one.
-Picks up a claim and it's origin parents tree structure and traces all claims into a flat
-structure for displaying it easily.
-
-----------
-Parameters
-----------
-
-#. ``claim`` - ``any``: the claim including parents
-#. ``flatVerifications`` - ``Array<Array<any>>``: The final flatted claims, Array of arrays from the lowest to the highest claim
-#. ``origin`` - ``Array<any>``: the flatted claim Array for one parent that will be pushed into the flatVerifications array
-
--------
-Example
--------
-
-.. code-block:: typescript
-
-  this.claimService.flatVerificationsTree(claim, [ ], [ ]);
-
-
---------------------------------------------------------------------------------
-
-flatVerificationsToLevels
-================================================================================
-
-.. code-block:: typescript
-
-  bcService.getCurreflatVerificationsToLevels(claim, levels, index);
-
-Iterates recursivly through all parents of a claim and splits them into specific levels.
-
-----------
-Parameters
-----------
-
-#. ``claim`` - ``any``: the claim to parse
-#. ``levels`` - ``Array<any>``: all parent levels including the name and all claims of this level
-#. ``index`` - ``number``: current level index
-
--------
-Returns
--------
-
-``Array<any>``: combined parents splitted into levels
-
--------
-Example
--------
-
-.. code-block:: typescript
-
-  
-  this.claimService.flatVerificationsToLevels({
-    name: '/company/b-s-s/department',
-    parent: '/company/b-s-s',
-    parents: [
-      {
-        name: '/company/b-s-s',
-        parent: '/company',
-        parents: [
-          { name: 'company', },
-          { name: 'company', },
-          { name: 'company', }
-        ]
-      },
-      {
-        name: '/company/b-s-s',
-        parent: '/company',
-        parents: [
-          { name: 'company' },
-          {
-            name: 'company'
-            parent: '/',
-            parents: [
-              { name: '/', },
-              { name: '/', }
-            ]
-          }
-        ]
-      }
-    ]  
-  })
-  
-  // will return =>
-  // [
-  //   [
-  //     { name: '/company/b-s-s', parent: '/company' },
-  //     { name: '/company/b-s-s', parent: '/company' }
-  //   ],
-  //   [
-  //     { name: '/company', },
-  //     { name: '/company', }
-  //     { name: '/company', }
-  //     { name: '/company', }
-  //     { name: '/company', parent: '/company' }
-  //   ]
-  //   [
-  //     { name: '/', }
-  //     { name: '/', }
-  //   ]
-  // ]
-
-
 --------------------------------------------------------------------------------
 
 getVerifications
@@ -208,15 +93,15 @@ getVerifications
 
 .. code-block:: typescript
 
-  bcServicegetVerifications(address, topic, isIdentity);
+  bcServicegetVerifications(subject, topic, isIdentity);
 
-Get all the claims for a specific address.
+Get all the claims for a specific subject, including all nested verifications for a deep integrity check.
 
 ----------
 Parameters
 ----------
 
-#. ``address`` - ``string``: address to load the claims for.
+#. ``subject`` - ``string``: subject to load the claims for.
 #. ``topic`` - ``string``: topic to load the claims for.
 #. ``isIdentity`` - ``boolean``: optional indicates if the subject is already a identity
 
@@ -247,7 +132,7 @@ Reference Implementation: `Verifications Overview DApp <https://github.com/evann
     // 1: Confirmed => issued by both, self issued state is 2, values match
     status: 2,
     // claim for account id / contract id
-    subject: address,
+    subject: subject,
     // ???
     value: '',
     // ???
@@ -267,19 +152,19 @@ Reference Implementation: `Verifications Overview DApp <https://github.com/evann
       'parentMissing',  // parent path does not exists
       'parentUntrusted',  // root path (/) is not issued by evan
       'notEnsRootOwner' // invalid ens root owner when check topic is /
-    ]
-    // parent claims not valid
-    tree: [ ... ] // result of flatVerificationsToLevels
+    ],
+    parents: [ ... ],
+    parentComputed: [ ... ]
   }
 
 --------------------------------------------------------------------------------
 
-getComputedVerification
+computeVerifications
 ================================================================================
 
 .. code-block:: typescript
 
-  bcService.getCurgetComputedVerification(topic, claims);
+  bcService.computeVerifications(topic, claims);
 
 Takes an array of claims and combines all the states for one quick view.
 
@@ -307,7 +192,7 @@ Example
   // use all the parents and create a viewable computed tree
   claim.tree = this
     .flatVerificationsToLevels(claim)
-    .map(level => this.getComputedVerification(level.name, level.claims));
+    .map(level => this.computeVerifications(level.name, level.claims));
 
   // returns =>
   //   const computed:any = {
@@ -353,30 +238,5 @@ Reference Implementation: `Profile Verifications Component <https://github.com/e
 .. code-block:: typescript
 
   this.claimsService.getProfileActiveVerifications() // => returns [ '/test/twi' ]
-
-
---------------------------------------------------------------------------------
-
-ensureVerificationDescription
-================================================================================
-
-.. code-block:: typescript
-
-  bcService.ensureVerificationDescription(claim);
-
-Gets the default description for a claim if it does not exists.
-
-----------
-Parameters
-----------
-
-#. ``claim`` - ``any``: should the saving flag returned?
-
--------
-Example
--------
-.. code-block:: typescript
-
-  await this.ensureVerificationDescription(computed);
 
   
