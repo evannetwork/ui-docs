@@ -129,7 +129,7 @@ Reference Implementation: `Verifications Overview DApp <https://github.com/evann
     // topic of the verification
     name: '/company/b-s-s/employee/swo',
     // -1: Not issued => no verification was issued
-    // 0: Issued => issued by a non-issuer parent verification holder, self issued state is 0
+    // 0: Issued => status = 0, warning.length > 0
     // 1: Confirmed => issued by both, self issued state is 2, values match
     status: 2,
     // verification for account id / contract id
@@ -142,17 +142,24 @@ Reference Implementation: `Verifications Overview DApp <https://github.com/evann
     signature: ''
     // icon for cards display
     icon: 'icon to display',
-    
+    // if the verification was rejected, a reject reason could be applied
+    rejectReason: '' || { },
+    // subjec type
+    subjectType: 'account' || 'contract',
+    // if it's a contract, it can be an contract
+    subjectOwner: 'account' || 'contract',
     // warnings
     [
       'issued', // verification.status === 0
       'missing', // no verification exists
       'expired', // is the verification expired?
+      'rejected', // rejected
       'selfIssued' // issuer === subject
       'invalid', // signature is manipulated
       'parentMissing',  // parent path does not exists
       'parentUntrusted',  // root path (/) is not issued by evan
-      'notEnsRootOwner' // invalid ens root owner when check topic is /
+      'notEnsRootOwner', // invalid ens root owner when check topic is
+      'noIdentity', // checked subject has no identity
     ],
     parents: [ ... ],
     parentComputed: [ ... ]
