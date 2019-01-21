@@ -3,6 +3,7 @@
 ## Next Version
 ### Features
 - add docs for `getNameForAccountSync`
+- add docs for `AddressInputComponent`
 
 ### Fixes
 ### Deprecations
