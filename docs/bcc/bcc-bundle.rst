@@ -190,7 +190,7 @@ Parameters
 #. |source createAndSet|_ - ``Function``;
 #. ``ProfileRuntime`` - |source ProfileInstance|_;
 #. ``Aes`` - |source Aes|_;
-#. ``Claims`` - |source Claims|_;
+#. ``Verifications`` - |source Verifications|_;
 #. ``Ipld`` - |source Ipld|_;
 #. ``KeyExchange`` - |source KeyExchange|_;
 #. ``Logger`` - |source Logger|_;
@@ -233,7 +233,7 @@ Parameters
 #. ``ipldInstance`` - |source Ipld|_;
 #. ``keyExchange`` - |source KeyExchange|_;
 #. ``mailbox`` - |source Mailbox|_;
-#. ``claims`` - |source Claims|_;
+#. ``claims`` - |source Verifications|_;
 #. ``profile`` - |source Profile|_;
 #. ``sharing`` - |source Sharing|_;
 #. ``dataContract`` - |source DataContract|_;
@@ -702,5 +702,5 @@ Example
 .. |source BusinessCenterProfile| replace:: ``BusinessCenterProfile``
 .. _source BusinessCenterProfile: https://github.com/evannetwork/api-blockchain-core/blob/develop/docs/profile/business-center-profile.rst
 
-.. |source Claims| replace:: ``Claims``
-.. _source Claims: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/claims/claims.ts
+.. |source Verifications| replace:: ``Verifications``
+.. _source Verifications: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/claims/claims.ts

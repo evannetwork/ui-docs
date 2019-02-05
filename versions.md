@@ -3,9 +3,11 @@
 ## Next Version
 ### Features
 - add docs for `getNameForAccountSync`
+- add docs for `AddressInputComponent`
 
 ### Fixes
 ### Deprecations
+- rename claims to verifications
 
 ## Version 1.6.0
 ### Features
@@ -16,12 +18,12 @@
 
 ## Version 1.5.0
 ### Features
-- update claims documentation to the latest ui-angular-core version (v1.6.0)
+- update verifications documentation to the latest ui-angular-core version (v1.6.0)
 
 ## Version 1.4.0
 ### Features
 - update source references in all typescript file descriptions
-- add claims documentation
+- add verifications documentation
 - add core-dapps section
 
 ## Version 1.3.0

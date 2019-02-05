@@ -1,5 +1,5 @@
 ======
-Claims
+Verifications
 ======
 
 .. list-table:: 
@@ -11,7 +11,7 @@ Claims
 
 General
 =======
-The claims library contains functionalities to handle and explore claims in an easy and expert way. Using the Claims 
+The claims library contains functionalities to handle and explore claims in an easy and expert way. Using the Verifications 
 
 How to include
 ==============
@@ -60,8 +60,8 @@ To include this library, you need to add the following package into your project
 ::
 
   import {
-    ClaimLibraryModule,
-    ClaimsTranslations,
+    VerificationLibraryModule,
+    VerificationsTranslations,
   } from 'claims';
 
   ...
@@ -69,7 +69,7 @@ To include this library, you need to add the following package into your project
   let config: any = {
     imports: [
       AngularCore,
-      ClaimLibraryModule,
+      VerificationLibraryModule,
       CommonModule,
     ],
     ...
@@ -81,13 +81,13 @@ To include this library, you need to add the following package into your project
   class ExplorerModule {
     constructor(
       private translations: Translations,
-      private claimsTranslations: ClaimsTranslations
+      private claimsTranslations: VerificationsTranslations
     ) { }
   }
 
 5. Use the components within your DApp's components!
 
-Claims
+Verifications
 ===========
 .. toctree::
   :maxdepth: 1
