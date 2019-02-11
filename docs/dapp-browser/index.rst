@@ -57,7 +57,7 @@ Usage for local Development
 ===========================
 The src folder includes a dev.html and a index.html file. By opening the dev.html file, the code will bypass several code loading checks, to try to load dapps from the local file server. The compiled files from the "src/app" folder will be placed within the runtime folder. Chosen files will be copied to the www folder for deployment and native app building. Durin the dev mode the application will try to load dapps not from ens and ipfs, but from the local file server (runtime/external). This folder will be filled using `angular-gulp <https://github.com/evannetwork/angular-gulp>`_ and the lerna DApp projects (e.g. `core-dapps <https://github.com/evannetwork/ui-core-dapps>`_). During production mode, each DApp or contract will be loaded using its ens or contract address and dbcp description. How to develop DApps, that can be loaded via the dapp-browser, have a look here `DApp Basics <https://evannetwork.github.io/dapps/basics>`_.
 
-For more informations on how to start the dapp-browser locally and on how to deploy DApps have a look at `dapp-browser <https://github.com/evannetwork/ui-dapp-browser>`_ git repository.
+For more information on how to start the dapp-browser locally and on how to deploy DApps have a look at `dapp-browser <https://github.com/evannetwork/ui-dapp-browser>`_ git repository.
 
 Environment configuration using localStorage and url parameters
 ===============================================================

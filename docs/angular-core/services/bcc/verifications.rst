@@ -156,7 +156,7 @@ Reference Implementation: `Verifications Overview DApp <https://github.com/evann
       'rejected', // rejected
       'selfIssued' // issuer === subject
       'invalid', // signature is manipulated
-      'parentMissing',  // parent path does not exists
+      'parentMissing',  // parent path does not exist
       'parentUntrusted',  // root path (/) is not issued by evan
       'notEnsRootOwner', // invalid ens root owner when check topic is
       'noIdentity', // checked subject has no identity

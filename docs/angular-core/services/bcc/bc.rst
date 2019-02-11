@@ -16,7 +16,7 @@ BCC business center API wrapper. Manages:
   - ... 
 
 - ``joinLeaveBcQueueId`` - |source queueId|_: queue id for checking joining / leaving members
-- ``profileQueueId`` - |source queueId|_: queue id for applying business center informations to the users profile
+- ``profileQueueId`` - |source queueId|_: queue id for applying business center information to the users profile
 
 --------------------------------------------------------------------------------
 
