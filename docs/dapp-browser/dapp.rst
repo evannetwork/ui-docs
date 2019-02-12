@@ -102,7 +102,18 @@ getDAppDependencies
 
   dapp.getDAppDependencies(originName, ensDefinition, depTree, deep);
 
-Loads all (sub) dependencies dbcp's of the provided dapp and set systemjs maps to the correct dbcp hashes.
+Loads all (sub) dependencies dbcp's of the provided dapp and set systemjs
+maps to the correct dbcp hashes. Explanation:
+
+  - load the latest dbcp.json from the dapp ens address
+  - after this, the correct lib ipfs hash gets extracted from the version history of the latest
+    dbcp.json
+  - the new definition will loaded from the extracted ipfs hash and this versions will be
+    overwritten by the latest one, to be sure, that all versions, including the latest one, are 
+    included
+  - the used definition will now not the latest one, only the correct dbcp description of the
+    desired version
+  - dev version only used for DApps, that also requires the latest current version of the library
 
 ----------
 Parameters

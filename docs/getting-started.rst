@@ -18,7 +18,7 @@ The DApp browser provides several functionallities to access:
 
 - DApp routing
 - global utillity functions like log
-- informations of the current logged in user
+- information of the current logged in user
 - blockchain connections configuration
 - blockchain-core AccountStore and KeyProvider
 - DApp time tracing options

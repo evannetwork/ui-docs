@@ -85,7 +85,7 @@ buildLogObject
 
   loggingService.buildLogObject(logs);
 
-enchance log message with user informations
+enhance log message with user information
 
 ----------
 Parameters
@@ -121,7 +121,7 @@ getReportLogs
 
   loggingService.getReportLogs(types);
 
-Choose type all for current filtered log. Choose erros for only errors.
+Choose type all for current filtered log. Choose errors for only errors.
 
 ----------
 Parameters
@@ -217,7 +217,7 @@ copy
 
   loggingService.copy(types);
 
-Start copying of the error log. Choose type all for current filtered log. Choose erros for only errors.
+Start copying of the error log. Choose type all for current filtered log. Choose errors for only errors.
 
 ----------
 Parameters

@@ -1,5 +1,5 @@
 ===========================
-EvanClaimsOverviewComponent
+EvanVerificationsOverviewComponent
 ===========================
 
 .. list-table:: 
@@ -7,7 +7,7 @@ EvanClaimsOverviewComponent
    :stub-columns: 1
 
    * - Source
-     - `EvanClaimsOverviewComponent <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/claims/src/components/claims>`__
+     - `EvanVerificationsOverviewComponent <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/claims/src/components/claims>`__
      
 Explorer claims using an topic, subject input. If needed, all interactions can be disabled and only the given parameters are used. When the dev mode is enabled, also the display mode can be adjusted for testing purposes.
 
@@ -21,7 +21,7 @@ Inputs
 #. ``showTopicSelect`` - ``boolean`` (default = false): should the topic select displayed?
 #. ``showAddressSelect`` - ``boolean`` (default = false): should the topic select displayed?
 #. ``displayMode`` - ``string`` (default = 'detail'): overwrite the default display mode of the claims
-#. ``computedClaims`` - ``boolean`` (default = true): Show only one combined claim card for each topic
+#. ``computedVerifications`` - ``boolean`` (default = true): Show only one combined claim card for each topic
 
 -------
 Example
@@ -36,7 +36,7 @@ Reference Implementation: `Evan Contract Explorer <https://github.com/evannetwor
     [subject]="contractAddress"
     [topics]="[ '/test' ]"
     [displayMode]="'normal'"
-    [computedClaims]="true"
+    [computedVerifications]="true"
     [showAddressSelect]="false"
     [showTopicSelect]="false">
   </evan-claims-inspect>
@@ -48,7 +48,7 @@ Reference Implementation: `Evan Contract Explorer <https://github.com/evannetwor
   <evan-claims-inspect
     [subject]="contractAddress"
     [displayMode]="'detail'"
-    [computedClaims]="false"
+    [computedVerifications]="false"
     [showAddressSelect]="false"
     [showTopicSelect]="true">
   </evan-claims-inspect>

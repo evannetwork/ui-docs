@@ -251,3 +251,27 @@ Returns
 -------
 
 ``Promise`` returns ``string``: The name / email for account. Default is the account id.
+
+--------------------------------------------------------------------------------
+
+getNameForAccountSync
+================================================================================
+
+.. code-block:: typescript
+
+  addressBookService.getNameForAccountSync(addressbook, disableNoAlias);
+
+Gets the name for a account from the addressbook synchroniously by providing an already loaded addressbook.
+
+----------
+Parameters
+----------
+
+#. ``addressbook`` - ``any``: already loaded addressbook instance
+#. ``accountId`` - ``string``: account id to load the alias for
+
+-------
+Returns
+-------
+
+``string``: The name / email for account. Default is the account id.
