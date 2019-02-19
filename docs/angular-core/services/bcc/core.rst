@@ -11,6 +11,8 @@ EvanCoreService
 
 Core service for angular-core that handles dapp-browser connections, active accounts, current provider and more.
 
+#. ``agentUrl`` - ``string``: base url of the evan.network smart agents server
+
 --------------------------------------------------------------------------------
 
 getCurrentProvider

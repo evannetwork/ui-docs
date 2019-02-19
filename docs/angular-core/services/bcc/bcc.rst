@@ -210,7 +210,38 @@ Example
   await bccService.updateBCC();
 
 
+--------------------------------------------------------------------------------
 
+.. _document_updateTermsOfUse:
+
+updateTermsOfUse
+================================================================================
+
+.. code-block:: typescript
+
+  bccService.updateTermsOfUse(activeAccount);
+
+Check the terms of use has changed and if the current user accepted it.
+
+----------
+Parameters
+----------
+
+#. ``activeAccount`` - ``string``: current active account
+
+-------
+Returns
+-------
+
+``Promise`` returns ``void``: resolved when done
+
+-------
+Example
+-------
+
+.. code-block:: typescript
+
+  await bccService.updateTermsOfUse();
 
 
 
