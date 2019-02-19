@@ -9,7 +9,7 @@ ipfs
    * - Source
      - `ipfs <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/ipfs.ts>`__
 
-The `ipfs library <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/ipfs.ts>`_ handles the ipfs.evan.network connection settings and provides functions to handle restIpfs calls.
+The `ipfs library <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/ipfs.ts>`_ handles the ipfs.test.evan.network connection settings and provides functions to handle restIpfs calls.
 
 
 --------------------------------------------------------------------------------
@@ -22,7 +22,7 @@ ipfsConfig
 .. code-block:: typescript
 
   {
-    host: 'ipfs.evan.network',
+    host: 'ipfs.test.evan.network',
     port: '443',
     protocol: 'https',
     ipfsCache: null

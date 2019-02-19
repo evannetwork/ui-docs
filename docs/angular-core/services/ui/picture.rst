@@ -82,7 +82,7 @@ Example
 
 .. code-block:: typescript
 
-  pictureService.getBlobUri('blob:https://dashboard.evan.network/74334fca-0cc3-46d5-9804-2a7161005fe1')
+  pictureService.getBlobUri('blob:https://dashboard.test.evan.network/74334fca-0cc3-46d5-9804-2a7161005fe1')
 
 
 
@@ -116,7 +116,7 @@ Example
 
 .. code-block:: typescript
 
-  const buffer = await pictureService.dataURItoBlob('blob:https://dashboard.evan.network/74334fca-0cc3-46d5-9804-2a7161005fe1');
+  const buffer = await pictureService.dataURItoBlob('blob:https://dashboard.test.evan.network/74334fca-0cc3-46d5-9804-2a7161005fe1');
 
 
 
@@ -152,7 +152,7 @@ Example
 
 .. code-block:: typescript
 
-  if (dataUri === pictureService.blobToDataURI(pictureService.dataURItoBlob('blob:https://dashboard.evan.network/74334fca-0cc3-46d5-9804-2a7161005fe1')) {
+  if (dataUri === pictureService.blobToDataURI(pictureService.dataURItoBlob('blob:https://dashboard.test.evan.network/74334fca-0cc3-46d5-9804-2a7161005fe1')) {
     console.log('same result')
   }
 
@@ -227,4 +227,4 @@ Example
 
 .. code-block:: typescript
 
-  await pictureService.resizeImage('blob:https://dashboard.evan.network/74334fca-0cc3-46d5-9804-2a7161005fe1');
+  await pictureService.resizeImage('blob:https://dashboard.test.evan.network/74334fca-0cc3-46d5-9804-2a7161005fe1');

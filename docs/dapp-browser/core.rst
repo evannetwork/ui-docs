@@ -307,7 +307,7 @@ Returns
 Example
 -------
 
-- URL : hhtps://dashboard.evan.network/index.html?agent-executor=1234...#/dashboard.evan
+- URL : hhtps://dashboard.test.evan.network/index.html?agent-executor=1234...#/dashboard.evan
 
 .. code-block:: typescript
 

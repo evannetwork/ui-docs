@@ -140,7 +140,7 @@ Example
 
 .. code-block:: typescript
 
-  // https://dashboard.evan.network/#/taskboard.evan will return => taskboard
+  // https://dashboard.test.evan.network/#/taskboard.evan will return => taskboard
   const subscription = routingService
     .activeRouteName()
     .subscribe(async (value) => {
@@ -181,7 +181,7 @@ Example
 
 .. code-block:: typescript
 
-  // https://dashboard.evan.network/#/dashboard.evan/favorites.evan will return => dashboard
+  // https://dashboard.test.evan.network/#/dashboard.evan/favorites.evan will return => dashboard
   const subscription = this.routing
     .activeRouteName()
     .subscribe(async (value) => {
@@ -390,7 +390,7 @@ Example
 
 .. code-block:: typescript
 
-  // https://dashboard.evan.network/#/dashboard.evan/favorites.evan will return => dashboard
+  // https://dashboard.test.evan.network/#/dashboard.evan/favorites.evan will return => dashboard
   const subscription = routingService
     .canNavigateBack()
     .subscribe(async (value) => {
@@ -441,7 +441,7 @@ goToProfile
 
 Navigates to the dappprofile relative to the active dashboard.
 
-  => e.g. https://dashboard.evan.network/#/dashboard.evan/profile.evan
+  => e.g. https://dashboard.test.evan.network/#/dashboard.evan/profile.evan
 
 -------
 Example
@@ -462,7 +462,7 @@ goToQueue
 
 Navigates to the dapp queue relative to the active dashboard
 
-  => e.g. https://dashboard.evan.network/#/dashboard.evan/queue.evan
+  => e.g. https://dashboard.test.evan.network/#/dashboard.evan/queue.evan
 
 -------
 Example
@@ -484,7 +484,7 @@ goToMails
 
 Navigates to the dapp mailbox relative to the active dashboard
 
-  => e.g. https://dashboard.evan.network/#/dashboard.evan/mailbox.evan
+  => e.g. https://dashboard.test.evan.network/#/dashboard.evan/mailbox.evan
 
 -------
 Example
@@ -506,7 +506,7 @@ goToLogging
 
 Navigates to the dapp logging relative to the active dashboard.
 
-  => e.g. https://dashboard.evan.network/#/dashboard.evan/logging.evan
+  => e.g. https://dashboard.test.evan.network/#/dashboard.evan/logging.evan
 
 -------
 Example
@@ -528,7 +528,7 @@ goToDashboard
 
 Navigates to the dapp dashboard relative to the active dashboard
 
-  => e.g. https://dashboard.evan.network/#/dashboard.evan
+  => e.g. https://dashboard.test.evan.network/#/dashboard.evan
 
 -------
 Example
@@ -699,7 +699,7 @@ Example
   //   },
   // }
 
-  // on url "https://dashboard.evan.network/#/taskboard.evan/0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c"
+  // on url "https://dashboard.test.evan.network/#/taskboard.evan/0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c"
 
   routingService.getHashParam('address') // => '0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c'
 
@@ -731,7 +731,7 @@ Example
 
 .. code-block:: typescript
 
-  // on url https://dashboard.evan.network/#/dashboard.evan?param1=qwe&param2=asd
+  // on url https://dashboard.test.evan.network/#/dashboard.evan?param1=qwe&param2=asd
 
   routingService.getQueryParams() // => { param1: 'qwe', param2: 'asd' }
 
@@ -951,8 +951,8 @@ Example
 
 .. code-block:: typescript
 
-  // https://dashboard.evan.network/#/taskboard.evan/0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c
-  // https://dashboard.evan.network/#/taskboard.evan/0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c/edit-contract
+  // https://dashboard.test.evan.network/#/taskboard.evan/0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c
+  // https://dashboard.test.evan.network/#/taskboard.evan/0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c/edit-contract
   getContractAddress() // will return 0x280a9e533b6EF9e6B96aa35DEBA35A1A012B1e1c, even when the ":address" parameter within the path is not defined
 
 

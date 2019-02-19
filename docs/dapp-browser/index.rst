@@ -76,7 +76,7 @@ Environment configuration using localStorage and url parameters
 - url parameters for agent provider usage
 
   - ``agent-executor`` : if an token is specified, load the data from the edge-server
-  - ``agent-executor-url`` : url that should be requested using the executor (default = 'http://localhost:8080' || 'https://agents.evan.network')
+  - ``agent-executor-url`` : url that should be requested using the executor (default = 'http://localhost:8080' || 'https://agents.test.evan.network')
   - ``agent-executor-account-id`` : account id that should be used to interact with the UI
   - ``agent-executor-key`` : edge-server security key
 

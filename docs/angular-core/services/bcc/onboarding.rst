@@ -70,7 +70,7 @@ Example
 
 .. code-block:: typescript
 
-  // https://dashboard.evan.network/#/dashboard.evan
+  // https://dashboard.test.evan.network/#/dashboard.evan
   onboardingService.getOnboardingQueryParams();
   // => { "origin": "dashboard.evan" }
 

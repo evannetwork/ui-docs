@@ -2,7 +2,7 @@
 angular-sass
 ============
 
-The `angular-sass <https://github.com/evannetwork/ui-angular-sass>`_ project contains several scss definitions for the evan.network Ionic featured DApp stack. By using the `dapp-browser <https://dashboard.evan.network>`_ including `angular-libs </angular-libs/index.html>`_ and `angular-core </angular-core/index.html>`_ all styling definitions are loaded. The `angular-libs </angular-libs/index.html>`_ includes the core ionic-angular styles and each style for libraries that are included (e.g.: @zxing/ngx-scanner). The angular-core includes all the evan.network specific angular-sass styles.
+The `angular-sass <https://github.com/evannetwork/ui-angular-sass>`_ project contains several scss definitions for the evan.network Ionic featured DApp stack. By using the `dapp-browser <https://dashboard.test.evan.network>`_ including `angular-libs </angular-libs/index.html>`_ and `angular-core </angular-core/index.html>`_ all styling definitions are loaded. The `angular-libs </angular-libs/index.html>`_ includes the core ionic-angular styles and each style for libraries that are included (e.g.: @zxing/ngx-scanner). The angular-core includes all the evan.network specific angular-sass styles.
 
 Installation
 ============

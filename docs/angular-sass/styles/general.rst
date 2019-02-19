@@ -41,4 +41,4 @@ iframe.evan-dapp                shows an iframe on fullscreen (position: absolut
 .. _source evanlogofavicon: https://github.com/evannetwork/ui-angular-sass/blob/master/img/evan-favicon.png
 
 .. |source dappbrowser| replace:: ``dapp-browser``
-.. _source dappbrowser: https://dashboard.evan.network
+.. _source dappbrowser: https://dashboard.test.evan.network
