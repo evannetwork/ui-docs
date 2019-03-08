@@ -464,7 +464,7 @@ Example
 .. _source getCurrentProvider: /angular-core/services/ui/core.html#getcurrentprovider
 
 .. |source bcc_bundlejs| replace:: ``blockchain-core frontend bundle``
-.. _source bcc_bundlejs: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+.. _source bcc_bundlejs: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/dist/index.js.ts
 
 .. |source CoreBundle| replace:: ``CoreBundle``
 .. _source CoreBundle: /bcc/bcc-bundle.html#corebundle

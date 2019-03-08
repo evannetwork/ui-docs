@@ -67,4 +67,4 @@ Example
 
 
 .. |source CoreBundle| replace:: ``CoreBundle``
-.. _source CoreBundle: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+.. _source CoreBundle: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/dist/index.js.ts

@@ -88,7 +88,7 @@ The `angular-sass </angular-sass/index.html>`_ library includes styling definiti
 - evan theming
 
 .. |source bcc_bundlejs| replace:: ``blockchain-core frontend bundle``
-.. _source bcc_bundlejs: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+.. _source bcc_bundlejs: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/dist/index.js.ts
 
 .. |source CoreInstance| replace:: ``CoreInstance``
 .. _source CoreInstance: /bcc/bcc-bundle.html#coreinstance

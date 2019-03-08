@@ -7,7 +7,7 @@ blockchain-core frontend bundle
    :stub-columns: 1
 
    * - Source
-     - `AsyncComponent <https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts>`__
+     - `AsyncComponent <https://github.com/evannetwork/api-blockchain-core/blob/develop/src/dist/index.js.ts>`__
 
 The |source bcc_bundlejs|_ is similar to the blockchain-core runtime and its build to handle several UI steps including blockchain-core instance without account interactions, blockchain-core instance including account id for profile interactions and blockchain-core instance to interact with business centers. It exposes the following Runtime parameters and several functions to create, handle and overwrite them:
 
