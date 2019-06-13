@@ -23,7 +23,7 @@ readFilesAsArrayBuffer
 
   inputsService.readFilesAsArrayBuffer(files, encryption);
 
-Uploads an array of fils that were selected with an HTML 5 <input type="file"> selector or using the
+Uploads an array of files that were selected with an HTML 5 <input type="file"> selector or using the
 evan-file-select component and transforms them into an encryption object.
 
 ----------
