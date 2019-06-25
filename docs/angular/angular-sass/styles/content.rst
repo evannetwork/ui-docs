@@ -21,7 +21,7 @@ Example
 View Example
 ------------
 
-.. image:: ../../images/angular-sass/evan-content.png
+.. image:: ../../../images/angular-sass/evan-content.png
    :width: 600
 
 .evan-full-content
@@ -47,7 +47,7 @@ Use a small view with responsive sizes.
 View Example
 ------------
 
-.. image:: ../../images/angular-sass/evan-small-content.png
+.. image:: ../../../images/angular-sass/evan-small-content.png
    :width: 600
 
 .evan-mini-content
@@ -122,12 +122,12 @@ View Example
 
 - On big screens
 
-.. image:: ../../images/angular-sass/evan-mini-content.png
+.. image:: ../../../images/angular-sass/evan-mini-content.png
    :width: 600
 
 - On small screens
 
-.. image:: ../../images/angular-sass/evan-mini-content-mobile.png
+.. image:: ../../../images/angular-sass/evan-mini-content-mobile.png
    :width: 600
 
 .evan-twoline-content

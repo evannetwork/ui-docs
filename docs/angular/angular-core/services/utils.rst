@@ -780,10 +780,10 @@ Check if the user enabled developer mode within profile configuration. Can be en
 
 - enable logging & reporting DApp
 
-.. image:: ../../images/angular-core/services/developer_mode.png
+.. image:: ../../../images/angular-core/services/developer_mode.png
    :width: 600
 
-.. image:: ../../images/angular-core/services/logging_dapp.png
+.. image:: ../../../images/angular-core/services/logging_dapp.png
    :width: 600
 
 -------

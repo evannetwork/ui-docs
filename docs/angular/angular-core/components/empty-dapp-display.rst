@@ -44,5 +44,5 @@ Reference Implementation: `Favorites DApp <https://github.com/evannetwork/ui-cor
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/empty-dapp-display.png
+.. image:: ../../../images/angular-core/components/empty-dapp-display.png
    :width: 600

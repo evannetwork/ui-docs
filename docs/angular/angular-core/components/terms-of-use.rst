@@ -43,5 +43,5 @@ Reference Implementation: `EvanBCCService initialize method <https://github.com/
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/terms-of-use.png
+.. image:: ../../../images/angular-core/components/terms-of-use.png
    :width: 600

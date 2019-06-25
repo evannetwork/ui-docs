@@ -40,5 +40,5 @@ Reference Implementation: `EvanBCCService initialize method <https://github.com/
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/global-password.png
+.. image:: ../../../images/angular-core/components/global-password.png
    :width: 600

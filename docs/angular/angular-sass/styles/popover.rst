@@ -22,7 +22,7 @@ Example
 View Example
 ------------
 
-.. image:: ../../images/angular-sass/popover.png
+.. image:: ../../../images/angular-sass/popover.png
    :width: 600
 
 Callout
@@ -51,7 +51,7 @@ Example
 View Example
 ------------
 
-.. image:: ../../images/angular-sass/callout.png
+.. image:: ../../../images/angular-sass/callout.png
    :width: 600
 
    

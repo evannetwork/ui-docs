@@ -35,5 +35,5 @@ Reference Implementation: `Favorites DApp <https://github.com/evannetwork/ui-cor
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/evan-loading.png
+.. image:: ../../../images/angular-core/components/evan-loading.png
    :width: 600

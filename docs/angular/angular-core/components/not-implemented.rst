@@ -24,5 +24,5 @@ Example
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/not-implemented.png
+.. image:: ../../../images/angular-core/components/not-implemented.png
    :width: 600

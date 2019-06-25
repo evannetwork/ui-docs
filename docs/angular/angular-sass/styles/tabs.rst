@@ -56,5 +56,5 @@ Tabs are basicly included into Ionic. But for a simply tab implementation with h
 View Example
 ------------
 
-.. image:: ../../images/angular-sass/evan-small-content.png
+.. image:: ../../../images/angular-sass/evan-small-content.png
    :width: 600

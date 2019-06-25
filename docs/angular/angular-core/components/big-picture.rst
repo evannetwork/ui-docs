@@ -52,5 +52,5 @@ Havea look at the `EvanModalService <../services/ui/modal.html#showbigpicture>`_
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/big-picture.png
+.. image:: ../../../images/angular-core/components/big-picture.png
    :width: 600

@@ -20,22 +20,22 @@ Reference Implementation: `Verifications DApp <https://github.com/evannetwork/ui
 
   ::
 
-  <evan-address-input name="subject" #subjectSelectComp
-    [(ngModel)]="subjectInput"
-    [label]="('_verifications.subject.title' | translate) + '*'"
-    [placeholder]="'_verifications.subject.desc' | translate"
-    (onChange)="ref.detectChanges()">
-  </evan-address-input>
-  <ion-chip class="error-hint" *ngIf="subjectSelectComp.touched && !isValidAddress(subjectInput)" color="danger">
-    <ion-label>{{ '_verifications.subject.error' | translate }}</ion-label>
-  </ion-chip>
+    <evan-address-input name="subject" #subjectSelectComp
+      [(ngModel)]="subjectInput"
+      [label]="('_verifications.subject.title' | translate) + '*'"
+      [placeholder]="'_verifications.subject.desc' | translate"
+      (onChange)="ref.detectChanges()">
+    </evan-address-input>
+    <ion-chip class="error-hint" *ngIf="subjectSelectComp.touched && !isValidAddress(subjectInput)" color="danger">
+      <ion-label>{{ '_verifications.subject.error' | translate }}</ion-label>
+    </ion-chip>
 
 ------------
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/address-input/address-input.png
+.. image:: ../../../images/angular-core/components/address-input/address-input.png
   :width: 600
 
-.. image:: ../../images/angular-core/components/address-input/address-input-2.png
+.. image:: ../../../images/angular-core/components/address-input/address-input-2.png
   :width: 600

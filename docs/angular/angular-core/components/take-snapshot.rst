@@ -55,5 +55,5 @@ Reference Implementation: `EvanPictureService <https://github.com/evannetwork/ui
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/take-snapshot-dialog.png
+.. image:: ../../../images/angular-core/components/take-snapshot-dialog.png
    :width: 600

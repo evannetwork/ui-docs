@@ -44,5 +44,5 @@ Use the *evan-content* attribute to specify, which html data should be displayed
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/dapp-wrapper.png
+.. image:: ../../../images/angular-core/components/dapp-wrapper.png
    :width: 600

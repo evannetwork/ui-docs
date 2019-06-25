@@ -87,10 +87,10 @@ View Example
 ------------
 - normal view
 
-.. image:: ../../images/angular-core/components/evan-split-pane.png
+.. image:: ../../../images/angular-core/components/evan-split-pane.png
    :width: 600
 
 - small view
 
-.. image:: ../../images/angular-core/components/evan-split-pane-small.png
+.. image:: ../../../images/angular-core/components/evan-split-pane-small.png
    :width: 600

@@ -26,5 +26,5 @@ Reference Implementation: `EvanQrCodeService <https://github.com/evannetwork/ui-
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/qr-code-scanner.png
+.. image:: ../../../images/angular-core/components/qr-code-scanner.png
    :width: 600

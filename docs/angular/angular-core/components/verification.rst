@@ -1,6 +1,6 @@
-==================
+=========================
 EvanVerificationComponent
-==================
+=========================
 
 .. list-table:: 
    :widths: auto
@@ -40,12 +40,12 @@ Reference Implementation: `Profile Verifications Component <https://github.com/e
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/verifications/icon.png
+.. image:: ../../../images/angular-core/components/verifications/icon.png
    :width: 600
 
-.. image:: ../../images/angular-core/components/verifications/normal.png
+.. image:: ../../../images/angular-core/components/verifications/normal.png
    :width: 600
 
-.. image:: ../../images/angular-core/components/verifications/detail.png
+.. image:: ../../../images/angular-core/components/verifications/detail.png
    :width: 600
 

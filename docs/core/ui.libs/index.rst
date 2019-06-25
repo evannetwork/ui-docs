@@ -18,32 +18,23 @@ The following functionalities are included:
   - stylings (buttons, tables, steppers, contents, texts, ...)
   - styling css variables
 
-JS classes, functions, configs
-==============================
+
 .. toctree::
   :maxdepth: 1
   :glob:
 
-  config
-  dispatcher
-  files
-  queue
-  utils
+  js
 
 
-Assets
-======
+.. toctree::
+  :maxdepth: 1
+  :glob:
+
+  stylings
+
+
 .. toctree::
   :maxdepth: 1
   :glob:
 
   assets
-
-
-Stylings
-========
-.. toctree::
-  :maxdepth: 1
-  :glob:
-
-  stylings/index

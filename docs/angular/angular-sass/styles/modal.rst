@@ -44,5 +44,5 @@ To show a modal like a normal popup use the following setup (`Reference Implemen
 View Example
 ------------
 
-.. image:: ../../images/angular-core/components/big-picture.png
+.. image:: ../../../images/angular-core/components/big-picture.png
    :width: 600

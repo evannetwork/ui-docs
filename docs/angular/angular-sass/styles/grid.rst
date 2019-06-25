@@ -44,10 +44,10 @@ View Example
 
 - big screens
 
-.. image:: ../../images/angular-sass/grid-list.png
+.. image:: ../../../images/angular-sass/grid-list.png
    :width: 600
 
 -small screens
 
-.. image:: ../../images/angular-sass/grid-list-small.png
+.. image:: ../../../images/angular-sass/grid-list-small.png
    :width: 600
