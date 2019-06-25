@@ -53,22 +53,6 @@ Installation
 -----
 Usage
 -----
-- tsconfig.json
-
-.. code-block:: typescript
-
-  {
-    "compilerOptions": {
-      ...,
-      "paths": {
-        "angular-libs": [
-          "../node_modules/@evan.network/ui-angular-core/dist/angularlibs.js"
-        ]
-      }
-      ...
-    }
-  }
-
 - typescript
 
 .. code-block:: typescript

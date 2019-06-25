@@ -166,53 +166,13 @@ Example
 =======
 Include the AngularCore module into your module and all of the services, components, directives (...) are defined within your project.
 
-- tsconfig.json
-
-.. code-block:: json
-
-  {
-    "compilerOptions": {
-      "declaration": true,
-      "module": "es2015",
-      "target": "es5",
-      "baseUrl": "./src",
-      "stripInternal": true,
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "moduleResolution": "node",
-      "outDir": "../build",
-      "rootDir": "./src",
-      "lib": [
-        "es2015",
-        "dom"
-      ],
-      "skipLibCheck": true,
-      "types": [],
-      "paths": {
-        "angular-core": [
-          "../node_modules/@evan.network/ui-angular-core/dist/angularcore.js"
-        ]
-      }
-    },
-    "angularCompilerOptions": {
-      "annotateForClosureCompiler": true,
-      "strictMetadataEmit": true,
-      "skipTemplateCodegen": true,
-      "flatModuleOutFile": "dashboard.js",
-      "flatModuleId": "dashboard"
-    },
-    "files": [
-      "./index.ts"
-    ]
-  }
-
 - module.ts
 
 .. code-block:: typescript
 
   import {
     AngularCore,
-  } from 'angular-libs';
+  } from '@evan.network/ui-angular-core';
 
   @NgModule({
     ...
