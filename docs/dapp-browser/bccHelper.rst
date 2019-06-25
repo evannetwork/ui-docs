@@ -352,3 +352,5 @@ Example
     lightwallet.getPrivateKey(vault, accountId),
   );
 
+.. |source CoreBundle| replace:: ``CoreBundle``
+.. _source CoreBundle: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/index.ts

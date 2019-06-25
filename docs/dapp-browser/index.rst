@@ -131,6 +131,7 @@ Instances
   :maxdepth: 1
   :glob:
 
+  bccHelper
   config
   core
   CoreRuntime

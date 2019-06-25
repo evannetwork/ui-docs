@@ -40,7 +40,7 @@ Returns
 -------
 Example
 -------
-Reference Implementation: `Profile Payment Component <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/profile/src/components/payments/payments.ts>`_
+Reference Implementation: |source ProfilePayment|_
 
 .. code-block:: typescript
 
@@ -91,7 +91,7 @@ Returns
 -------
 Example
 -------
-Reference Implementation: `Profile Payment Component <https://github.com/evannetwork/ui-angular-cre/blob/develop/src/services/bcc/payments.ts>`_
+Reference Implementation: |source ProfilePayment|_
 
 .. code-block:: typescript
 
@@ -102,3 +102,5 @@ Reference Implementation: `Profile Payment Component <https://github.com/evannet
     const signature = await this.signMessage(toSignedMessage, activeAccount);
 
 
+.. |source ProfilePayment| replace:: ``ProfilePayment``
+.. _source ProfilePayment: https://github.com/evannetwork/ui-angular-cre/blob/develop/src/services/bcc/payments.ts

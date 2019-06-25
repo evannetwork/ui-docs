@@ -136,9 +136,9 @@ Returns
 Example
 -------
 
-.. code-block:: typescript
+  ::
 
-  <a ion-button outline icon-only clear color="red"
-    *ngIf="utils.isMobile()" target="_blank" (click)="fileService.downloadMobile(file.name, file.blob)">
-    <ion-icon name="download"></ion-icon>
-  </a>
+    <a ion-button outline icon-only clear color="red"
+      *ngIf="utils.isMobile()" target="_blank" (click)="fileService.downloadMobile(file.name, file.blob)">
+      <ion-icon name="download"></ion-icon>
+    </a>

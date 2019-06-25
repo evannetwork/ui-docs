@@ -1,6 +1,6 @@
-=================
+==========
 objectKeys
-=================
+==========
 
 .. list-table:: 
    :widths: auto
@@ -9,7 +9,7 @@ objectKeys
    * - Source
      - `objectKeys <https://github.com/evannetwork/ui-angular-core/blob/develop/src/pipes/object-keys.ts>`__
 
-Transforms an object into an array, to easily *ngFor repeat for an object
+Transforms an object into an array, to easily ngFor repeat for an object
 
 -------
 Example

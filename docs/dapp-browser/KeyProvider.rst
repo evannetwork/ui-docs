@@ -13,7 +13,7 @@ Key Provider
    * - Extends
      - `Logger </common/logger.html>`_
    * - Extends
-     - `key-provider.ts <https://github.com/evannetwork/ui-dapp-browser/blob/master/src/app/bcc/KeyProvider.ts>`_
+     - `dbcp key-provider.ts <https://github.com/evannetwork/dbcp/blob/master/src/encryption/key-provider.ts>`_
    * - Source
      - `key-provider.ts <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/bcc/KeyProvider.ts>`_
 

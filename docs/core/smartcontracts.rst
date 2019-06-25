@@ -25,10 +25,8 @@ Using the browserified version within the dapp-browser, you need apply the follo
 
   {
     "dependencies": {
-      "@evan.network/smart-contracts-core": "^2.3.1",
-      ...
-    },
-    ...
+      "@evan.network/smart-contracts-core": "^2.3.1"
+    }
   }
 
 - `dbcp.json <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/dbcp.json>`__
@@ -39,10 +37,8 @@ Using the browserified version within the dapp-browser, you need apply the follo
     "public": {
       "dapp": {
         "dependencies": {
-          "smartcontracts": "^2.3.1",
-          ...
-        },
-        ...
+          "smartcontracts": "^2.3.1"
+        }
       }
     }
   }

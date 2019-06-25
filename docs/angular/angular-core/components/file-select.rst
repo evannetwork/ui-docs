@@ -25,9 +25,9 @@ Inputs
 #. ``maxFiles`` - ``string``: maximum amount of files that can be uploaded
 #. ``multiple`` - ``string``: are multiple files allowed?
 
-------
+-------
 Outputs
-------
+-------
 
 #. ``onChange`` - ``string``: Event emitter to tell using component, that something has changed
 

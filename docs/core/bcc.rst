@@ -25,10 +25,8 @@ Using the browserified blockchain-core version within the dapp-browser, you need
 
   {
     "dependencies": {
-      "@evan.network/api-blockchain-core": "^2.7.1",
-      ...
+      "@evan.network/api-blockchain-core": "^2.7.1"
     },
-    ...
   }
 
 - `dbcp.json <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/dbcp.json>`__
@@ -39,10 +37,8 @@ Using the browserified blockchain-core version within the dapp-browser, you need
     "public": {
       "dapp": {
         "dependencies": {
-          "bcc": "^2.7.1",
-          ...
-        },
-        ...
+          "bcc": "^2.7.1"
+        }
       }
     }
   }
