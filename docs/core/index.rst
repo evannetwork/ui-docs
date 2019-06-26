@@ -13,7 +13,7 @@ The `ui-core <https://github.com/evannetwork/ui-core>`__ is a container for the 
 
 DApp Wrappers
 =============
-DApp wrappers for the blockchain core, the smart contracts core, ... are constructed simply, to exclude the wanted library from build and map the correct original package name. E.g.: The @evan.network/api-blockchain-core library is published using the ens address `bcc.evan`. Within the DBCP of the using DApp, this lib is referenced within the dbcp.json as dependency. Within the application it self, `@evan.network/api-blockchain-core` can be imported normally using `import * as bcc from '@evan.network/api-blockchain-core'`.:
+DApp wrappers for the blockchain core, the smart contracts core, ... are constructed simply, to exclude the wanted library from build and map the correct original package name. E.g.: The @evan.network/api-blockchain-core library is published using the ens address `bcc.evan`. Within the DBCP of the using DApp, this lib is referenced within the dbcp.json as dependency. Within the application it self, `@evan.network/api-blockchain-core` can be imported normally using `import * as bcc from '@evan.network/api-blockchain-core'`.
 
 Open Source libraries
 =====================
@@ -27,6 +27,8 @@ The following open source library wrapper dapps are defined:
   - `moment.libs <https://github.com/evannetwork/ui-core/tree/master/dapps/moment.libs>`__
   - `dexie.libs <https://github.com/evannetwork/ui-core/tree/master/dapps/dexie.libs>`__
   - `lodash.libs <https://github.com/evannetwork/ui-core/tree/master/dapps/lodash.lib>`__
+
+The `evan.bootstrap.libs` is a wrapper for `bootstrap V4.3 <https://getbootstrap.com/docs/4.3/getting-started/introduction>`__. All the variables are adjusted to be able to inserted via css variables. Have a look at the css variables to configure it: `ui.libs variables <./ui.libs/styling/variables.html>`__
 
 evan.network libraries
 ======================

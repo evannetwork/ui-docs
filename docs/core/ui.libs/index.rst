@@ -18,23 +18,67 @@ The following functionalities are included:
   - stylings (buttons, tables, steppers, contents, texts, ...)
   - styling css variables
 
+Usage
+=====
+
+- dbcp.json
+
+.. code-block:: json
+
+  {
+    "public": {
+      "dapp": {
+        "dependencies": {
+          "ui.libs": "^1.4.0"
+        }
+      }
+    }
+  }
+
+- package.json
+
+.. code-block:: json
+
+  {
+    "dependencies": {
+      "@evan.network/ui": "^1.4.0"
+    },
+  }
+
+- typescript
+
+  .. code-block:: ts
+
+    import { Dispatcher, DispatcherInstance } from '@evan.network/ui';
+
+- custom.scss
+  
+  .. code-block:: scss
+
+    @import '~@evan.network/ui/dist/ui.libs.css';
+
+Content
+=======
 
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   :glob:
+  :caption: JS
 
   js
 
 
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   :glob:
+  :caption: Stylings
 
   stylings
 
 
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   :glob:
+  :caption: Assets
 
   assets

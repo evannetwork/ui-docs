@@ -29,6 +29,7 @@ Welcome to evan.network frontend's documentation!
   core/index
   core/bcc
   core/smartcontracts
+  core/evan.bootstrap.libs
   core/ui.libs/index
 
 .. toctree::
@@ -40,6 +41,14 @@ Welcome to evan.network frontend's documentation!
   angular/angular-core/index
   angular/angular-libs/index
   angular/angular-sass/index
+
+.. toctree::
+  :maxdepth: 5
+  :glob:
+  :caption: vue
+
+  vue/index
+  vue/ui-vue-core
 
 Indices and tables
 ==================
