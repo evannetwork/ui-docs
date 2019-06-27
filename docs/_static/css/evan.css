@@ -135,6 +135,10 @@ ul.current {
   border: 2px solid #dce0e1;
 }
 
+.highlight {
+  background: #f5f5fa;
+}
+
 /******* read the docs stuff ************/
 .keep-us-sustainable {
   border: 1px solid #dce0e1;
