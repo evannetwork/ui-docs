@@ -142,7 +142,7 @@ Github Sample: `initializeEvanNetworkStructure <https://github.com/evannetwork/u
 .. required for building markup
 
 .. |source CoreBundle| replace:: ``CoreBundle``
-.. _source CoreBundle: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+.. _source CoreBundle: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/dist/index.js.ts
 
 .. |source KeyProvider| replace:: ``KeyProvider``
 .. _source KeyProvider: ../dapp-browser/KeyProvider.html

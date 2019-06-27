@@ -4,91 +4,50 @@ Getting Started
 
 The evan.network frontend documentation describes the functionality of the core frontend libraries.
 
-**This documentation does not explain how to setup and develop DApps. Have a look at** `dapps introduction <https://evannetwork.github.io/dapps/introduction>`_.
+**This documentation does not explain how to setup and develop DApps. Have a look at** `writing dapps <https://evannetwork.github.io/docs/developers/ui/writing-dapps.html>`_.
 
-dapp-browser
-============
+ui-dapp-browser
+===============
 The dapp-browser is the wrapper application for the evan.network DApp framework. Using the project you will be possible to create featured DApps.
 
-By using the evan.network framework to create featured DApps, the initialization of DBCP or the blockchain core is completely replaced and existing, initialized and configured instances can be loaded. This has the advantage that accounts, encryptions and similar complex configurations are executed dynamically by the user when the application is started.
+By using the evan.network framework to create featured DApps, the initialization of DBCP or the blockchain core runtime is completely replaced and existing, initialized and configured instances can be loaded. This has the advantage that accounts, encryptions and similar complex configurations are executed dynamically by the user when the application is started.
 
-To do this, however, all DApps must be started via the evan.network dapp-browser application, since this provides the complete function stack and the various UIs. As long as the provided functions are used, the application can only be started in environments that have the corresponding structures.
+To do this, however, all DApps must be started via the evan.network dapp-browser application, since this provides the complete function stack and the various UIs. As long as the provided functions are used, the application can only be started in environments that have the corresponding structures (e.g. https://dashboard.test.evan.network, local file server).
 
-The DApp browser provides several functionallities to access:
+--------------------------------------------
 
-- DApp routing
-- global utillity functions like log
-- information of the current logged in user
-- blockchain connections configuration
-- blockchain-core AccountStore and KeyProvider
-- DApp time tracing options
-- initialized blockchain-core structures
-- IPFS cache
-- ipfs handlers
-- load and start sub DApps
-- loading mechanisms
-- SystemJS plugins for ENS loading, ENS and file loading, IPFS loading, JSON loading, CSS loading
-- web3 handlers
+ui-core
+=======
 
-blockchain-core frontend bundle
-===============================
-The |source bcc_bundlejs|_ is similar to the blockchain-core runtime and its build to handle several UI steps including blockchain-core instance without account interactions, blockchain-core instance including account id for profile interactions and blockchain-core instance to interact with business centers. It exposes the following Runtime parameters and several functions to create, handle and overwrite them:
+open source projects
+--------------------
+The ui-core contains several dapps, that simply wraps open source projects, that will be available within the evan.network, so it can be simply imported using dbcp.json.
 
-- CoreRuntime: |source CoreInstance|_
-- ProfileRuntime: |source ProfileInstance|_
-- BCRuntime: |source BCInstance|_
+evan.network projects
+---------------------
+The ui-core contains several dapps, that simply wraps evan.network projects like the `api-blockchain-core-browserified <https://github.com/evannetwork/ui-core/tree/master/dapps/bcc>`__ or the `smart-contracts-core-browserified <https://github.com/evannetwork/ui-core/tree/master/dapps/smartcontracts>`__.
 
-angular-core
-============
+Furthermore it includes the new ui core library, that provides base functionallities and core stylings based on bootstrap and  `core functionallities and stylings <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs>`__
+
+--------------------------------------------
+
+Angular 5 & Ionic
+=================
+
+ui-angular-core
+---------------
 The `angular-core </angular-core/index.html>`_ operates as an global and central library for the evan.network Angular 5 frontend development. Using this project you will be able to to the following things:
 
-- easy import AngularCoreModule for including all services and components
-- featured Angular DApp starting mechanisms
-- dynamic routes builder for nested Angular DApps
-- comfortable UI services
-- comfortable BCC wrapper services
-- queue handling
-- generalized Angular components
-- Angular animation helpers
-- Angular 5 Onetime binding directive
-- I18N handling using ngx-translate
-
-angular-libs
-============
+ui-angular-libs
+---------------
 This `angular-libs </angular-libs/index.html>`_ contains a collection of Angular core libraries. This project is deployed to the ens (likelly to the angular-core), so you can require angular libraries (etc...) directly into the frontend without building duplicated libraries into your dapps.
 
-- @angular
-- @ionic-native
-- @ngx-translate
-- @zxing
-- ionic-angular
-- ionic-tags-input
-- ng-circle-progress
-- rxjs
-
-angular-sass
-============
+ui-angular-sass
+---------------
 The `angular-sass </angular-sass/index.html>`_ library includes styling definitions for evan.network featured DApps.
 
-- font-style: Open Sans
-- `Ionic Styles <https://github.com/ionic-team/ionic>`_
-- positioning & color sass variables
-- evan.network start page & loading symbol
-- alert style adjustments
-- button styles
-- content containers with dynamic sizes
-- dashboard side panel style
-- form specific stylings
-- grid styles
-- modal styles
-- popover styles
-- table styles
-- tab styles
-- Ionic adjustments
-- evan theming
-
 .. |source bcc_bundlejs| replace:: ``blockchain-core frontend bundle``
-.. _source bcc_bundlejs: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/bundles/bcc/bcc.ts
+.. _source bcc_bundlejs: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/dist/index.js.ts
 
 .. |source CoreInstance| replace:: ``CoreInstance``
 .. _source CoreInstance: /bcc/bcc-bundle.html#coreinstance

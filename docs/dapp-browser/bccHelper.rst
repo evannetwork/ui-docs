@@ -273,7 +273,7 @@ Example
     getDomainName,
     lightwallet,
     utils,
-  } from 'dapp-browser';
+  } from '@evan.network/dapp-browser';
 
   lightwallet.setPasswordFunction(async () => {
     // bind login function so we can resolve the initial promise, when login is done
@@ -339,7 +339,7 @@ Example
   import {
     bccHelper,
     lightwallet,
-  } from 'dapp-browser';
+  } from '@evan.network/dapp-browser';
 
   const vault = await lightwallet.getNewVault('test faucet ...', 'xyazqw91923');
   const accountId = lightwallet.getAccounts(vault, 1)[0]; 
@@ -352,3 +352,5 @@ Example
     lightwallet.getPrivateKey(vault, accountId),
   );
 
+.. |source CoreBundle| replace:: ``CoreBundle``
+.. _source CoreBundle: https://github.com/evannetwork/api-blockchain-core/blob/develop/src/index.ts

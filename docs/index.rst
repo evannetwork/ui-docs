@@ -7,22 +7,48 @@ Welcome to evan.network frontend's documentation!
 =================================================
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 5
   :caption: Contents
 
   getting-started
 
+
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 5
   :glob:
-  :caption: API Reference:
+  :caption: dapp-browser
 
   dapp-browser/index
-  bcc/bcc-bundle
-  angular-core/index
-  angular-libs/index
-  angular-sass/index
-  core-dapps/index
+
+
+.. toctree::
+  :maxdepth: 5
+  :glob:
+  :caption: ui-core
+
+  core/index
+  core/bcc
+  core/smartcontracts
+  core/evan.bootstrap.libs
+  core/ui.libs/index
+
+.. toctree::
+  :maxdepth: 5
+  :glob:
+  :caption: angular
+
+  angular/index
+  angular/angular-core/index
+  angular/angular-libs/index
+  angular/angular-sass/index
+
+.. toctree::
+  :maxdepth: 5
+  :glob:
+  :caption: vue
+
+  vue/index
+  vue/ui-vue-core
 
 Indices and tables
 ==================

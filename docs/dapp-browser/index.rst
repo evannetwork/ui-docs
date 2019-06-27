@@ -1,13 +1,13 @@
-============
-dapp-browser
-============
+===============
+ui-dapp-browser
+===============
 
 .. list-table:: 
    :widths: auto
    :stub-columns: 1
 
    * - Source
-     - `dapp-browser <https://github.com/evannetwork/ui-dapp-browser/blob/develop/src/app/index.ts>`__
+     - `dapp-browser <https://github.com/evannetwork/ui-dapp-browser/blob/master/src/app/main.ts>`__
 
 The `dapp-browser <https://github.com/evannetwork/ui-dapp-browser>`_ is used to start applications over it. Within this applications, several classes, functions and runtime instances can be used. General DApps will be opened like the following "https://.../index.html#/my-dapp-ens.evan". Where the index.html file is the entry point of the dapp-browser.
 
@@ -34,7 +34,7 @@ Usage as Dependency
   import {
     config,
     getDomainName
-  } from 'dapp-browser';
+  } from '@evan.network/dapp-browser';
 
 - tsconfig.json
 
@@ -76,9 +76,10 @@ Environment configuration using localStorage and url parameters
 - url parameters for agent provider usage
 
   - ``agent-executor`` : if an token is specified, load the data from the edge-server
-  - ``agent-executor-url`` : url that should be requested using the executor (default = 'http://localhost:8080' || 'https://agents.evan.network')
+  - ``agent-executor-url`` : url that should be requested using the executor (default = 'http://localhost:8080' || 'https://agents.test.evan.network')
   - ``agent-executor-account-id`` : account id that should be used to interact with the UI
   - ``agent-executor-key`` : edge-server security key
+  - ``dev-domain`` : same functionallities as `evan-dev-dapps-domain`
 
 - localStorage
 
@@ -130,6 +131,7 @@ Instances
   :maxdepth: 1
   :glob:
 
+  bccHelper
   config
   core
   CoreRuntime
