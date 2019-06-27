@@ -142,6 +142,7 @@ ul.current {
 /******* read the docs stuff ************/
 .keep-us-sustainable {
   border: 1px solid #dce0e1;
+  background-color: #fff;
 }
 
 .keep-us-sustainable * {
@@ -154,16 +155,18 @@ ul.current {
   background-color: #fff;
 }
 
-.rst-versions .rst-current-version {
-  color: #000;
-}
-
 .rst-other-versions,
 .rst-versions {
   background: #f5f5fa;
   background-color: #f5f5fa;
 }
 
-.rst-current-version {
+.rst-other-versions *,
+.rst-versions *,
+.rst-current-version * {
   color: #000;
+}
+
+.rst-versions .rst-other-versions dd a {
+  color: #64c6c1;
 }
