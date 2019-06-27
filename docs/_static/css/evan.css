@@ -135,4 +135,31 @@ ul.current {
   border: 2px solid #dce0e1;
 }
 
-/******* evan ui.libs ************/
+/******* read the docs stuff ************/
+.keep-us-sustainable {
+  border: 1px solid #dce0e1;
+}
+
+.keep-us-sustainable * {
+  color: #000 !important;
+}
+
+.rst-versions .rst-current-version {
+  color: #000;
+  border-top: 1px solid #dce0e1;
+  background-color: #fff;
+}
+
+.rst-versions .rst-current-version {
+  color: #000;
+}
+
+.rst-other-versions,
+.rst-versions {
+  background: #f5f5fa;
+  background-color: #f5f5fa;
+}
+
+.rst-current-version {
+  color: #000;
+}
