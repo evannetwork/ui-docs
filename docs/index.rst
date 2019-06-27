@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to evan.network frontend's documentation!
+Welcome to evan.network UI documentation!
 =================================================
 
 .. toctree::
@@ -32,6 +32,16 @@ Welcome to evan.network frontend's documentation!
   core/evan.bootstrap.libs
   core/ui.libs/index
 
+
+.. toctree::
+  :maxdepth: 5
+  :glob:
+  :caption: vue
+
+  vue/index
+  vue/ui-vue-core
+
+
 .. toctree::
   :maxdepth: 5
   :glob:
@@ -41,14 +51,6 @@ Welcome to evan.network frontend's documentation!
   angular/angular-core/index
   angular/angular-libs/index
   angular/angular-sass/index
-
-.. toctree::
-  :maxdepth: 5
-  :glob:
-  :caption: vue
-
-  vue/index
-  vue/ui-vue-core
 
 Indices and tables
 ==================

@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=evan.network frontend
+set SPHINXPROJ=evan.network UI
 
 if "%1" == "" goto help
 
