@@ -164,9 +164,9 @@ ul.current {
 .rst-other-versions *,
 .rst-versions *,
 .rst-current-version * {
-  color: #000;
+  color: #000 !important;
 }
 
 .rst-versions .rst-other-versions dd a {
-  color: #64c6c1;
+  color: #64c6c1 !important;
 }
