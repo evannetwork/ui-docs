@@ -23,27 +23,27 @@ Usage
 
 - dbcp.json
 
-.. code-block:: json
+  .. code-block:: json
 
-  {
-    "public": {
-      "dapp": {
-        "dependencies": {
-          "ui.libs": "^1.4.0"
+    {
+      "public": {
+        "dapp": {
+          "dependencies": {
+            "ui.libs": "^1.4.0"
+          }
         }
       }
     }
-  }
 
 - package.json
 
-.. code-block:: json
+  .. code-block:: json
 
-  {
-    "dependencies": {
-      "@evan.network/ui": "^1.4.0"
-    },
-  }
+    {
+      "dependencies": {
+        "@evan.network/ui": "^1.4.0"
+      },
+    }
 
 - typescript
 
@@ -57,28 +57,32 @@ Usage
 
     @import '~@evan.network/ui/dist/ui.libs.css';
 
-Content
-=======
+JS classes, functions, configs
+==============================
 
 .. toctree::
   :maxdepth: 2
   :glob:
-  :caption: JS
 
-  js
+  js/*
 
+
+Styling
+=======
 
 .. toctree::
   :maxdepth: 2
   :glob:
   :caption: Stylings
 
-  stylings
+  styling/*
 
+
+Assets
+=======
 
 .. toctree::
   :maxdepth: 2
   :glob:
-  :caption: Assets
 
   assets
