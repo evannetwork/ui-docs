@@ -9,4 +9,12 @@ open-sans
    * - Source
      - `open-sans <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/open-sans.scss>`__
 
- 
+Includes `Open Sans Font Face <https://google-webfonts-helper.herokuapp.com/fonts/open-sans?subsets=latin>`_.
+
+-------
+Example
+-------
+
+.. code-block:: scss
+
+  font-family: 'Open Sans', sans-serif;

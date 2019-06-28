@@ -18,6 +18,8 @@ The following functionalities are included:
   - stylings (buttons, tables, steppers, contents, texts, ...)
   - styling css variables
 
+**Please note: Do not forget to wrap your complete application with this classes .evan .evan-theme. Without these classes, no other nested styling will work.**
+
 Usage
 =====
 
