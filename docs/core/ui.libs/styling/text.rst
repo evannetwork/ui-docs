@@ -43,5 +43,5 @@ Class                           Description
     </button>
   </div>
 
-.. image:: ../../../images/core/content/batch-label.png
+.. image:: ../../../images/core/batch-label.png
   :width: 500

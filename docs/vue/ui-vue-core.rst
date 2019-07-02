@@ -90,20 +90,21 @@ Usage
     }
 
 
-Content
-=======
+JS classes, functions
+=====================
 
 .. toctree::
   :maxdepth: 3
   :glob:
-  :caption: JS classes, functions
 
-  ui-vue-core/js
+  ui-vue-core/js/*
 
+
+Components
+==========
 
 .. toctree::
   :maxdepth: 3
   :glob:
-  :caption: Components
 
-  ui-vue-core/components
+  ui-vue-core/components/*
