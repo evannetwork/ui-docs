@@ -1,6 +1,6 @@
-===========
-DAppWrapper
-===========
+====================
+DAppWrapperComponent
+====================
 
 .. list-table:: 
    :widths: auto
@@ -10,6 +10,8 @@ DAppWrapper
      - `dapp-wrapper <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/dapp-wrapper>`__
    * - Selector
      - ``evan-dapp-wrapper``
+   * - style
+     -  `breadcrumbs <../../../core/ui.libs/styling/dapp-wrapper.html>`__
 
 Each DApp must be wrapped with the evan-dapp-wrapper component. This component will handle the complete login process and it is nessecary to use the ``getRuntime`` that is included into the `EvanComponent <../js/components.html>`__ function. It also provides this UI interactions:
 
@@ -32,6 +34,7 @@ It also provides content containers for a second left panel tree and a persisten
 #. ``login`` - ``Function|boolean``: login function that was applied by the setPasswordFunction
 #. ``onboarding`` - ``Function|boolean``: onboarding dapp is opened, so the user isn't logged in
 #. ``userInfo`` - ``any``: current user informations
+
   #. ``addressBook`` - ``any``: loaded addressbook
   #. ``alias`` - ``string``: users alias
   #. ``loading`` - ``boolean``: user is loading
@@ -40,7 +43,9 @@ It also provides content containers for a second left panel tree and a persisten
   #. ``newMailCount`` - ``number``: count of new mails
   #. ``readMails`` - ``Array<string>``: read mail array loaded from localStorage
   #. ``totalMails`` - ``number``: count of all available mails
+
 #. ``coreRoutes`` - ``Array<any>``: Core routes that will be displayed in the top right user dropdown
+
   #. ``title`` - ``string``: title that should be displayed
   #. ``path`` - ``string``: path of the route
   #. ``icon`` - ``string``: icon that should be displayed

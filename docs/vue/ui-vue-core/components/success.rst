@@ -1,6 +1,6 @@
-=======
-success
-=======
+================
+SuccessComponent
+================
 
 .. list-table:: 
    :widths: auto
@@ -11,25 +11,20 @@ success
    * - Selector
      - ``evan-success``
 
-replaceme
-
-#. ``replaceme`` - ``Array<{ name: string, fallbackName: string, path: string }>``: active route, splitted by hash and prepared using the following params: name, fallbackName, path
-
-Props
-=====
-
-#. ``replaceme`` - ``string``: 
+Shows a animated "check" icon.
 
 
 Example
 =======
+- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/onboarding.vue/src/components/accept-contact/accept-contact.vue>`__
 
 .. code-block:: html
 
+  <evan-success></evan-success>
 
 
 View Example
 ============
 
-.. image:: ../../../images/vue/replaceme.png
-   :width: 600
+.. image:: ../../../images/vue/success.gif
+   :width: 300

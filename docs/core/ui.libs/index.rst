@@ -63,7 +63,7 @@ JS classes, functions, configs
 ==============================
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   :glob:
 
   js/*
@@ -73,9 +73,8 @@ Styling
 =======
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   :glob:
-  :caption: Stylings
 
   styling/*
 
@@ -84,7 +83,7 @@ Assets
 =======
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   :glob:
 
   assets

@@ -23,25 +23,25 @@ fileToContainerFile
 Takes an usual File object (e.g. File from HTML 5 file input) and transforms it into an blockchain-
 core understandable file.
  
- ----------
- Parameters
- ----------
- 
- #. ``file`` - ``object``: html 5 input result file
- 
- -------
- Returns
- -------
- 
- ``Promise`` returns ``UIContainerFile``: resolved when done
- 
- -------
- Example
- -------
- - `Reference Implementation <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/files/files.ts>`_
- 
- .. code-block:: typescript
- 
+----------
+Parameters
+----------
+
+#. ``file`` - ``object``: html 5 input result file
+
+-------
+Returns
+-------
+
+``Promise`` returns ``UIContainerFile``: resolved when done
+
+-------
+Example
+-------
+- `Reference Implementation <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/files/files.ts>`_
+
+.. code-block:: typescript
+
   const containerFile = await FileHandler.fileToContainerFile(newFile);
 
 

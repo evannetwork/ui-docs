@@ -8,9 +8,11 @@ variables
 
    * - Source
      - `definitions <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/definitions/evan.theme.scss>`__
+   * - bootstrap
+     - `definitions <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/definitions/evan.theme.scss>`__
 
 ----------
-$themeEvan
+themeEvan
 ----------
 
 SCSS map, including all for the evan style available parameters. Using this set of parameters, a custom evan.network theme can be created easily. The bootstrap version that is used within featured dapps, is adjusted to handle css variables. As a result of this, the theme can be changed at runtime.

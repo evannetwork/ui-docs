@@ -7,7 +7,7 @@ text
    :stub-columns: 1
 
    * - Source
-     - `text <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/text.scss>`__
+     - `text <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/text.scss>`__
 
 ==============================  ================================================================================================
 Class                           Description 
@@ -43,5 +43,8 @@ Class                           Description
     </button>
   </div>
 
+------------
+View Example
+------------
 .. image:: ../../../images/core/batch-label.png
   :width: 500

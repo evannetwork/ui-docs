@@ -1,6 +1,6 @@
-==============
-EvanFilesInput
-==============
+==================
+FileInputComponent
+==================
 
 .. list-table:: 
    :widths: auto
@@ -10,6 +10,8 @@ EvanFilesInput
      - `files <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/files>`__
    * - Selector
      - ``evan-file-input``
+   * - style
+     -  `breadcrumbs <../../../core/ui.libs/styling/text.html>`__
 
 Wrapper for HTML 5 file upload. Uses the `ui-core File <../../../core/ui.libs/js/files.html>`__ utils, load load, return and format files to handle the correct format.
 

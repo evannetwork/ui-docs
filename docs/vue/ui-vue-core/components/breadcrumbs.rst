@@ -1,6 +1,6 @@
-===============
-EvanBreadcrumbs
-===============
+====================
+BreadcrumbsComponent
+====================
 
 .. list-table:: 
    :widths: auto
@@ -10,6 +10,8 @@ EvanBreadcrumbs
      - `breadcrumbs <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/breadcrumbs>`__
    * - Selector
      - ``evan-breadcrumbs``
+   * - style
+     -  `breadcrumbs <../../../core/ui.libs/styling/breadcrumb.html>`__
 
 Breadcrumb component that parses the currents browser url hash and displays a breadcrumb navigation for all entries. Also, each breadcrumb can be translated or ignored. Also backwards and reload buttons can be enabled.
 

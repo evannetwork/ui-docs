@@ -22,7 +22,7 @@ Each control that is passed into the constructor or that is added by the `addCon
 .. _form_example:
 
 Example
-================================================================================
+=======
 - `Reference implementation <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/addressbook.vue/src/components/add>`__
 
 .. code-block:: typescript
@@ -166,10 +166,12 @@ Parameters
 
 #. ``vueInstance`` - ``any``: options for EvanForm constructor.
 #. ``controls`` - ``{ [s: string]: EvanFormControlOptions }``: Object of controls that should be added. Key represents the name of the control, all other parameters that can be passed to a form control can be added too (validate, error, value, ...).
+
   #. ``name`` - ``string``: Form control name (will be passed automatically using controlKey)
   #. ``value`` - ``any``: initial control value
   #. ``vueInstance`` - ``Vue``: Original vue instance to directly access component references within the control
   #. ``validate`` - ``Function``: Runs the within the constructor provided validate function. The provided function should should return true, if everything is fine. Should return false, string, object, ... to mark the formControl as invalid and to set the internal error parameter. The function can also be return a Promise. During the asynchronious validation is running, the validating flag is set to true.
+
 
 -------
 Returns

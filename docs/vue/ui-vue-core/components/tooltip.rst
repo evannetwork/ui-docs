@@ -1,6 +1,6 @@
-=======
-tooltip
-=======
+================
+TooltipComponent
+================
 
 .. list-table:: 
    :widths: auto
@@ -10,26 +10,34 @@ tooltip
      - `tooltip <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/tooltip>`__
    * - Selector
      - ``evan-tooltip``
+   * - style
+     -  `breadcrumbs <../../../core/ui.libs/styling/tooltip.html>`__
 
-replaceme
+Bootstrap tooltip wrapper.
 
-#. ``replaceme`` - ``Array<{ name: string, fallbackName: string, path: string }>``: active route, splitted by hash and prepared using the following params: name, fallbackName, path
+#. ``showTooltip`` - ``boolean``: is the tooltip shown?
 
 Props
 =====
 
-#. ``replaceme`` - ``string``: 
+#. ``placement`` - ``string``: Tooltip placement (top, bottom, left, right)
+#. ``delay`` - ``number``: Timeout in ms, until the tooltip gets shown
 
 
 Example
 =======
+- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/digital-twins/src/components/twins/twins.vue>`__
 
 .. code-block:: html
 
+  <evan-tooltip :placement="'bottom'">
+    {{ 'info' | translate }}
+  </evan-tooltip>
 
 
+------------
 View Example
-============
+------------
 
-.. image:: ../../../images/vue/replaceme.png
-   :width: 600
+.. image:: ../../../images/core/tooltip.png
+   :width: 300

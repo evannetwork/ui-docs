@@ -7,7 +7,7 @@ breadcrumbs
    :stub-columns: 1
 
    * - Source
-     - `breadcrumbs <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/breadcrumbs.scss>`__
+     - `breadcrumbs <https://github.com/evannetwork/ui-core/blob/master/dapps/ui.libs/src/style/breadcrumb.scss>`__
 
 Used to create a breadcrumb navigation bar.
 

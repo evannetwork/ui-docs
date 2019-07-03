@@ -1,6 +1,6 @@
-============
-EvanDropdown
-============
+=================
+DropdownComponent
+=================
 
 .. list-table:: 
    :widths: auto
@@ -10,6 +10,8 @@ EvanDropdown
      - `dropdown <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/dropdown>`__
    * - Selector
      - ``evan-dropdown``
+   * - style
+     -  `dropdowns <https://getbootstrap.com/docs/4.3/components/dropdowns>`__
 
 Bootstrap dropdown menu wrapper in evan.network style.
 
@@ -22,8 +24,6 @@ Props
 #. ``alignment`` - ``string``: Where should the popup should been attached?
 #. ``width`` - ``string``: Dropdown width specification (e.g. 100px)
 #. ``renderOnlyContent`` - ``boolean``: Disables the dropdown functionality (used to handle dropdowns and single buttons within the same component)
-
-
 
 
 --------------------------------------------------------------------------------

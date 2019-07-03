@@ -7,7 +7,9 @@ buttons
    :stub-columns: 1
 
    * - Source
-     - `buttons <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/buttons.scss>`__
+     - `buttons <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/buttons.scss>`__
+   * - Bootstrap
+     - `buttons <https://getbootstrap.com/docs/4.3/components/buttons>`__
 
 -------
 primary

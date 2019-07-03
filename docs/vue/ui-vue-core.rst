@@ -94,7 +94,7 @@ JS classes, functions
 =====================
 
 .. toctree::
-  :maxdepth: 3
+  :maxdepth: 1
   :glob:
 
   ui-vue-core/js/*
@@ -102,9 +102,10 @@ JS classes, functions
 
 Components
 ==========
+By using the `ui-vue-core <./js/vue-core#initializeVue>`__ function each component will be registered globally, so it can be used everywhere within the dapps components.
 
 .. toctree::
-  :maxdepth: 3
+  :maxdepth: 1
   :glob:
 
   ui-vue-core/components/*

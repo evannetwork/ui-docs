@@ -7,7 +7,7 @@ table
    :stub-columns: 1
 
    * - Source
-     - `table <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/table.scss>`__
+     - `table <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/table.scss>`__
 
 Evan tables can be used in 2 different ways. Classic table styles or using the responsive flex table styles.
 

@@ -1,6 +1,6 @@
-=================
-DAppWrapperLevel2
-=================
+=================================
+DAppWrapperSidebarLevel2Component
+=================================
 
 .. list-table:: 
    :widths: auto
@@ -10,6 +10,8 @@ DAppWrapperLevel2
      - `dapp-wrapper-level-2 <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/dapp-wrapper-level-2>`__
    * - Selector
      - ``evan-dapp-wrapper-level-2``
+   * - style
+     -  `breadcrumbs <../../../core/ui.libs/styling/dapp-wrapper.html>`__
 
 The dapp-warpper has the functionality, that a custom second level navigation can be applied. Using this component, this content container does not must be filled directly, it can be filled from every child component, even from nested, fully seperated dapps. The content that will be applied to the dapp-wrapper-level-2 component, will be moved to the highest available dapp-wrapper component. The content will be overwritten, when another DAppWrapperLevel2 component will be started or, if this included dapp was destroyed.
 

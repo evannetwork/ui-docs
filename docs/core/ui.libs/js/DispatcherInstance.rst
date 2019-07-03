@@ -309,7 +309,7 @@ sendEvent
 
 Send an event with an status for this instance. Will send the following parameters
 
-#. ``detail`` - ``object``
+#. ``detail`` - ``object``: payload that should be sent
   #. ``dispatcher`` - ``Dispatcher``: Dispatcher definition
   #. ``instance`` - ``DispatcherInstance``: running dispatcher instance
   #. ``status`` - ``status``: status

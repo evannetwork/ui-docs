@@ -1,6 +1,6 @@
-=========================
-EvanContactBatchComponent
-=========================
+=====================
+ContactBatchComponent
+=====================
 
 .. list-table:: 
    :widths: auto

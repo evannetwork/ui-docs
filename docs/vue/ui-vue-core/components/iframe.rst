@@ -1,6 +1,6 @@
-======
-iframe
-======
+===============
+IframeComponent
+===============
 
 .. list-table:: 
    :widths: auto
@@ -13,23 +13,53 @@ iframe
 
 replaceme
 
-#. ``replaceme`` - ``Array<{ name: string, fallbackName: string, path: string }>``: active route, splitted by hash and prepared using the following params: name, fallbackName, path
+#. ``loading`` - ``boolean``: iframe is loading
 
 Props
 =====
 
-#. ``replaceme`` - ``string``: 
+#. ``src`` - ``string``: The iframes src that should be rendered
 
 
 Example
 =======
+- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/dashboard.vue/src/routes.ts>`__
 
-.. code-block:: html
+- typescript
+
+  .. code-block:: typescript
+
+    import { EvanIframeComponent } from '@evan.network/ui-vue-core';
+
+    const routeRegistration: Array<RouteRegistrationInterface> = [
+      {
+        path: '',
+        redirect: { path: 'github' }
+      },
+      {
+        path: 'github',
+        component: EvanIframeComponent,
+        props: { src: 'https://evannetwork.github.io' }
+      },
+      {
+        path: `bccdocs`,
+        component: EvanIframeComponent,
+        props: { src: '//api-blockchain-core.readthedocs.io/en/latest/' }
+      },
+      {
+        path: `uidocs`,
+        component: EvanIframeComponent,
+        props: { src: '//ui-docs.readthedocs.io/en/latest/' }
+      },
+    ];
 
 
+- typescript
 
-View Example
-============
+  .. code-block:: html
 
-.. image:: ../../../images/vue/replaceme.png
-   :width: 600
+    <evan-iframe
+      :src="https://dashboard.test.evan.network">
+    </evan-iframe>
+
+

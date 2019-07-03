@@ -1,6 +1,6 @@
-=================
-under-development
-=================
+=========================
+UnderDevelopmentComponent
+=========================
 
 .. list-table:: 
    :widths: auto
@@ -11,25 +11,17 @@ under-development
    * - Selector
      - ``evan-under-development``
 
-replaceme
-
-#. ``replaceme`` - ``Array<{ name: string, fallbackName: string, path: string }>``: active route, splitted by hash and prepared using the following params: name, fallbackName, path
-
-Props
-=====
-
-#. ``replaceme`` - ``string``: 
-
+Shows a ``under-development`` placeholder for enabling empty routes with maintenance or something else.
 
 Example
 =======
 
 .. code-block:: html
 
-
+  <evan-under-development></evan-under-development>
 
 View Example
 ============
 
-.. image:: ../../../images/vue/replaceme.png
+.. image:: ../../../images/vue/under-development.png
    :width: 600

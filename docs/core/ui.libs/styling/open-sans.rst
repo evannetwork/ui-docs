@@ -7,7 +7,7 @@ open-sans
    :stub-columns: 1
 
    * - Source
-     - `open-sans <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/open-sans.scss>`__
+     - `open-sans <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/open-sans.scss>`__
 
 Includes `Open Sans Font Face <https://google-webfonts-helper.herokuapp.com/fonts/open-sans?subsets=latin>`_.
 

@@ -7,7 +7,7 @@ tabs
    :stub-columns: 1
 
    * - Source
-     - `tabs <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/tabs.scss>`__
+     - `tabs <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/tabs.scss>`__
 
 
 -------
