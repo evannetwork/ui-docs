@@ -1,6 +1,6 @@
-===================
-DAppLoaderComponent
-===================
+====================
+DAppLoadingComponent
+====================
 
 .. list-table:: 
    :widths: auto
