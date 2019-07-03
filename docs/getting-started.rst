@@ -31,6 +31,14 @@ Furthermore it includes the new ui core library, that provides base functionalli
 
 --------------------------------------------
 
+ui-vue
+=======
+The `ui-vue <https://github.com/evannetwork/ui-vue>`__ is a container for the vue specific evan.network applications and libraries. It include dapp wrappers for simply building and providing vue evan.network / vue open source libraries as dapps within the evan.network framework.
+
+The main application in this lerna container is the `@evan.network/ui-vue-core <./ui-vue-core.html>`__ project.
+
+--------------------------------------------
+
 Angular 5 & Ionic
 =================
 
