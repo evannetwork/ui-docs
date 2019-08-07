@@ -22,6 +22,7 @@ Extends vue components with the following parameters:
 #. ``$router`` - `$router <https://github.com/evannetwork/ui-vue/tree/master/dapps/router.vue.libs>`__: vue router instance
 #. ``$store`` - `vuex <https://github.com/evannetwork/ui-vue/tree/master/dapps/vuex.libs>`__: vuex store
 #. ``$t`` - `vuex i18n <https://github.com/evannetwork/ui-vue/tree/master/dapps/i18n.vuex.libs>`__: vuex i18n translate function
+#. ``testMode`` - ``boolean``: is `localstorage['evan-test-mode'] set?
 
 
 
