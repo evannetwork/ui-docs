@@ -3,6 +3,8 @@
 ## Next Version
 ### Features
 - add `right` / `left` property to `DropdownComponent`
+- `ui-dapp-browser`
+  add `browserName`, `isPrivateMode`, `getBrowserName`, `getIsPrivateMode`
 
 ### Fixes
 ### Deprecations

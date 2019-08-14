@@ -28,6 +28,32 @@ devMode
 global available array that includes dev mode available dapps, when devMode is enabled, else undefined
 
 --------------------------------------------------------------------------------
+
+.. _db_utils_browserName:
+
+browserName
+================================================================================
+
+.. code-block:: typescript
+
+  browserName
+
+Active browsers name. (Only set, after getBrowserName was runned before)
+
+--------------------------------------------------------------------------------
+
+.. _db_utils_isPrivateMode:
+
+isPrivateMode
+================================================================================
+
+.. code-block:: typescript
+
+  isPrivateMode
+
+Is the current browser is running in private mode? (Only set, after getIsPrivateMode was runned before)
+
+--------------------------------------------------------------------------------
  
 .. _db_utils_setUpDevMode:
  
@@ -327,3 +353,41 @@ Example
 
   const dappName = utils.getDAppName('mydapp.mycompany.evan');
   console.log(dappName) // => mydapp.mycompany
+
+--------------------------------------------------------------------------------
+
+.. _db_utils_getBrowserName:
+
+getBrowserName
+================================================================================
+
+.. code-block:: typescript
+
+  utils.getBrowserName();
+
+Return the name of the current browser 
+
+-------
+Returns
+-------
+
+``string``: (Opera, Firefox, Safari, Chrome, IE, Edge, Blink)
+
+--------------------------------------------------------------------------------
+
+.. _db_utils_getIsPrivateMode:
+
+getIsPrivateMode
+================================================================================
+
+.. code-block:: typescript
+
+  utils.getIsPrivateMode();
+
+Lightweight script to detect whether the browser is running in Private mode.
+
+-------
+Returns
+-------
+
+``boolean``: true if running in private mode, else false
