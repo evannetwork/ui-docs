@@ -2,6 +2,8 @@
 
 ## Next Version
 ### Features
+- add `right` / `left` property to `DropdownComponent`
+
 ### Fixes
 ### Deprecations
 
