@@ -2,7 +2,8 @@
 
 ## Next Version
 ### Features
-- add `right` / `left` property to `DropdownComponent`
+- `ui-vue`
+  - add `right` / `left` property to `DropdownComponent`
 - `ui-dapp-browser`
   add `browserName`, `isPrivateMode`, `getBrowserName`, `getIsPrivateMode`
 

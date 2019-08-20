@@ -371,7 +371,7 @@ Return the name of the current browser
 Returns
 -------
 
-``string``: (Opera, Firefox, Safari, Chrome, IE, Edge, Blink)
+``string``: (Opera, Firefox, Safari, Chrome, IE, Edge, Blink, Cordova)
 
 --------------------------------------------------------------------------------
 
