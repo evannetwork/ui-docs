@@ -2,13 +2,17 @@
 
 ## Next Version
 ### Features
+
+### Fixes
+
+### Deprecations
+
+## Version 2.1.0
+### Features
 - `ui-vue`
   - add `right` / `left` property to `DropdownComponent`
 - `ui-dapp-browser`
   add `browserName`, `isPrivateMode`, `getBrowserName`, `getIsPrivateMode`
-
-### Fixes
-### Deprecations
 
 
 ## Version 2.0.0
