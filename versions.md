@@ -2,6 +2,11 @@
 
 ## Next Version
 ### Features
+- `ui-vue`
+  - add `evan-swipe-panel` component
+  - add new docs for `ui-vue`
+- `ui`
+  - add `.evan-swipe-panel` class
 
 ### Fixes
 
