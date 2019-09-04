@@ -53,8 +53,5 @@ Example
 View Example
 ============
 
-.. image:: ../../../images/vue/dapp-wrapper-level-2-1.png
-   :width: 400
-
-.. image:: ../../../images/vue/dapp-wrapper-level-2-2.png
+.. image:: ../../../images/vue/dapp-wrapper-level-2.png
   :width: 400
