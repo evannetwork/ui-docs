@@ -13,4 +13,9 @@ Includes the complete styling for the evan.network dapp-wrapper, including left 
 
   .. image:: ../../../images/core/dapp-wrapper.png
    :width: 800
-   
+
+For building secondary navigation structures, we suggest to use the `dapp-wrapper-level-2` styling. Just add a dom element with the specific class to your dapp-wrappers content and it will be shown as an white panel. By using the evan `nav list design <../../../core/ui.libs/styling/buttons.html>`__, you can simply add navigation entries to the dapp-wrapper-level-2. (`vue.js dapp-wrapper-level-2 implementation <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/dapp-wrapper-level-2/dapp-wrapper-level-2.vue>`_).
+
+
+  .. image:: ../../../images/core/dapp-wrapper-level-2.png
+   :width: 400

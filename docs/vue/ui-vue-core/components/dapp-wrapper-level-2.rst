@@ -43,11 +43,8 @@ Example
 
 .. code-block:: html
 
-
   <evan-dapp-wrapper-level-2>
-    <template v-slot:content>
-      ...
-    </template>
+    ...
   </evan-dapp-wrapper-level-2>
 
 View Example

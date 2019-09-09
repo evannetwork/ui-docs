@@ -22,6 +22,34 @@ Props
 #. ``width`` - ``string`` (default: 400px): Width of the sidepanel (will be 100% beneath 768px screen size)
 #. ``alignment`` - ``string`` (default: left, right): defines the swipe side
 
+Events
+======
+
+#. ``close``: Triggered when sipePanel was closed
+
+.. _swipepanel_show:
+
+show
+================================================================================
+
+.. code-block:: typescript
+
+  $refs.sipePanelComp.show();
+
+Show the swipepanel.
+
+.. _swipepanel_hide:
+
+hide
+================================================================================
+
+.. code-block:: typescript
+
+  $refs.sipePanelComp.hide();
+
+Hide the sipePanel.
+
+--------------------------------------------------------------------------------
 
 Example
 =======

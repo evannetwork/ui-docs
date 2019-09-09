@@ -22,10 +22,9 @@ Props
 =====
 
 #. ``alignment`` - ``string``: Where should the popup should been attached?
-#. ``left`` - ``string``: Fixed right style specification (e.g. 100px)
 #. ``renderOnlyContent`` - ``boolean``: Disables the dropdown functionality (used to handle dropdowns and single buttons within the same component)
-#. ``right`` - ``string``: Fixed left style specification (e.g. 100px)
 #. ``width`` - ``string``: Dropdown width specification (e.g. 100px)
+#. ``customStyle`` - ``any``: class definition that will be directly added to the `dropdown-menu` element (e.g. for specifying manual left / right position)
 
 
 --------------------------------------------------------------------------------
