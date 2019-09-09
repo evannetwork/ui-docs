@@ -11,78 +11,78 @@ buttons
    * - Bootstrap
      - `buttons <https://getbootstrap.com/docs/4.3/components/buttons>`__
 
--------
+In general, the button designs are defined by bootstrap. Some small adjustments are made by evan, to make them more generalized.
+
+Note: By using icons within the buttons, just add the `left` / `right` class to the `i` element, so it will be positioned correctly. Also `spinners` can be used directly within the buttons.
+
+---------------
 primary
--------
+---------------
 
-Button for main interactions.
+.. code-block:: html
 
-- main interactions
+  <button class="btn btn-primary">
+    <i class="mdi left mdi-arrow-left"></i>
+    primary icon left
+  </button>
 
-  .. code-block:: html
+.. image:: ../../../images/core/buttons/primary.png
+  :width: 300
 
-    <button class="btn btn-primary btn-rounded">
-      main interaction
-      <i class="mdi mdi-arrow-right label ml-3"></i>
-    </button>
-
-  .. image:: ../../../images/core/buttons/primary-large.png
-   :width: 150
-
-- main small interaction
-
-  .. code-block:: html
-
-    <button class="btn btn-primary btn-circle">
-      <i class="mdi mdi-plus"></i>
-    </button>
-
-  .. image:: ../../../images/core/buttons/primary-sm.png
-   :width: 50
-
----------
+---------------
 secondary
----------
+---------------
 
-Button for cancle, close or secondary interactions.
+.. code-block:: html
 
-- secondary interactions
+  <button class="btn btn-outline-primary">
+    secondary icon
+    <i class="mdi right mdi-arrow-right"></i>
+  </button>
 
-  .. code-block:: html
+.. image:: ../../../images/core/buttons/secondary.png
+  :width: 300
 
-    <button class="btn btn-outline-secondary btn-rounded">
-      secondary interaction
-      <i class="mdi mdi-arrow-right label ml-3"></i>
-    </button>
+---------------
+text
+---------------
 
-  .. image:: ../../../images/core/buttons/secondary-large.png
-   :width: 150
+.. code-block:: html
 
-- secondary small interaction
+  <button class="btn btn-text-primary">
+    <div class="spinner-border left spinner-border-sm"></div>
+    text-primary spinner left
+  </button>
 
-  .. code-block:: html
+.. image:: ../../../images/core/buttons/text.png
+  :width: 300
 
-    <button class="btn btn-outline-secondary btn-circle">
-      <i class="mdi mdi-plus"></i>
-    </button>
+---------------
+icon
+---------------
 
-  .. image:: ../../../images/core/buttons/secondary-sm.png
-   :width: 50
+.. code-block:: html
 
---------
-tertiary
---------
+  <button class="btn btn-icon-secondary">
+    <i class="mdi mdi-plus"></i>
+  </button>
 
-Button for interactions on gray background.
+.. image:: ../../../images/core/buttons/icon.png
+  :width: 300
 
-- secondary interactions
+---------------
+special
+---------------
 
-  .. code-block:: html
+.. code-block:: html
 
-    <button class="btn btn-tertiary">
-      secondary interaction
-      <i class="mdi mdi-plus"></i>
-    </button>
+  <button class="btn btn-danger">
+    danger
+  </button>
 
-  .. image:: ../../../images/core/buttons/tertiary.png
-   :width: 50
+  <button class="btn btn-primary btn-circle">
+    <i class="mdi mdi-plus"></i>
+  </button>
+
+.. image:: ../../../images/core/buttons/special.png
+  :width: 300
