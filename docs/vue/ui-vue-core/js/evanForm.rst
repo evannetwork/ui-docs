@@ -171,6 +171,7 @@ Parameters
   #. ``value`` - ``any``: initial control value
   #. ``vueInstance`` - ``Vue``: Original vue instance to directly access component references within the control
   #. ``validate`` - ``Function``: Runs the within the constructor provided validate function. The provided function should should return true, if everything is fine. Should return false, string, object, ... to mark the formControl as invalid and to set the internal error parameter. The function can also be return a Promise. During the asynchronious validation is running, the validating flag is set to true.
+  #. ``uiSpecs`` - `EvanFormControl uiSpecs <./formControl.html>`__: Optional object that defines ui specifications for automatic formular rendering
 
 
 -------

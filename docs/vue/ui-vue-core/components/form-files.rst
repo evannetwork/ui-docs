@@ -7,11 +7,11 @@ FileInputComponent
    :stub-columns: 1
 
    * - Source
-     - `files <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/files>`__
+     - `files <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/forms/files>`__
+   * - Extends
+     - `EvanFormControl <./form-control.html>`_
    * - Selector
      - ``evan-file-input``
-   * - style
-     -  `breadcrumbs <../../../core/ui.libs/styling/text.html>`__
 
 Wrapper for HTML 5 file upload. Uses the `ui-core File <../../../core/ui.libs/js/files.html>`__ utils, load load, return and format files to handle the correct format.
 
@@ -58,5 +58,5 @@ Example
 View Example
 ============
 
-.. image:: ../../../images/vue/file-input.png
+.. image:: ../../../images/vue/forms/file-input.png
    :width: 800
