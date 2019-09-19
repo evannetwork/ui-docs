@@ -2,6 +2,14 @@
 
 ## Next Version
 ### Features
+
+### Fixes
+
+### Deprecations
+
+
+## Version 2.2.0
+### Features
 - `ui-vue`
   - add `evan-swipe-panel` component
   - add new docs for `ui-vue`
@@ -12,9 +20,6 @@
   - add `.evan-form` class
   - add `.evan-steps`
 
-### Fixes
-
-### Deprecations
 
 ## Version 2.1.0
 ### Features
