@@ -5,8 +5,12 @@
 - `ui-vue`
   - add `evan-swipe-panel` component
   - add new docs for `ui-vue`
+  - add new docs for `evan-form`, `evan-form-control`, `evan-control-input`, `evan-control-files`
+  - add new docs for `evan-steps`
 - `ui`
   - add `.evan-swipe-panel` class
+  - add `.evan-form` class
+  - add `.evan-steps`
 
 ### Fixes
 
