@@ -24,7 +24,7 @@ Displays tabs in evan.network design using vue router integration for checking a
 TabInterface
 ================================================================================
 
-Function description
+Parameter definition for the tab entries.
 
 ----------
 Parameters

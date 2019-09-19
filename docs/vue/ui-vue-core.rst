@@ -21,12 +21,14 @@ The ui-vue-core for evan.network includes specific vue components, helper functi
   - DApp initialization && nested DApp loading
   - Sidebar integrations
   - login / logout mechanisms
+  - toasted
 
 - How to use it for creating DApps: `Wiki <https://evannetwork.github.io/docs/developers/ui/vue.html>`__
 
 - Reference Projects:
 
   - `addressbook.vue <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/addressbook.vue>`__
+  - `components.vue <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/components.vue>`__
   - `digital-twin <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/digital-twin>`__
   - `digital-twin.data-container <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/digital-twin.data-container>`__
   - `digital-twin.lib <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/digital-twin.lib>`__
@@ -109,3 +111,14 @@ By using the `ui-vue-core <./js/vue-core#initializeVue>`__ function each compone
   :glob:
 
   ui-vue-core/components/*
+
+Included Libraries
+==================
+The following libraries are directly included within your vue instance by using the ``initializeVue`` function:
+
+  - `axios <https://github.com/axios/axios>`__
+  - `vue-i18n <https://github.com/dkfbasel/vuex-i18n>`__
+  - `vue-moment <https://github.com/brockpetrie/vue-moment>`__
+  - `vue-router <https://github.com/vuejs/vue-router>`__
+  - `vue-toasted <https://github.com/shakee93/vue-toasted>`__
+  - `vuex <https://vuex.vuejs.org/guide>`__

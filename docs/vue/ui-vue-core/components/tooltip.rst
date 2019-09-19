@@ -22,6 +22,7 @@ Props
 
 #. ``placement`` - ``string``: Tooltip placement (top, bottom, left, right)
 #. ``delay`` - ``number``: Timeout in ms, until the tooltip gets shown
+#. ``multiline`` - ``boolean``: Shows a multiline tooltip, without overflowing on max width
 
 
 Example

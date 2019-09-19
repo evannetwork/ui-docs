@@ -45,6 +45,17 @@ Parameters
 #. ``vueInstance`` - ``Vue``: Original vue instance to directly access component references within the control
 #. ``validate`` - ``Function``: Runs the within the constructor provided validate function. The provided function should should return true, if everything is fine. Should return false, string, object, ... to mark the formControl as invalid and to set the internal error parameter. The function can also be return a Promise. During the asynchronious validation is running, the validating flag is set to true.
 #. ``form`` - ``EvanForm``: Parent evan form, so the form is valid flag can be set automatically
+#. ``uiSpecs`` - ``EvanFormControlUISpecs``: Used to describe the evan form control automatic rendering.
+  #. ``type`` - ``string``: Input type of the component that should be rendered (input, select, files)
+  #. ``attr`` - ``any``: attributes that should be passed to the `evan-control-* <./../components/form-control.html>`__ component
+    #. ``placeholder`` - ``string``: 
+    #. ``error`` - ``string``: Mark the input invalid
+    #. ``label`` - ``string``: The label for the input field.
+    #. ``options`` - ``Array<{ label: string, value: any }>``: The selectable options. Can be an array of label-value pairs or an array of strings.
+    #. ``size`` - ``number``: Bootstrap grid size
+    #. ``disabled`` - ``number``: Disable the input field
+    #. ``id`` - ``string``: The id for the input field.
+    #. ``stacked`` - ``boolean``: Enable stacked to show labels and inputs not on oneline.
 
 -------
 Returns
