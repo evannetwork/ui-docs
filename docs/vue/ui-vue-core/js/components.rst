@@ -7,7 +7,7 @@ component
    :stub-columns: 1
 
    * - Source
-     - `component <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/component.ts>`__
+     - `component <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/component.ts>`__
 
 Evan.network component wrapper for easily accessing blockchain runtime data and active DApp information.
 
@@ -18,10 +18,10 @@ Extends vue components with the following parameters:
 
 #. ``dapp`` - |source ActiveDAppInterface|_: active dapp that was detected by the `routing lib (getNextDApp) <./routing.html#getNextDApp>`__
 #. ``domainName`` - ``string``: Active dapp browser domain name (e.g.: evan)
-#. ``$i18n`` - `vuex i18n <https://github.com/evannetwork/ui-vue/tree/master/dapps/i18n.vuex.libs>`__: vue i18n instance 
-#. ``$router`` - `$router <https://github.com/evannetwork/ui-vue/tree/master/dapps/router.vue.libs>`__: vue router instance
-#. ``$store`` - `vuex <https://github.com/evannetwork/ui-vue/tree/master/dapps/vuex.libs>`__: vuex store
-#. ``$t`` - `vuex i18n <https://github.com/evannetwork/ui-vue/tree/master/dapps/i18n.vuex.libs>`__: vuex i18n translate function
+#. ``$i18n`` - `vuex i18n <https://github.com/evannetwork/ui-dapps/tree/master/dapps/i18n.vuex.libs>`__: vue i18n instance 
+#. ``$router`` - `$router <https://github.com/evannetwork/ui-dapps/tree/master/dapps/router.vue.libs>`__: vue router instance
+#. ``$store`` - `vuex <https://github.com/evannetwork/ui-dapps/tree/master/dapps/vuex.libs>`__: vuex store
+#. ``$t`` - `vuex i18n <https://github.com/evannetwork/ui-dapps/tree/master/dapps/i18n.vuex.libs>`__: vuex i18n translate function
 #. ``testMode`` - ``boolean``: is `localstorage['evan-test-mode'] set?
 
 

@@ -7,7 +7,7 @@ icons
    :stub-columns: 1
 
    * - Source
-     - `icons <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/icons.scss>`__
+     - `icons <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/icons.scss>`__
 
   
 ==============================  ================================================================================================

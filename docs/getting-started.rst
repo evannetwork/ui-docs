@@ -16,26 +16,22 @@ To do this, however, all DApps must be started via the evan.network dapp-browser
 
 --------------------------------------------
 
-ui-core
-=======
+ui-dapps
+========
 
 open source projects
 --------------------
-The ui-core contains several dapps, that simply wraps open source projects, that will be available within the evan.network, so it can be simply imported using dbcp.json.
+The ui-dapps contains several dapps, that simply wraps open source projects, that will be available within the evan.network, so it can be simply imported using dbcp.json.
 
-evan.network projects
----------------------
-The ui-core contains several dapps, that simply wraps evan.network projects like the `api-blockchain-core-browserified <https://github.com/evannetwork/ui-core/tree/master/dapps/bcc>`__ or the `smart-contracts-core-browserified <https://github.com/evannetwork/ui-core/tree/master/dapps/smartcontracts>`__.
+evan.network ui core projects
+-----------------------------
+The ui-dapps contains several dapps, that simply wraps evan.network projects like the `api-blockchain-core-browserified <https://github.com/evannetwork/ui-dapps/tree/master/dapps/bcc>`__ or the `smart-contracts-core-browserified <https://github.com/evannetwork/ui-dapps/tree/master/dapps/smartcontracts>`__.
 
-Furthermore it includes the new ui core library, that provides base functionallities and core stylings based on bootstrap and  `core functionallities and stylings <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs>`__
+Furthermore it includes the new ui core library, that provides base functionallities and core stylings based on bootstrap and  `core functionallities and stylings <https://github.com/evannetwork/ui-dapps/tree/master/core/ui.libs>`__
 
---------------------------------------------
-
-ui-vue
-=======
-The `ui-vue <https://github.com/evannetwork/ui-vue>`__ is a container for the vue specific evan.network applications and libraries. It include dapp wrappers for simply building and providing vue evan.network / vue open source libraries as dapps within the evan.network framework.
-
-The main application in this lerna container is the `@evan.network/ui-vue-core <./ui-vue-core.html>`__ project.
+vue
+---
+The contains also vue specific evan.network applications and libraries. The main application for building vue applications on the evan.network is the `@evan.network/ui-vue-core <./ui-vue-core.html>`__ project.
 
 --------------------------------------------
 

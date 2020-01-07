@@ -7,7 +7,7 @@ LoginComponent
    :stub-columns: 1
 
    * - Source
-     - `login <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/login>`__
+     - `login <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/login>`__
    * - Selector
      - ``evan-login``
 
@@ -32,7 +32,7 @@ Events
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/dapp-wrapper>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/dapp-wrapper>`__
 
 .. code-block:: html
 

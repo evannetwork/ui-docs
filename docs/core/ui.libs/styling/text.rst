@@ -7,7 +7,7 @@ text
    :stub-columns: 1
 
    * - Source
-     - `text <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/text.scss>`__
+     - `text <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/text.scss>`__
 
 ==============================  ================================================================================================
 Class                           Description 

@@ -7,7 +7,7 @@ Dispatcher
    :stub-columns: 1
 
    * - Source
-     - `Dispatcher <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/Dispatcher.ts>`__
+     - `Dispatcher <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/Dispatcher.ts>`__
 
 The Dispatcher handles batched data processing and saves the data within the EvanQueue. Within the
 dispatcher, the several steps can be defined. From this, instances can be generated, that will

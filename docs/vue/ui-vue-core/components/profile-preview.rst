@@ -7,7 +7,7 @@ ProfilePreviewComponent
    :stub-columns: 1
 
    * - Source
-     - `profile-preview <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/profile-preview/profile-preview.vue>`__
+     - `profile-preview <https://github.com/evannetwork/ui-dapps/blob/master/dapps/evancore.vue.libs/src/components/profile-preview/profile-preview.vue>`__
    * - Selector
      - ``evan-profile-preview``
 
@@ -24,7 +24,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/nav-list/nav-list.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/evancore.vue.libs/src/components/nav-list/nav-list.vue>`__
 
 .. code-block:: html
 

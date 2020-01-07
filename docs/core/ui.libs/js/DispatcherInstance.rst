@@ -7,7 +7,7 @@ DispatcherInstance
    :stub-columns: 1
 
    * - Source
-     - `Dispatcher <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/Dispatcher.ts>`__
+     - `Dispatcher <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/Dispatcher.ts>`__
 
 A ``DispatcherInstance`` is generated, when a Dispatcher was started. This instance runs the startup
 and step functions and holds the data. Also it contains several status flags, which step is

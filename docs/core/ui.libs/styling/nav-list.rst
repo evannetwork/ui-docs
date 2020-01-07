@@ -7,14 +7,14 @@ nav-list
    :stub-columns: 1
 
    * - Source
-     - `nav-list <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/nav-list.scss>`__
+     - `nav-list <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/nav-list.scss>`__
 
-Optimized list styling for building list navigations using the `nav-list <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/nav-list.scss>`__
+Optimized list styling for building list navigations using the `nav-list <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/nav-list.scss>`__
  
 -------
 Example
 -------
-- Reference Implementation: `Nav-List Component <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/components.vue/src/components/nav-list/nav-list.vue>`_
+- Reference Implementation: `Nav-List Component <https://github.com/evannetwork/ui-dapps/blob/develop/dapps/components.vue/src/components/nav-list/nav-list.vue>`_
 
 
 .. code-block:: html

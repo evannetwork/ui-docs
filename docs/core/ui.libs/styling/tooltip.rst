@@ -7,7 +7,7 @@ tooltip
    :stub-columns: 1
 
    * - Source
-     - `tooltip <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/tooltip.scss>`__
+     - `tooltip <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/tooltip.scss>`__
    * - Bootstrap
      - `tooltips <https://getbootstrap.com/docs/4.3/components/tooltips>`__
 

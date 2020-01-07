@@ -7,7 +7,7 @@ TooltipComponent
    :stub-columns: 1
 
    * - Source
-     - `tooltip <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/tooltip>`__
+     - `tooltip <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/tooltip>`__
    * - Selector
      - ``evan-tooltip``
    * - style
@@ -27,7 +27,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/digital-twins/src/components/twins/twins.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/develop/dapps/digital-twins/src/components/twins/twins.vue>`__
 
 .. code-block:: html
 

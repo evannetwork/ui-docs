@@ -7,7 +7,7 @@ ButtonComponent
    :stub-columns: 1
 
    * - Source
-     - `button <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/button>`__
+     - `button <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/button>`__
    * - Selector
      - ``evan-button``
    * - style
@@ -27,7 +27,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/components.vue/src/components/buttons/buttons.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/develop/dapps/components.vue/src/components/buttons/buttons.vue>`__
 
 .. code-block:: html
 

@@ -7,14 +7,14 @@ breadcrumbs
    :stub-columns: 1
 
    * - Source
-     - `breadcrumbs <https://github.com/evannetwork/ui-core/blob/master/dapps/ui.libs/src/style/breadcrumb.scss>`__
+     - `breadcrumbs <https://github.com/evannetwork/ui-dapps/blob/master/dapps/ui.libs/src/style/breadcrumb.scss>`__
 
 Used to create a breadcrumb navigation bar.
 
 -------
 Example
 -------
-- Reference Implementation: `Vue Breadcrumbs Component <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/breadcrumbs/breadcrumbs.vue>`_
+- Reference Implementation: `Vue Breadcrumbs Component <https://github.com/evannetwork/ui-dapps/blob/master/dapps/evancore.vue.libs/src/components/breadcrumbs/breadcrumbs.vue>`_
 
 ------------
 View Example

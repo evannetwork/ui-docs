@@ -7,9 +7,9 @@ assets
    :stub-columns: 1
 
    * - Source
-     - `assets <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/assets>`__
+     - `assets <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/assets>`__
 
-Following assets are available within the ui-core:
+Following assets are available within the @evan.network/ui project:
 
 - contact-colored.svg
 

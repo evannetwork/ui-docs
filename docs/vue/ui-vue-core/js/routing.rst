@@ -7,11 +7,11 @@ routing
    :stub-columns: 1
 
    * - Source
-     - `routing <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/routing.ts>`__
+     - `routing <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/routing.ts>`__
 
 Routing within the evan.network is not the same as in a usal web application. DApps can be loaded nested, by referencing it's ens addresses within the url hash. The root application is presented at the first one within the hash (e.g. #/dashboard.vue.evan). The ui-vue-core will automatically handle this urls and will enhance your routing configuration, that was passed to the `initializeVue function <./vue-core.html>`__, to handle the correct nested routes. As a result of this, you can define your routes simply, relative to the root of your application and it will also work nested.
 
-Here a sample using `mailbox.vue routes <https://github.com/evannetwork/ui-core-dapps/blob/master/dapps/mailbox.vue/src/routes.ts>`__, assuming the mailbox is opened nested within the dashboard.vue:
+Here a sample using `mailbox.vue routes <https://github.com/evannetwork/ui-dapps/blob/master/dapps/mailbox.vue/src/routes.ts>`__, assuming the mailbox is opened nested within the dashboard.vue:
 
 - URL: http://localhost:3000/dev.html#/dashboard.vue.evan/mailbox.vue.evan
 

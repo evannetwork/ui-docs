@@ -7,7 +7,7 @@ EvanFormComponent
    :stub-columns: 1
 
    * - Source
-     - `forms <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/forms/forms>`__
+     - `forms <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/forms/forms>`__
    * - Selector
      - ``evan-form``
 
@@ -140,7 +140,7 @@ Slots
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/master/dapps/components.vue/components/forms>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/components.vue/components/forms>`__
 
 .. code-block:: ts
 

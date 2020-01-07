@@ -7,7 +7,7 @@ transitions
    :stub-columns: 1
 
    * - Source
-     - `transitions <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/transitions.scss>`__
+     - `transitions <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/transitions.scss>`__
 
 ==============================  ================================================================================================
 Class                           Description 

@@ -7,7 +7,7 @@ Queue
    :stub-columns: 1
 
    * - Source
-     - `Queue <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/Queue.ts>`__
+     - `Queue <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/Queue.ts>`__
 
 Structure for handling dispatcher instances and managing data of them. It will start and register
 dispatchers and offers the possiblity to save the dispatchers runtime data within the browsers
@@ -50,7 +50,7 @@ Returns
 -------
 Example
 -------
-- `Usage Example <https://github.com/evannetwork/ui-core/blob/master/dapps/ui.libs/src/Dispatcher.ts>`__
+- `Usage Example <https://github.com/evannetwork/ui-dapps/blob/master/dapps/ui.libs/src/Dispatcher.ts>`__
 
 .. code-block:: typescript
 

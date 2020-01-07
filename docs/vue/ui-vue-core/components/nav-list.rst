@@ -7,13 +7,13 @@ NavListComponent
    :stub-columns: 1
 
    * - Source
-     - `nav-list <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/nav-list>`__
+     - `nav-list <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/nav-list>`__
    * - Selector
      - ``evan-nav-list``
    * - style
      -  `nav-list <../../../core/ui.libs/styling/nav-list.html>`__
 
-DApp-wrapper-level-2 optimized navigation list component for building list navigations using the `nav-list <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/nav-list.scss>`__ and a vue router integration for checking active and activating list entries.
+DApp-wrapper-level-2 optimized navigation list component for building list navigations using the `nav-list <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/nav-list.scss>`__ and a vue router integration for checking active and activating list entries.
 
 #. ``activeEntry`` - ``number``: currently active list entry
 
@@ -39,7 +39,7 @@ Parameters
 -------
 Example
 -------
-- Reference Implementation: `Profile DApp <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/profile.vue/src/components/root>`_
+- Reference Implementation: `Profile DApp <https://github.com/evannetwork/ui-dapps/tree/develop/dapps/profile.vue/src/components/root>`_
 
 
 .. code-block:: js

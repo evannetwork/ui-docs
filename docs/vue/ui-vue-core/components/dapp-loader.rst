@@ -7,7 +7,7 @@ DAppLoaderComponent
    :stub-columns: 1
 
    * - Source
-     - `dapp-loader <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/dapp-loader>`__
+     - `dapp-loader <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/dapp-loader>`__
    * - Selector
      - ``evan-dapp-loader``
 
@@ -21,7 +21,7 @@ Dynamic component that loads the next not loaded dapp within the window location
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/master/dapps/digital-twin/src/routes.ts>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/digital-twin/src/routes.ts>`__
 
 .. code-block:: typescript
 

@@ -7,7 +7,7 @@ utils
    :stub-columns: 1
 
    * - Source
-     - `utils <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/utils.scss>`__
+     - `utils <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/utils.scss>`__
 
 This file includes evan specific scss mixins and functions.
 

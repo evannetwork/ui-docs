@@ -7,7 +7,7 @@ AddressComponent
    :stub-columns: 1
 
    * - Source
-     - `address <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/address>`__
+     - `address <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/address>`__
    * - Selector
      - ``evan-address``
 
@@ -21,7 +21,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/profile-preview/profile-preview.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/evancore.vue.libs/src/components/profile-preview/profile-preview.vue>`__
 
 .. code-block:: html
 

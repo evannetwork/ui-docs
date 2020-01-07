@@ -7,7 +7,7 @@ DAppWrapperSidebarLevel2Component
    :stub-columns: 1
 
    * - Source
-     - `dapp-wrapper-level-2 <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/dapp-wrapper-level-2>`__
+     - `dapp-wrapper-level-2 <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/dapp-wrapper-level-2>`__
    * - Selector
      - ``evan-dapp-wrapper-level-2``
    * - style
@@ -39,7 +39,7 @@ Sends the `dapp-wrapper-sidebar-close` event.
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/master/dapps/digital-twin.data-container/src/components/root/root.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/digital-twin.data-container/src/components/root/root.vue>`__
 
 .. code-block:: html
 

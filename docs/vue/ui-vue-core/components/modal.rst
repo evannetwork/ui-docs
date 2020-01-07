@@ -7,7 +7,7 @@ ModalComponent
    :stub-columns: 1
 
    * - Source
-     - `modal <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/modal>`__
+     - `modal <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/modal>`__
    * - Selector
      - ``evan-modal``
    * - style
@@ -56,7 +56,7 @@ Hide the modal.
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/addressbook.vue/src/components/add/add.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/develop/dapps/addressbook.vue/src/components/add/add.vue>`__
 
 - normal modal
 
