@@ -7,9 +7,9 @@ variables
    :stub-columns: 1
 
    * - Source
-     - `definitions <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/definitions/evan.theme.scss>`__
+     - `definitions <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/definitions/evan.theme.scss>`__
    * - bootstrap
-     - `definitions <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/definitions/evan.theme.scss>`__
+     - `definitions <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/definitions/evan.theme.scss>`__
 
 ----------
 themeEvan
@@ -23,4 +23,4 @@ SCSS map, including all for the evan style available parameters. Using this set 
     @include evanVariables($themeEvan);
   } 
 
-For which parameters are available, please have a look at the `evan.theme <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/definitions/evan.theme.scss>`__.
+For which parameters are available, please have a look at the `evan.theme <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/definitions/evan.theme.scss>`__.

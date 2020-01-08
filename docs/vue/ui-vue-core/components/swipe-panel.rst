@@ -7,7 +7,7 @@ SwipePanelComponent
    :stub-columns: 1
 
    * - Source
-     - `swipe-panel <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/swipe-panel>`__
+     - `swipe-panel <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/swipe-panel>`__
    * - Selector
      - ``evan-swipe-panel``
 
@@ -53,7 +53,7 @@ Hide the sipePanel.
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-vue/blob/develop/dapps/evancore.vue.libs/src/components/dapp-wrapper/dapp-wrapper.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/develop/dapps/evancore.vue.libs/src/components/dapp-wrapper/dapp-wrapper.vue>`__
 
 .. code-block:: html
 

@@ -7,7 +7,7 @@ formControl
    :stub-columns: 1
 
    * - Source
-     - `forms <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/forms.ts>`__
+     - `forms <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/forms.ts>`__
 
 Represents one formular input and handles dirty and error flags, also runs validations.
 
@@ -20,7 +20,7 @@ Represents one formular input and handles dirty and error flags, also runs valid
 #. ``value`` - ``string``: Overwrite the value getter / setter, so we automatically check for errors, when an validate was applied.
 #. ``_validate`` - ``Function|undefined``: validate function that will be runned when the value was changed
 #. ``vueInstance`` - ``VueComponent``: Original vue instance to directly access component references within the control
-#. ``form`` - `EvanForm <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/forms.ts>`__: Parent evan form, so the form `isValid` flag can be set automatically
+#. ``form`` - `EvanForm <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/forms.ts>`__: Parent evan form, so the form `isValid` flag can be set automatically
 #. ``validating`` - ``boolean``: True, when an asynchronious validate function was applied and this validation is running
 
 --------------------------------------------------------------------------------
@@ -66,7 +66,7 @@ Returns
 -------
 Example
 -------
-- `FormControl Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/master/dapps/addressbook.vue/src/components/contact-form/contact-form.ts>`__
+- `FormControl Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/addressbook.vue/src/components/contact-form/contact-form.ts>`__
 
 
 .. code-block:: typescript

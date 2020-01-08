@@ -39,4 +39,4 @@ Example
 
   loading.finishDAppLoading();
 
-Usage Example: https://github.com/evannetwork/ui-core-dapps/blob/8e26a55a98bcf638ad13e472d5b3a6eb82f587a9/dapps/dashboard/src/components/dashboard/dashboard.ts#L60
+Usage Example: https://github.com/evannetwork/ui-dapps/blob/develop/dapps/evancore.vue.libs/src/vue-core.ts

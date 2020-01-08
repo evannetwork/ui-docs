@@ -7,7 +7,7 @@ Files
    :stub-columns: 1
 
    * - Source
-     - `Files <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/Files.ts>`__
+     - `Files <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/Files.ts>`__
  
 --------------------------------------------------------------------------------
 
@@ -38,7 +38,7 @@ Returns
 -------
 Example
 -------
-- `Reference Implementation <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/files/files.ts>`_
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/evancore.vue.libs/src/components/files/files.ts>`_
 
 .. code-block:: typescript
 

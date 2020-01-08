@@ -7,7 +7,7 @@ StepsComponent
    :stub-columns: 1
 
    * - Source
-     - `steps <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/steps/steps.vue>`__
+     - `steps <https://github.com/evannetwork/ui-dapps/blob/master/dapps/evancore.vue.libs/src/components/steps/steps.vue>`__
    * - Selector
      - ``evan-steps``
 
@@ -23,7 +23,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/components.vue/src/components/steps/stepst.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/tree/develop/dapps/components.vue/src/components/steps/stepst.vue>`__
 
 .. code-block:: html
 

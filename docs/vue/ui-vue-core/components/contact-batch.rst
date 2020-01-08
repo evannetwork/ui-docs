@@ -7,7 +7,7 @@ ContactBatchComponent
    :stub-columns: 1
 
    * - Source
-     - `contact-batch <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/contact-batch>`__
+     - `contact-batch <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/contact-batch>`__
    * - Selector
      - ``evan-contact-batch``
 
@@ -24,7 +24,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/dapp-wrapper/dapp-wrapper.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/evancore.vue.libs/src/components/dapp-wrapper/dapp-wrapper.vue>`__
 
 .. code-block:: html
 

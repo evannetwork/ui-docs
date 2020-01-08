@@ -7,7 +7,7 @@ colors
    :stub-columns: 1
 
    * - Source
-     - `colors <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/colors.scss>`__
+     - `colors <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/colors.scss>`__
 
 ==============================  ================================================================================================
 Class                           Description 

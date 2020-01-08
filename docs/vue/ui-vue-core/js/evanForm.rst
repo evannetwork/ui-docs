@@ -7,7 +7,7 @@ EvanForm
    :stub-columns: 1
 
    * - Source
-     - `forms <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/forms.ts>`__
+     - `forms <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/forms.ts>`__
 
 Generalized data representation for a evan.network formular. Handles full validation and error handling logic. Uses the EvanFormControls to handle all controls seperated and calculates them into one status detail into this class.
 
@@ -23,7 +23,7 @@ Each control that is passed into the constructor or that is added by the `addCon
 
 Example
 =======
-- `Reference implementation <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/addressbook.vue/src/components/add>`__
+- `Reference implementation <https://github.com/evannetwork/ui-dapps/tree/develop/dapps/addressbook.vue/src/components/add>`__
 
 .. code-block:: typescript
 

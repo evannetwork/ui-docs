@@ -7,7 +7,7 @@ DAppWrapperComponent
    :stub-columns: 1
 
    * - Source
-     - `dapp-wrapper <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/dapp-wrapper>`__
+     - `dapp-wrapper <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/dapp-wrapper>`__
    * - Selector
      - ``evan-dapp-wrapper``
    * - style
@@ -84,7 +84,7 @@ Watch Events
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/master/dapps/digital-twin.data-container/src/components/root/root.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/digital-twin.data-container/src/components/root/root.vue>`__
 
 .. code-block:: html
 

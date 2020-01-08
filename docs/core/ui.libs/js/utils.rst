@@ -7,7 +7,7 @@ utils
    :stub-columns: 1
 
    * - Source
-     - `utils <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/utils.ts>`__
+     - `utils <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/utils.ts>`__
 
 Util functions for handling things like deep equal or object cloning.
 

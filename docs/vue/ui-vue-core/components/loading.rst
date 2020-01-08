@@ -7,7 +7,7 @@ DAppLoadingComponent
    :stub-columns: 1
 
    * - Source
-     - `loading <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/loading>`__
+     - `loading <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/loading>`__
    * - Selector
      - ``evan-loading``
    * - style

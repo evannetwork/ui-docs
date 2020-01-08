@@ -7,7 +7,7 @@ swipe-panel
    :stub-columns: 1
 
    * - Source
-     - `swipe-panel <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/swipe-panel.scss>`__
+     - `swipe-panel <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/swipe-panel.scss>`__
 
 A swipe panel design for displaying context sensetive content that swipes in.
 

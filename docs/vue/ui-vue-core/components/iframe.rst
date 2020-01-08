@@ -7,7 +7,7 @@ IframeComponent
    :stub-columns: 1
 
    * - Source
-     - `iframe <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/iframe>`__
+     - `iframe <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/iframe>`__
    * - Selector
      - ``evan-iframe``
 
@@ -23,7 +23,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/develop/dapps/dashboard.vue/src/routes.ts>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/develop/dapps/dashboard.vue/src/routes.ts>`__
 
 - typescript
 

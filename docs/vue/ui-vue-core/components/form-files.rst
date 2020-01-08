@@ -7,7 +7,7 @@ FileInputComponent
    :stub-columns: 1
 
    * - Source
-     - `files <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/forms/files>`__
+     - `files <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/forms/files>`__
    * - Extends
      - `EvanFormControl <./form-control.html>`_
    * - Selector
@@ -31,7 +31,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/blob/master/dapps/digital-twin.data-container/src/components/create/create.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/digital-twin.data-container/src/components/create/create.vue>`__
 
 .. code-block:: html
 

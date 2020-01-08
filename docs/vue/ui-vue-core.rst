@@ -7,7 +7,7 @@ ui-vue-core
    :stub-columns: 1
 
    * - Source
-     - `ui-vue-core <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs>`__
+     - `ui-vue-core <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs>`__
 
 The ui-vue-core for evan.network includes specific vue components, helper functions and utilities. By using the vue initialization helper functions, it's very easy to setup a vue application including everything:
 
@@ -27,15 +27,15 @@ The ui-vue-core for evan.network includes specific vue components, helper functi
 
 - Reference Projects:
 
-  - `addressbook.vue <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/addressbook.vue>`__
-  - `components.vue <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/components.vue>`__
-  - `digital-twin <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/digital-twin>`__
-  - `digital-twin.data-container <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/digital-twin.data-container>`__
-  - `digital-twin.lib <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/digital-twin.lib>`__
-  - `digital-twins <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/digital-twins>`__
-  - `favorites.vue <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/favorites.vue>`__
-  - `mailbox.vue <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/mailbox.vue>`__
-  - `onboarding.vue <https://github.com/evannetwork/ui-core-dapps/tree/master/dapps/onboarding.vue>`__
+  - `addressbook.vue <https://github.com/evannetwork/ui-dapps/tree/master/dapps/addressbook.vue>`__
+  - `components.vue <https://github.com/evannetwork/ui-dapps/tree/master/dapps/components.vue>`__
+  - `digital-twin <https://github.com/evannetwork/ui-dapps/tree/master/dapps/digital-twin>`__
+  - `digital-twin.data-container <https://github.com/evannetwork/ui-dapps/tree/master/dapps/digital-twin.data-container>`__
+  - `digital-twin.lib <https://github.com/evannetwork/ui-dapps/tree/master/dapps/digital-twin.lib>`__
+  - `digital-twins <https://github.com/evannetwork/ui-dapps/tree/master/dapps/digital-twins>`__
+  - `favorites.vue <https://github.com/evannetwork/ui-dapps/tree/master/dapps/favorites.vue>`__
+  - `mailbox.vue <https://github.com/evannetwork/ui-dapps/tree/master/dapps/mailbox.vue>`__
+  - `onboarding.vue <https://github.com/evannetwork/ui-dapps/tree/master/dapps/onboarding.vue>`__
 
 Usage
 =====

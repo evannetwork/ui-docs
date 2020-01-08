@@ -7,7 +7,7 @@ vue-core
    :stub-columns: 1
 
    * - Source
-     - `vue-core <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/vue-core.ts>`__
+     - `vue-core <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/vue-core.ts>`__
 
 General functions for handling and starting vue instance within evan.network featured dapps.
 

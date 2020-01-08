@@ -7,7 +7,7 @@ FormControlComponent
    :stub-columns: 1
 
    * - Source
-     - `control <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/forms/control>`__
+     - `control <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/forms/control>`__
    * - Selector
      - ``evan-form-control``
 
@@ -27,7 +27,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/forms/input/input.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/evancore.vue.libs/src/components/forms/input/input.vue>`__
 
 .. code-block:: html
 

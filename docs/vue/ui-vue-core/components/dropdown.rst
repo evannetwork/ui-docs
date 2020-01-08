@@ -7,7 +7,7 @@ DropdownComponent
    :stub-columns: 1
 
    * - Source
-     - `dropdown <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/dropdown>`__
+     - `dropdown <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/dropdown>`__
    * - Selector
      - ``evan-dropdown``
    * - style
@@ -58,7 +58,7 @@ Remove the modal element and hide it animated.
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-vue/blob/master/dapps/evancore.vue.libs/src/components/dapp-wrapper/dapp-wrapper.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/blob/master/dapps/evancore.vue.libs/src/components/dapp-wrapper/dapp-wrapper.vue>`__
 
 .. code-block:: html
 

@@ -7,7 +7,7 @@ CardsComponent
    :stub-columns: 1
 
    * - Source
-     - `card <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/card>`__
+     - `card <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/card>`__
    * - Selector
      - ``evan-card``
 
@@ -22,7 +22,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/components.vue/src/components/cards/cards.vue>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/tree/develop/dapps/components.vue/src/components/cards/cards.vue>`__
 
 .. code-block:: html
 

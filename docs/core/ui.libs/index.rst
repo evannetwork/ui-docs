@@ -7,9 +7,9 @@ ui.libs
    :stub-columns: 1
 
    * - Source
-     - `ui.libs <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs>`__
+     - `ui.libs <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs>`__
 
-This project include general and global, framework independent (without angular, vue, react, ...) evan.network functionallities and bootstrap configured stylings. Using this library, generalized evan.network applications can be build. The style includes the `evan.bootstrap.libs <https://github.com/evannetwork/ui-core/tree/master/dapps/evan.bootstrap.libs>`__ definition. The full bootstrap configurations are enhanced to be able to be configured during application runtime using css variables.
+This project include general and global, framework independent (without angular, vue, react, ...) evan.network functionallities and bootstrap configured stylings. Using this library, generalized evan.network applications can be build. The style includes the `evan.bootstrap.libs <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evan.bootstrap.libs>`__ definition. The full bootstrap configurations are enhanced to be able to be configured during application runtime using css variables.
 
 The following functionalities are included:
   - configuration values for runtime environments

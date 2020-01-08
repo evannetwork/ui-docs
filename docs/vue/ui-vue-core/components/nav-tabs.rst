@@ -7,7 +7,7 @@ NavTabsComponent
    :stub-columns: 1
 
    * - Source
-     - `breadcrumbs <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/breadcrumbs>`__
+     - `breadcrumbs <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/breadcrumbs>`__
    * - Selector
      - ``evan-nav-tabs``
    * - style
@@ -46,7 +46,7 @@ Props
 
 Example
 =======
-- `Reference Implementation <https://github.com/evannetwork/ui-core-dapps/tree/develop/dapps/mailbox.vue/src/components/root>`__
+- `Reference Implementation <https://github.com/evannetwork/ui-dapps/tree/develop/dapps/mailbox.vue/src/components/root>`__
 
 - typescript
 

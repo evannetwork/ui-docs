@@ -7,7 +7,7 @@ BreadcrumbsComponent
    :stub-columns: 1
 
    * - Source
-     - `breadcrumbs <https://github.com/evannetwork/ui-vue/tree/master/dapps/evancore.vue.libs/src/components/breadcrumbs>`__
+     - `breadcrumbs <https://github.com/evannetwork/ui-dapps/tree/master/dapps/evancore.vue.libs/src/components/breadcrumbs>`__
    * - Selector
      - ``evan-breadcrumbs``
    * - style

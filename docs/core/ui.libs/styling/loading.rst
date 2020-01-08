@@ -7,6 +7,6 @@ config
    :stub-columns: 1
 
    * - Source
-     - `config <https://github.com/evannetwork/ui-core/tree/master/dapps/ui.libs/src/style/config.scss>`__
+     - `config <https://github.com/evannetwork/ui-dapps/tree/master/dapps/ui.libs/src/style/config.scss>`__
 
  
