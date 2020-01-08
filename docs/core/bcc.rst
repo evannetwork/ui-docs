@@ -12,7 +12,7 @@ api-blockchain-core-browserified
 
 evan.network framework
 ======================
-Using the browserified blockchain-core version within the dapp-browser, you need apply the following configurations to your dapp's project. Be sure, to exclude it from your build jobs. The angular-gulp project will handle it automatically. By using vue applications, it will be configured within the `vue/webpack.config.js <https://github.com/evannetwork/ui-dapps/blob/master/script/dapp/webpack.externals.js>`__ file.
+Using the browserified blockchain-core version within the dapp-browser, you need apply the following configurations to your dapp's project. Be sure, to exclude it from your build jobs. The angular-gulp project will handle it automatically. By using vue applications, it will be configured within the `vue/webpack.config.js <https://github.com/evannetwork/ui-dapps/blob/master/scripts/dapp/webpack.externals.js>`__ file.
 
 - `package.json <https://github.com/evannetwork/ui-dapps/blob/master/package.json>`__
 
